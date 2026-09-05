@@ -5,11 +5,11 @@ DOMAIN="${1:?usage: install.sh <domain>}"
 REPO="${REPO:-https://github.com/zintex-ou/lliga.git}"
 export DEBIAN_FRONTEND=noninteractive
 apt-get update -q && apt-get install -y -q ca-certificates curl git ufw
-if ! command -v docker >/dev/null; then curl -fsSL https://get.docker.com | sh; fi
+if ! command -v docker >/dev/null; then curl -fsSL https://get.docker.com -o /tmp/get-docker.sh && sh /tmp/get-docker.sh </dev/null; fi
 ufw allow OpenSSH >/dev/null; ufw allow 80 >/dev/null; ufw allow 443 >/dev/null; ufw --force enable >/dev/null
 mkdir -p /srv/lliga-data
 if [ ! -f /srv/lliga.env ]; then
-  ADMIN_PW="$(tr -dc 'a-zA-Z0-9' </dev/urandom | head -c 12)"
+  ADMIN_PW="$(openssl rand -base64 12 | tr -dc 'a-zA-Z0-9' | cut -c1-12)"
   cat >/srv/lliga.env <<ENV
 AUTH_SECRET=$(openssl rand -hex 32)
 ADMIN_EMAIL=admin@lliga.local
