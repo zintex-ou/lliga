@@ -1,0 +1,1467 @@
+{
+ "group": "B",
+ "rounds": [
+  {
+   "number": 1,
+   "date": "2027-06-05",
+   "altDate": "2026-09-05",
+   "matches": [
+    {
+     "home": "Esportiu Bonmatí",
+     "away": "Bar Moreda"
+    },
+    {
+     "home": "Veterans Sant Antoni",
+     "away": "FC Palafrugell Veterans"
+    },
+    {
+     "home": "Veterans Ath. Hostalric",
+     "away": "Athlètic Can Borell"
+    },
+    {
+     "home": "Veterans San Andrés",
+     "away": "CE l'Aigüeta"
+    },
+    {
+     "home": "EF Maçanet",
+     "away": "Veterans CE Farners"
+    },
+    {
+     "home": "Racing Blanenc B",
+     "away": "CF Torderenc"
+    },
+    {
+     "home": "Veterans CF Lloret",
+     "away": "FC Honduras Figueres"
+    },
+    {
+     "home": "CEF Veterans SFG",
+     "away": "CF Fogars Veterans"
+    },
+    {
+     "home": "Veterans Bordils-Flaçà",
+     "away": "Veterans Alt Empordà"
+    }
+   ]
+  },
+  {
+   "number": 2,
+   "date": "2027-06-12",
+   "altDate": "2026-09-12",
+   "matches": [
+    {
+     "home": "Bar Moreda",
+     "away": "Veterans Bordils-Flaçà"
+    },
+    {
+     "home": "FC Palafrugell Veterans",
+     "away": "Esportiu Bonmatí"
+    },
+    {
+     "home": "Athlètic Can Borell",
+     "away": "Veterans Sant Antoni"
+    },
+    {
+     "home": "CE l'Aigüeta",
+     "away": "Veterans Ath. Hostalric"
+    },
+    {
+     "home": "Veterans CE Farners",
+     "away": "Veterans San Andrés"
+    },
+    {
+     "home": "CF Torderenc",
+     "away": "EF Maçanet"
+    },
+    {
+     "home": "FC Honduras Figueres",
+     "away": "Racing Blanenc B"
+    },
+    {
+     "home": "CF Fogars Veterans",
+     "away": "Veterans CF Lloret"
+    },
+    {
+     "home": "Veterans Alt Empordà",
+     "away": "CEF Veterans SFG"
+    }
+   ]
+  },
+  {
+   "number": 3,
+   "date": "2026-09-19",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Bar Moreda",
+     "away": "FC Palafrugell Veterans"
+    },
+    {
+     "home": "Esportiu Bonmatí",
+     "away": "Athlètic Can Borell"
+    },
+    {
+     "home": "Veterans Sant Antoni",
+     "away": "CE l'Aigüeta"
+    },
+    {
+     "home": "Veterans Ath. Hostalric",
+     "away": "Veterans CE Farners"
+    },
+    {
+     "home": "Veterans San Andrés",
+     "away": "CF Torderenc"
+    },
+    {
+     "home": "EF Maçanet",
+     "away": "FC Honduras Figueres"
+    },
+    {
+     "home": "Racing Blanenc B",
+     "away": "CF Fogars Veterans"
+    },
+    {
+     "home": "Veterans CF Lloret",
+     "away": "Veterans Alt Empordà"
+    },
+    {
+     "home": "Veterans Bordils-Flaçà",
+     "away": "CEF Veterans SFG"
+    }
+   ]
+  },
+  {
+   "number": 4,
+   "date": "2026-09-26",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "FC Palafrugell Veterans",
+     "away": "Veterans Bordils-Flaçà"
+    },
+    {
+     "home": "Athlètic Can Borell",
+     "away": "Bar Moreda"
+    },
+    {
+     "home": "CE l'Aigüeta",
+     "away": "Esportiu Bonmatí"
+    },
+    {
+     "home": "Veterans CE Farners",
+     "away": "Veterans Sant Antoni"
+    },
+    {
+     "home": "CF Torderenc",
+     "away": "Veterans Ath. Hostalric"
+    },
+    {
+     "home": "FC Honduras Figueres",
+     "away": "Veterans San Andrés"
+    },
+    {
+     "home": "CF Fogars Veterans",
+     "away": "EF Maçanet"
+    },
+    {
+     "home": "Veterans Alt Empordà",
+     "away": "Racing Blanenc B"
+    },
+    {
+     "home": "CEF Veterans SFG",
+     "away": "Veterans CF Lloret"
+    }
+   ]
+  },
+  {
+   "number": 5,
+   "date": "2026-10-03",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "FC Palafrugell Veterans",
+     "away": "Athlètic Can Borell"
+    },
+    {
+     "home": "Bar Moreda",
+     "away": "CE l'Aigüeta"
+    },
+    {
+     "home": "Esportiu Bonmatí",
+     "away": "Veterans CE Farners"
+    },
+    {
+     "home": "Veterans Sant Antoni",
+     "away": "CF Torderenc"
+    },
+    {
+     "home": "Veterans Ath. Hostalric",
+     "away": "FC Honduras Figueres"
+    },
+    {
+     "home": "Veterans San Andrés",
+     "away": "CF Fogars Veterans"
+    },
+    {
+     "home": "EF Maçanet",
+     "away": "Veterans Alt Empordà"
+    },
+    {
+     "home": "Racing Blanenc B",
+     "away": "CEF Veterans SFG"
+    },
+    {
+     "home": "Veterans Bordils-Flaçà",
+     "away": "Veterans CF Lloret"
+    }
+   ]
+  },
+  {
+   "number": 6,
+   "date": "2026-10-10",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Athlètic Can Borell",
+     "away": "Veterans Bordils-Flaçà"
+    },
+    {
+     "home": "CE l'Aigüeta",
+     "away": "FC Palafrugell Veterans"
+    },
+    {
+     "home": "Veterans CE Farners",
+     "away": "Bar Moreda"
+    },
+    {
+     "home": "CF Torderenc",
+     "away": "Esportiu Bonmatí"
+    },
+    {
+     "home": "FC Honduras Figueres",
+     "away": "Veterans Sant Antoni"
+    },
+    {
+     "home": "CF Fogars Veterans",
+     "away": "Veterans Ath. Hostalric"
+    },
+    {
+     "home": "Veterans Alt Empordà",
+     "away": "Veterans San Andrés"
+    },
+    {
+     "home": "CEF Veterans SFG",
+     "away": "EF Maçanet"
+    },
+    {
+     "home": "Veterans CF Lloret",
+     "away": "Racing Blanenc B"
+    }
+   ]
+  },
+  {
+   "number": 7,
+   "date": "2026-10-17",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Athlètic Can Borell",
+     "away": "CE l'Aigüeta"
+    },
+    {
+     "home": "FC Palafrugell Veterans",
+     "away": "Veterans CE Farners"
+    },
+    {
+     "home": "Bar Moreda",
+     "away": "CF Torderenc"
+    },
+    {
+     "home": "Esportiu Bonmatí",
+     "away": "FC Honduras Figueres"
+    },
+    {
+     "home": "Veterans Sant Antoni",
+     "away": "CF Fogars Veterans"
+    },
+    {
+     "home": "Veterans Ath. Hostalric",
+     "away": "Veterans Alt Empordà"
+    },
+    {
+     "home": "Veterans San Andrés",
+     "away": "CEF Veterans SFG"
+    },
+    {
+     "home": "EF Maçanet",
+     "away": "Veterans CF Lloret"
+    },
+    {
+     "home": "Veterans Bordils-Flaçà",
+     "away": "Racing Blanenc B"
+    }
+   ]
+  },
+  {
+   "number": 8,
+   "date": "2026-10-24",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "CE l'Aigüeta",
+     "away": "Veterans Bordils-Flaçà"
+    },
+    {
+     "home": "Veterans CE Farners",
+     "away": "Athlètic Can Borell"
+    },
+    {
+     "home": "CF Torderenc",
+     "away": "FC Palafrugell Veterans"
+    },
+    {
+     "home": "FC Honduras Figueres",
+     "away": "Bar Moreda"
+    },
+    {
+     "home": "CF Fogars Veterans",
+     "away": "Esportiu Bonmatí"
+    },
+    {
+     "home": "Veterans Alt Empordà",
+     "away": "Veterans Sant Antoni"
+    },
+    {
+     "home": "CEF Veterans SFG",
+     "away": "Veterans Ath. Hostalric"
+    },
+    {
+     "home": "Veterans CF Lloret",
+     "away": "Veterans San Andrés"
+    },
+    {
+     "home": "Racing Blanenc B",
+     "away": "EF Maçanet"
+    }
+   ]
+  },
+  {
+   "number": 9,
+   "date": "2026-10-31",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "CE l'Aigüeta",
+     "away": "Veterans CE Farners"
+    },
+    {
+     "home": "Athlètic Can Borell",
+     "away": "CF Torderenc"
+    },
+    {
+     "home": "FC Palafrugell Veterans",
+     "away": "FC Honduras Figueres"
+    },
+    {
+     "home": "Bar Moreda",
+     "away": "CF Fogars Veterans"
+    },
+    {
+     "home": "Esportiu Bonmatí",
+     "away": "Veterans Alt Empordà"
+    },
+    {
+     "home": "Veterans Sant Antoni",
+     "away": "CEF Veterans SFG"
+    },
+    {
+     "home": "Veterans Ath. Hostalric",
+     "away": "Veterans CF Lloret"
+    },
+    {
+     "home": "Veterans San Andrés",
+     "away": "Racing Blanenc B"
+    },
+    {
+     "home": "Veterans Bordils-Flaçà",
+     "away": "EF Maçanet"
+    }
+   ]
+  },
+  {
+   "number": 10,
+   "date": "2026-11-07",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Veterans CE Farners",
+     "away": "Veterans Bordils-Flaçà"
+    },
+    {
+     "home": "CF Torderenc",
+     "away": "CE l'Aigüeta"
+    },
+    {
+     "home": "FC Honduras Figueres",
+     "away": "Athlètic Can Borell"
+    },
+    {
+     "home": "CF Fogars Veterans",
+     "away": "FC Palafrugell Veterans"
+    },
+    {
+     "home": "Veterans Alt Empordà",
+     "away": "Bar Moreda"
+    },
+    {
+     "home": "CEF Veterans SFG",
+     "away": "Esportiu Bonmatí"
+    },
+    {
+     "home": "Veterans CF Lloret",
+     "away": "Veterans Sant Antoni"
+    },
+    {
+     "home": "Racing Blanenc B",
+     "away": "Veterans Ath. Hostalric"
+    },
+    {
+     "home": "EF Maçanet",
+     "away": "Veterans San Andrés"
+    }
+   ]
+  },
+  {
+   "number": 11,
+   "date": "2026-11-14",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Veterans CE Farners",
+     "away": "CF Torderenc"
+    },
+    {
+     "home": "CE l'Aigüeta",
+     "away": "FC Honduras Figueres"
+    },
+    {
+     "home": "Athlètic Can Borell",
+     "away": "CF Fogars Veterans"
+    },
+    {
+     "home": "FC Palafrugell Veterans",
+     "away": "Veterans Alt Empordà"
+    },
+    {
+     "home": "Bar Moreda",
+     "away": "CEF Veterans SFG"
+    },
+    {
+     "home": "Esportiu Bonmatí",
+     "away": "Veterans CF Lloret"
+    },
+    {
+     "home": "Veterans Sant Antoni",
+     "away": "Racing Blanenc B"
+    },
+    {
+     "home": "Veterans Ath. Hostalric",
+     "away": "EF Maçanet"
+    },
+    {
+     "home": "Veterans Bordils-Flaçà",
+     "away": "Veterans San Andrés"
+    }
+   ]
+  },
+  {
+   "number": 12,
+   "date": "2026-11-21",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "CF Torderenc",
+     "away": "Veterans Bordils-Flaçà"
+    },
+    {
+     "home": "FC Honduras Figueres",
+     "away": "Veterans CE Farners"
+    },
+    {
+     "home": "CF Fogars Veterans",
+     "away": "CE l'Aigüeta"
+    },
+    {
+     "home": "Veterans Alt Empordà",
+     "away": "Athlètic Can Borell"
+    },
+    {
+     "home": "CEF Veterans SFG",
+     "away": "FC Palafrugell Veterans"
+    },
+    {
+     "home": "Veterans CF Lloret",
+     "away": "Bar Moreda"
+    },
+    {
+     "home": "Racing Blanenc B",
+     "away": "Esportiu Bonmatí"
+    },
+    {
+     "home": "EF Maçanet",
+     "away": "Veterans Sant Antoni"
+    },
+    {
+     "home": "Veterans San Andrés",
+     "away": "Veterans Ath. Hostalric"
+    }
+   ]
+  },
+  {
+   "number": 13,
+   "date": "2026-11-28",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "CF Torderenc",
+     "away": "FC Honduras Figueres"
+    },
+    {
+     "home": "Veterans CE Farners",
+     "away": "CF Fogars Veterans"
+    },
+    {
+     "home": "CE l'Aigüeta",
+     "away": "Veterans Alt Empordà"
+    },
+    {
+     "home": "Athlètic Can Borell",
+     "away": "CEF Veterans SFG"
+    },
+    {
+     "home": "FC Palafrugell Veterans",
+     "away": "Veterans CF Lloret"
+    },
+    {
+     "home": "Bar Moreda",
+     "away": "Racing Blanenc B"
+    },
+    {
+     "home": "Esportiu Bonmatí",
+     "away": "EF Maçanet"
+    },
+    {
+     "home": "Veterans Sant Antoni",
+     "away": "Veterans San Andrés"
+    },
+    {
+     "home": "Veterans Bordils-Flaçà",
+     "away": "Veterans Ath. Hostalric"
+    }
+   ]
+  },
+  {
+   "number": 14,
+   "date": "2026-12-12",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "FC Honduras Figueres",
+     "away": "Veterans Bordils-Flaçà"
+    },
+    {
+     "home": "CF Fogars Veterans",
+     "away": "CF Torderenc"
+    },
+    {
+     "home": "Veterans Alt Empordà",
+     "away": "Veterans CE Farners"
+    },
+    {
+     "home": "CEF Veterans SFG",
+     "away": "CE l'Aigüeta"
+    },
+    {
+     "home": "Veterans CF Lloret",
+     "away": "Athlètic Can Borell"
+    },
+    {
+     "home": "Racing Blanenc B",
+     "away": "FC Palafrugell Veterans"
+    },
+    {
+     "home": "EF Maçanet",
+     "away": "Bar Moreda"
+    },
+    {
+     "home": "Veterans San Andrés",
+     "away": "Esportiu Bonmatí"
+    },
+    {
+     "home": "Veterans Ath. Hostalric",
+     "away": "Veterans Sant Antoni"
+    }
+   ]
+  },
+  {
+   "number": 15,
+   "date": "2026-12-19",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "FC Honduras Figueres",
+     "away": "CF Fogars Veterans"
+    },
+    {
+     "home": "CF Torderenc",
+     "away": "Veterans Alt Empordà"
+    },
+    {
+     "home": "Veterans CE Farners",
+     "away": "CEF Veterans SFG"
+    },
+    {
+     "home": "CE l'Aigüeta",
+     "away": "Veterans CF Lloret"
+    },
+    {
+     "home": "Athlètic Can Borell",
+     "away": "Racing Blanenc B"
+    },
+    {
+     "home": "FC Palafrugell Veterans",
+     "away": "EF Maçanet"
+    },
+    {
+     "home": "Bar Moreda",
+     "away": "Veterans San Andrés"
+    },
+    {
+     "home": "Esportiu Bonmatí",
+     "away": "Veterans Ath. Hostalric"
+    },
+    {
+     "home": "Veterans Bordils-Flaçà",
+     "away": "Veterans Sant Antoni"
+    }
+   ]
+  },
+  {
+   "number": 16,
+   "date": "2027-01-09",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Veterans Bordils-Flaçà",
+     "away": "CF Fogars Veterans"
+    },
+    {
+     "home": "Veterans Alt Empordà",
+     "away": "FC Honduras Figueres"
+    },
+    {
+     "home": "CEF Veterans SFG",
+     "away": "CF Torderenc"
+    },
+    {
+     "home": "Veterans CF Lloret",
+     "away": "Veterans CE Farners"
+    },
+    {
+     "home": "Racing Blanenc B",
+     "away": "CE l'Aigüeta"
+    },
+    {
+     "home": "EF Maçanet",
+     "away": "Athlètic Can Borell"
+    },
+    {
+     "home": "Veterans San Andrés",
+     "away": "FC Palafrugell Veterans"
+    },
+    {
+     "home": "Veterans Ath. Hostalric",
+     "away": "Bar Moreda"
+    },
+    {
+     "home": "Veterans Sant Antoni",
+     "away": "Esportiu Bonmatí"
+    }
+   ]
+  },
+  {
+   "number": 17,
+   "date": "2027-01-16",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "CF Fogars Veterans",
+     "away": "Veterans Alt Empordà"
+    },
+    {
+     "home": "FC Honduras Figueres",
+     "away": "CEF Veterans SFG"
+    },
+    {
+     "home": "CF Torderenc",
+     "away": "Veterans CF Lloret"
+    },
+    {
+     "home": "Veterans CE Farners",
+     "away": "Racing Blanenc B"
+    },
+    {
+     "home": "CE l'Aigüeta",
+     "away": "EF Maçanet"
+    },
+    {
+     "home": "Athlètic Can Borell",
+     "away": "Veterans San Andrés"
+    },
+    {
+     "home": "FC Palafrugell Veterans",
+     "away": "Veterans Ath. Hostalric"
+    },
+    {
+     "home": "Bar Moreda",
+     "away": "Veterans Sant Antoni"
+    },
+    {
+     "home": "Esportiu Bonmatí",
+     "away": "Veterans Bordils-Flaçà"
+    }
+   ]
+  },
+  {
+   "number": 18,
+   "date": "2027-01-23",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Bar Moreda",
+     "away": "Esportiu Bonmatí"
+    },
+    {
+     "home": "FC Palafrugell Veterans",
+     "away": "Veterans Sant Antoni"
+    },
+    {
+     "home": "Athlètic Can Borell",
+     "away": "Veterans Ath. Hostalric"
+    },
+    {
+     "home": "CE l'Aigüeta",
+     "away": "Veterans San Andrés"
+    },
+    {
+     "home": "Veterans CE Farners",
+     "away": "EF Maçanet"
+    },
+    {
+     "home": "CF Torderenc",
+     "away": "Racing Blanenc B"
+    },
+    {
+     "home": "FC Honduras Figueres",
+     "away": "Veterans CF Lloret"
+    },
+    {
+     "home": "CF Fogars Veterans",
+     "away": "CEF Veterans SFG"
+    },
+    {
+     "home": "Veterans Alt Empordà",
+     "away": "Veterans Bordils-Flaçà"
+    }
+   ]
+  },
+  {
+   "number": 19,
+   "date": "2027-01-30",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Veterans Bordils-Flaçà",
+     "away": "Bar Moreda"
+    },
+    {
+     "home": "Esportiu Bonmatí",
+     "away": "FC Palafrugell Veterans"
+    },
+    {
+     "home": "Veterans Sant Antoni",
+     "away": "Athlètic Can Borell"
+    },
+    {
+     "home": "Veterans Ath. Hostalric",
+     "away": "CE l'Aigüeta"
+    },
+    {
+     "home": "Veterans San Andrés",
+     "away": "Veterans CE Farners"
+    },
+    {
+     "home": "EF Maçanet",
+     "away": "CF Torderenc"
+    },
+    {
+     "home": "Racing Blanenc B",
+     "away": "FC Honduras Figueres"
+    },
+    {
+     "home": "Veterans CF Lloret",
+     "away": "CF Fogars Veterans"
+    },
+    {
+     "home": "CEF Veterans SFG",
+     "away": "Veterans Alt Empordà"
+    }
+   ]
+  },
+  {
+   "number": 20,
+   "date": "2027-02-13",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "FC Palafrugell Veterans",
+     "away": "Bar Moreda"
+    },
+    {
+     "home": "Athlètic Can Borell",
+     "away": "Esportiu Bonmatí"
+    },
+    {
+     "home": "CE l'Aigüeta",
+     "away": "Veterans Sant Antoni"
+    },
+    {
+     "home": "Veterans CE Farners",
+     "away": "Veterans Ath. Hostalric"
+    },
+    {
+     "home": "CF Torderenc",
+     "away": "Veterans San Andrés"
+    },
+    {
+     "home": "FC Honduras Figueres",
+     "away": "EF Maçanet"
+    },
+    {
+     "home": "CF Fogars Veterans",
+     "away": "Racing Blanenc B"
+    },
+    {
+     "home": "Veterans Alt Empordà",
+     "away": "Veterans CF Lloret"
+    },
+    {
+     "home": "CEF Veterans SFG",
+     "away": "Veterans Bordils-Flaçà"
+    }
+   ]
+  },
+  {
+   "number": 21,
+   "date": "2027-02-20",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Veterans Bordils-Flaçà",
+     "away": "FC Palafrugell Veterans"
+    },
+    {
+     "home": "Bar Moreda",
+     "away": "Athlètic Can Borell"
+    },
+    {
+     "home": "Esportiu Bonmatí",
+     "away": "CE l'Aigüeta"
+    },
+    {
+     "home": "Veterans Sant Antoni",
+     "away": "Veterans CE Farners"
+    },
+    {
+     "home": "Veterans Ath. Hostalric",
+     "away": "CF Torderenc"
+    },
+    {
+     "home": "Veterans San Andrés",
+     "away": "FC Honduras Figueres"
+    },
+    {
+     "home": "EF Maçanet",
+     "away": "CF Fogars Veterans"
+    },
+    {
+     "home": "Racing Blanenc B",
+     "away": "Veterans Alt Empordà"
+    },
+    {
+     "home": "Veterans CF Lloret",
+     "away": "CEF Veterans SFG"
+    }
+   ]
+  },
+  {
+   "number": 22,
+   "date": "2027-02-27",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Athlètic Can Borell",
+     "away": "FC Palafrugell Veterans"
+    },
+    {
+     "home": "CE l'Aigüeta",
+     "away": "Bar Moreda"
+    },
+    {
+     "home": "Veterans CE Farners",
+     "away": "Esportiu Bonmatí"
+    },
+    {
+     "home": "CF Torderenc",
+     "away": "Veterans Sant Antoni"
+    },
+    {
+     "home": "FC Honduras Figueres",
+     "away": "Veterans Ath. Hostalric"
+    },
+    {
+     "home": "CF Fogars Veterans",
+     "away": "Veterans San Andrés"
+    },
+    {
+     "home": "Veterans Alt Empordà",
+     "away": "EF Maçanet"
+    },
+    {
+     "home": "CEF Veterans SFG",
+     "away": "Racing Blanenc B"
+    },
+    {
+     "home": "Veterans CF Lloret",
+     "away": "Veterans Bordils-Flaçà"
+    }
+   ]
+  },
+  {
+   "number": 23,
+   "date": "2027-03-06",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Veterans Bordils-Flaçà",
+     "away": "Athlètic Can Borell"
+    },
+    {
+     "home": "FC Palafrugell Veterans",
+     "away": "CE l'Aigüeta"
+    },
+    {
+     "home": "Bar Moreda",
+     "away": "Veterans CE Farners"
+    },
+    {
+     "home": "Esportiu Bonmatí",
+     "away": "CF Torderenc"
+    },
+    {
+     "home": "Veterans Sant Antoni",
+     "away": "FC Honduras Figueres"
+    },
+    {
+     "home": "Veterans Ath. Hostalric",
+     "away": "CF Fogars Veterans"
+    },
+    {
+     "home": "Veterans San Andrés",
+     "away": "Veterans Alt Empordà"
+    },
+    {
+     "home": "EF Maçanet",
+     "away": "CEF Veterans SFG"
+    },
+    {
+     "home": "Racing Blanenc B",
+     "away": "Veterans CF Lloret"
+    }
+   ]
+  },
+  {
+   "number": 24,
+   "date": "2027-03-13",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "CE l'Aigüeta",
+     "away": "Athlètic Can Borell"
+    },
+    {
+     "home": "Veterans CE Farners",
+     "away": "FC Palafrugell Veterans"
+    },
+    {
+     "home": "CF Torderenc",
+     "away": "Bar Moreda"
+    },
+    {
+     "home": "FC Honduras Figueres",
+     "away": "Esportiu Bonmatí"
+    },
+    {
+     "home": "CF Fogars Veterans",
+     "away": "Veterans Sant Antoni"
+    },
+    {
+     "home": "Veterans Alt Empordà",
+     "away": "Veterans Ath. Hostalric"
+    },
+    {
+     "home": "CEF Veterans SFG",
+     "away": "Veterans San Andrés"
+    },
+    {
+     "home": "Veterans CF Lloret",
+     "away": "EF Maçanet"
+    },
+    {
+     "home": "Racing Blanenc B",
+     "away": "Veterans Bordils-Flaçà"
+    }
+   ]
+  },
+  {
+   "number": 25,
+   "date": "2027-03-20",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Veterans Bordils-Flaçà",
+     "away": "CE l'Aigüeta"
+    },
+    {
+     "home": "Athlètic Can Borell",
+     "away": "Veterans CE Farners"
+    },
+    {
+     "home": "FC Palafrugell Veterans",
+     "away": "CF Torderenc"
+    },
+    {
+     "home": "Bar Moreda",
+     "away": "FC Honduras Figueres"
+    },
+    {
+     "home": "Esportiu Bonmatí",
+     "away": "CF Fogars Veterans"
+    },
+    {
+     "home": "Veterans Sant Antoni",
+     "away": "Veterans Alt Empordà"
+    },
+    {
+     "home": "Veterans Ath. Hostalric",
+     "away": "CEF Veterans SFG"
+    },
+    {
+     "home": "Veterans San Andrés",
+     "away": "Veterans CF Lloret"
+    },
+    {
+     "home": "EF Maçanet",
+     "away": "Racing Blanenc B"
+    }
+   ]
+  },
+  {
+   "number": 26,
+   "date": "2027-04-03",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Veterans CE Farners",
+     "away": "CE l'Aigüeta"
+    },
+    {
+     "home": "CF Torderenc",
+     "away": "Athlètic Can Borell"
+    },
+    {
+     "home": "FC Honduras Figueres",
+     "away": "FC Palafrugell Veterans"
+    },
+    {
+     "home": "CF Fogars Veterans",
+     "away": "Bar Moreda"
+    },
+    {
+     "home": "Veterans Alt Empordà",
+     "away": "Esportiu Bonmatí"
+    },
+    {
+     "home": "CEF Veterans SFG",
+     "away": "Veterans Sant Antoni"
+    },
+    {
+     "home": "Veterans CF Lloret",
+     "away": "Veterans Ath. Hostalric"
+    },
+    {
+     "home": "Racing Blanenc B",
+     "away": "Veterans San Andrés"
+    },
+    {
+     "home": "EF Maçanet",
+     "away": "Veterans Bordils-Flaçà"
+    }
+   ]
+  },
+  {
+   "number": 27,
+   "date": "2027-04-10",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Veterans Bordils-Flaçà",
+     "away": "Veterans CE Farners"
+    },
+    {
+     "home": "CE l'Aigüeta",
+     "away": "CF Torderenc"
+    },
+    {
+     "home": "Athlètic Can Borell",
+     "away": "FC Honduras Figueres"
+    },
+    {
+     "home": "FC Palafrugell Veterans",
+     "away": "CF Fogars Veterans"
+    },
+    {
+     "home": "Bar Moreda",
+     "away": "Veterans Alt Empordà"
+    },
+    {
+     "home": "Esportiu Bonmatí",
+     "away": "CEF Veterans SFG"
+    },
+    {
+     "home": "Veterans Sant Antoni",
+     "away": "Veterans CF Lloret"
+    },
+    {
+     "home": "Veterans Ath. Hostalric",
+     "away": "Racing Blanenc B"
+    },
+    {
+     "home": "Veterans San Andrés",
+     "away": "EF Maçanet"
+    }
+   ]
+  },
+  {
+   "number": 28,
+   "date": "2027-04-17",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "CF Torderenc",
+     "away": "Veterans CE Farners"
+    },
+    {
+     "home": "FC Honduras Figueres",
+     "away": "CE l'Aigüeta"
+    },
+    {
+     "home": "CF Fogars Veterans",
+     "away": "Athlètic Can Borell"
+    },
+    {
+     "home": "Veterans Alt Empordà",
+     "away": "FC Palafrugell Veterans"
+    },
+    {
+     "home": "CEF Veterans SFG",
+     "away": "Bar Moreda"
+    },
+    {
+     "home": "Veterans CF Lloret",
+     "away": "Esportiu Bonmatí"
+    },
+    {
+     "home": "Racing Blanenc B",
+     "away": "Veterans Sant Antoni"
+    },
+    {
+     "home": "EF Maçanet",
+     "away": "Veterans Ath. Hostalric"
+    },
+    {
+     "home": "Veterans San Andrés",
+     "away": "Veterans Bordils-Flaçà"
+    }
+   ]
+  },
+  {
+   "number": 29,
+   "date": "2027-04-24",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Veterans Bordils-Flaçà",
+     "away": "CF Torderenc"
+    },
+    {
+     "home": "Veterans CE Farners",
+     "away": "FC Honduras Figueres"
+    },
+    {
+     "home": "CE l'Aigüeta",
+     "away": "CF Fogars Veterans"
+    },
+    {
+     "home": "Athlètic Can Borell",
+     "away": "Veterans Alt Empordà"
+    },
+    {
+     "home": "FC Palafrugell Veterans",
+     "away": "CEF Veterans SFG"
+    },
+    {
+     "home": "Bar Moreda",
+     "away": "Veterans CF Lloret"
+    },
+    {
+     "home": "Esportiu Bonmatí",
+     "away": "Racing Blanenc B"
+    },
+    {
+     "home": "Veterans Sant Antoni",
+     "away": "EF Maçanet"
+    },
+    {
+     "home": "Veterans Ath. Hostalric",
+     "away": "Veterans San Andrés"
+    }
+   ]
+  },
+  {
+   "number": 30,
+   "date": "2027-05-01",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "FC Honduras Figueres",
+     "away": "CF Torderenc"
+    },
+    {
+     "home": "CF Fogars Veterans",
+     "away": "Veterans CE Farners"
+    },
+    {
+     "home": "Veterans Alt Empordà",
+     "away": "CE l'Aigüeta"
+    },
+    {
+     "home": "CEF Veterans SFG",
+     "away": "Athlètic Can Borell"
+    },
+    {
+     "home": "Veterans CF Lloret",
+     "away": "FC Palafrugell Veterans"
+    },
+    {
+     "home": "Racing Blanenc B",
+     "away": "Bar Moreda"
+    },
+    {
+     "home": "EF Maçanet",
+     "away": "Esportiu Bonmatí"
+    },
+    {
+     "home": "Veterans San Andrés",
+     "away": "Veterans Sant Antoni"
+    },
+    {
+     "home": "Veterans Ath. Hostalric",
+     "away": "Veterans Bordils-Flaçà"
+    }
+   ]
+  },
+  {
+   "number": 31,
+   "date": "2027-05-08",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Veterans Bordils-Flaçà",
+     "away": "FC Honduras Figueres"
+    },
+    {
+     "home": "CF Torderenc",
+     "away": "CF Fogars Veterans"
+    },
+    {
+     "home": "Veterans CE Farners",
+     "away": "Veterans Alt Empordà"
+    },
+    {
+     "home": "CE l'Aigüeta",
+     "away": "CEF Veterans SFG"
+    },
+    {
+     "home": "Athlètic Can Borell",
+     "away": "Veterans CF Lloret"
+    },
+    {
+     "home": "FC Palafrugell Veterans",
+     "away": "Racing Blanenc B"
+    },
+    {
+     "home": "Bar Moreda",
+     "away": "EF Maçanet"
+    },
+    {
+     "home": "Esportiu Bonmatí",
+     "away": "Veterans San Andrés"
+    },
+    {
+     "home": "Veterans Sant Antoni",
+     "away": "Veterans Ath. Hostalric"
+    }
+   ]
+  },
+  {
+   "number": 32,
+   "date": "2027-05-15",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "CF Fogars Veterans",
+     "away": "FC Honduras Figueres"
+    },
+    {
+     "home": "Veterans Alt Empordà",
+     "away": "CF Torderenc"
+    },
+    {
+     "home": "CEF Veterans SFG",
+     "away": "Veterans CE Farners"
+    },
+    {
+     "home": "Veterans CF Lloret",
+     "away": "CE l'Aigüeta"
+    },
+    {
+     "home": "Racing Blanenc B",
+     "away": "Athlètic Can Borell"
+    },
+    {
+     "home": "EF Maçanet",
+     "away": "FC Palafrugell Veterans"
+    },
+    {
+     "home": "Veterans San Andrés",
+     "away": "Bar Moreda"
+    },
+    {
+     "home": "Veterans Ath. Hostalric",
+     "away": "Esportiu Bonmatí"
+    },
+    {
+     "home": "Veterans Sant Antoni",
+     "away": "Veterans Bordils-Flaçà"
+    }
+   ]
+  },
+  {
+   "number": 33,
+   "date": "2027-05-22",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "CF Fogars Veterans",
+     "away": "Veterans Bordils-Flaçà"
+    },
+    {
+     "home": "FC Honduras Figueres",
+     "away": "Veterans Alt Empordà"
+    },
+    {
+     "home": "CF Torderenc",
+     "away": "CEF Veterans SFG"
+    },
+    {
+     "home": "Veterans CE Farners",
+     "away": "Veterans CF Lloret"
+    },
+    {
+     "home": "CE l'Aigüeta",
+     "away": "Racing Blanenc B"
+    },
+    {
+     "home": "Athlètic Can Borell",
+     "away": "EF Maçanet"
+    },
+    {
+     "home": "FC Palafrugell Veterans",
+     "away": "Veterans San Andrés"
+    },
+    {
+     "home": "Bar Moreda",
+     "away": "Veterans Ath. Hostalric"
+    },
+    {
+     "home": "Esportiu Bonmatí",
+     "away": "Veterans Sant Antoni"
+    }
+   ]
+  },
+  {
+   "number": 34,
+   "date": "2027-05-29",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Veterans Alt Empordà",
+     "away": "CF Fogars Veterans"
+    },
+    {
+     "home": "CEF Veterans SFG",
+     "away": "FC Honduras Figueres"
+    },
+    {
+     "home": "Veterans CF Lloret",
+     "away": "CF Torderenc"
+    },
+    {
+     "home": "Racing Blanenc B",
+     "away": "Veterans CE Farners"
+    },
+    {
+     "home": "EF Maçanet",
+     "away": "CE l'Aigüeta"
+    },
+    {
+     "home": "Veterans San Andrés",
+     "away": "Athlètic Can Borell"
+    },
+    {
+     "home": "Veterans Ath. Hostalric",
+     "away": "FC Palafrugell Veterans"
+    },
+    {
+     "home": "Veterans Sant Antoni",
+     "away": "Bar Moreda"
+    },
+    {
+     "home": "Veterans Bordils-Flaçà",
+     "away": "Esportiu Bonmatí"
+    }
+   ]
+  }
+ ]
+}

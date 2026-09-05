@@ -1,0 +1,1467 @@
+{
+ "group": "A",
+ "rounds": [
+  {
+   "number": 1,
+   "date": "2027-06-05",
+   "altDate": "2026-09-05",
+   "matches": [
+    {
+     "home": "Vet. Sporting Vidrerenca",
+     "away": "Real Guíxols FC"
+    },
+    {
+     "home": "UE Comacros Veterans A",
+     "away": "Inter Lloret"
+    },
+    {
+     "home": "CE Anglès",
+     "away": "CE Sant Hilari-Font Vella"
+    },
+    {
+     "home": "Anglès Huellas Colombia",
+     "away": "FVB Vilobí"
+    },
+    {
+     "home": "Atlético Empuriabrava",
+     "away": "Veterans CF Sils"
+    },
+    {
+     "home": "UCE Celrà",
+     "away": "Comacros C - La H"
+    },
+    {
+     "home": "Veterans d'Arbúcies",
+     "away": "Veteranos El Barrio"
+    },
+    {
+     "home": "Veterans Pontenc",
+     "away": "Sàbat Veterans"
+    },
+    {
+     "home": "Majestic FC",
+     "away": "Veterans La Batllòria"
+    }
+   ]
+  },
+  {
+   "number": 2,
+   "date": "2027-06-12",
+   "altDate": "2026-09-12",
+   "matches": [
+    {
+     "home": "Real Guíxols FC",
+     "away": "Majestic FC"
+    },
+    {
+     "home": "Inter Lloret",
+     "away": "Vet. Sporting Vidrerenca"
+    },
+    {
+     "home": "CE Sant Hilari-Font Vella",
+     "away": "UE Comacros Veterans A"
+    },
+    {
+     "home": "FVB Vilobí",
+     "away": "CE Anglès"
+    },
+    {
+     "home": "Veterans CF Sils",
+     "away": "Anglès Huellas Colombia"
+    },
+    {
+     "home": "Comacros C - La H",
+     "away": "Atlético Empuriabrava"
+    },
+    {
+     "home": "Veteranos El Barrio",
+     "away": "UCE Celrà"
+    },
+    {
+     "home": "Sàbat Veterans",
+     "away": "Veterans d'Arbúcies"
+    },
+    {
+     "home": "Veterans La Batllòria",
+     "away": "Veterans Pontenc"
+    }
+   ]
+  },
+  {
+   "number": 3,
+   "date": "2026-09-19",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Real Guíxols FC",
+     "away": "Inter Lloret"
+    },
+    {
+     "home": "Vet. Sporting Vidrerenca",
+     "away": "CE Sant Hilari-Font Vella"
+    },
+    {
+     "home": "UE Comacros Veterans A",
+     "away": "FVB Vilobí"
+    },
+    {
+     "home": "CE Anglès",
+     "away": "Veterans CF Sils"
+    },
+    {
+     "home": "Anglès Huellas Colombia",
+     "away": "Comacros C - La H"
+    },
+    {
+     "home": "Atlético Empuriabrava",
+     "away": "Veteranos El Barrio"
+    },
+    {
+     "home": "UCE Celrà",
+     "away": "Sàbat Veterans"
+    },
+    {
+     "home": "Veterans d'Arbúcies",
+     "away": "Veterans La Batllòria"
+    },
+    {
+     "home": "Majestic FC",
+     "away": "Veterans Pontenc"
+    }
+   ]
+  },
+  {
+   "number": 4,
+   "date": "2026-09-26",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Inter Lloret",
+     "away": "Majestic FC"
+    },
+    {
+     "home": "CE Sant Hilari-Font Vella",
+     "away": "Real Guíxols FC"
+    },
+    {
+     "home": "FVB Vilobí",
+     "away": "Vet. Sporting Vidrerenca"
+    },
+    {
+     "home": "Veterans CF Sils",
+     "away": "UE Comacros Veterans A"
+    },
+    {
+     "home": "Comacros C - La H",
+     "away": "CE Anglès"
+    },
+    {
+     "home": "Veteranos El Barrio",
+     "away": "Anglès Huellas Colombia"
+    },
+    {
+     "home": "Sàbat Veterans",
+     "away": "Atlético Empuriabrava"
+    },
+    {
+     "home": "Veterans La Batllòria",
+     "away": "UCE Celrà"
+    },
+    {
+     "home": "Veterans Pontenc",
+     "away": "Veterans d'Arbúcies"
+    }
+   ]
+  },
+  {
+   "number": 5,
+   "date": "2026-10-03",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Inter Lloret",
+     "away": "CE Sant Hilari-Font Vella"
+    },
+    {
+     "home": "Real Guíxols FC",
+     "away": "FVB Vilobí"
+    },
+    {
+     "home": "Vet. Sporting Vidrerenca",
+     "away": "Veterans CF Sils"
+    },
+    {
+     "home": "UE Comacros Veterans A",
+     "away": "Comacros C - La H"
+    },
+    {
+     "home": "CE Anglès",
+     "away": "Veteranos El Barrio"
+    },
+    {
+     "home": "Anglès Huellas Colombia",
+     "away": "Sàbat Veterans"
+    },
+    {
+     "home": "Atlético Empuriabrava",
+     "away": "Veterans La Batllòria"
+    },
+    {
+     "home": "UCE Celrà",
+     "away": "Veterans Pontenc"
+    },
+    {
+     "home": "Majestic FC",
+     "away": "Veterans d'Arbúcies"
+    }
+   ]
+  },
+  {
+   "number": 6,
+   "date": "2026-10-10",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "CE Sant Hilari-Font Vella",
+     "away": "Majestic FC"
+    },
+    {
+     "home": "FVB Vilobí",
+     "away": "Inter Lloret"
+    },
+    {
+     "home": "Veterans CF Sils",
+     "away": "Real Guíxols FC"
+    },
+    {
+     "home": "Comacros C - La H",
+     "away": "Vet. Sporting Vidrerenca"
+    },
+    {
+     "home": "Veteranos El Barrio",
+     "away": "UE Comacros Veterans A"
+    },
+    {
+     "home": "Sàbat Veterans",
+     "away": "CE Anglès"
+    },
+    {
+     "home": "Veterans La Batllòria",
+     "away": "Anglès Huellas Colombia"
+    },
+    {
+     "home": "Veterans Pontenc",
+     "away": "Atlético Empuriabrava"
+    },
+    {
+     "home": "Veterans d'Arbúcies",
+     "away": "UCE Celrà"
+    }
+   ]
+  },
+  {
+   "number": 7,
+   "date": "2026-10-17",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "CE Sant Hilari-Font Vella",
+     "away": "FVB Vilobí"
+    },
+    {
+     "home": "Inter Lloret",
+     "away": "Veterans CF Sils"
+    },
+    {
+     "home": "Real Guíxols FC",
+     "away": "Comacros C - La H"
+    },
+    {
+     "home": "Vet. Sporting Vidrerenca",
+     "away": "Veteranos El Barrio"
+    },
+    {
+     "home": "UE Comacros Veterans A",
+     "away": "Sàbat Veterans"
+    },
+    {
+     "home": "CE Anglès",
+     "away": "Veterans La Batllòria"
+    },
+    {
+     "home": "Anglès Huellas Colombia",
+     "away": "Veterans Pontenc"
+    },
+    {
+     "home": "Atlético Empuriabrava",
+     "away": "Veterans d'Arbúcies"
+    },
+    {
+     "home": "Majestic FC",
+     "away": "UCE Celrà"
+    }
+   ]
+  },
+  {
+   "number": 8,
+   "date": "2026-10-24",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "FVB Vilobí",
+     "away": "Majestic FC"
+    },
+    {
+     "home": "Veterans CF Sils",
+     "away": "CE Sant Hilari-Font Vella"
+    },
+    {
+     "home": "Comacros C - La H",
+     "away": "Inter Lloret"
+    },
+    {
+     "home": "Veteranos El Barrio",
+     "away": "Real Guíxols FC"
+    },
+    {
+     "home": "Sàbat Veterans",
+     "away": "Vet. Sporting Vidrerenca"
+    },
+    {
+     "home": "Veterans La Batllòria",
+     "away": "UE Comacros Veterans A"
+    },
+    {
+     "home": "Veterans Pontenc",
+     "away": "CE Anglès"
+    },
+    {
+     "home": "Veterans d'Arbúcies",
+     "away": "Anglès Huellas Colombia"
+    },
+    {
+     "home": "UCE Celrà",
+     "away": "Atlético Empuriabrava"
+    }
+   ]
+  },
+  {
+   "number": 9,
+   "date": "2026-10-31",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "FVB Vilobí",
+     "away": "Veterans CF Sils"
+    },
+    {
+     "home": "CE Sant Hilari-Font Vella",
+     "away": "Comacros C - La H"
+    },
+    {
+     "home": "Inter Lloret",
+     "away": "Veteranos El Barrio"
+    },
+    {
+     "home": "Real Guíxols FC",
+     "away": "Sàbat Veterans"
+    },
+    {
+     "home": "Vet. Sporting Vidrerenca",
+     "away": "Veterans La Batllòria"
+    },
+    {
+     "home": "UE Comacros Veterans A",
+     "away": "Veterans Pontenc"
+    },
+    {
+     "home": "CE Anglès",
+     "away": "Veterans d'Arbúcies"
+    },
+    {
+     "home": "Anglès Huellas Colombia",
+     "away": "UCE Celrà"
+    },
+    {
+     "home": "Majestic FC",
+     "away": "Atlético Empuriabrava"
+    }
+   ]
+  },
+  {
+   "number": 10,
+   "date": "2026-11-07",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Veterans CF Sils",
+     "away": "Majestic FC"
+    },
+    {
+     "home": "Comacros C - La H",
+     "away": "FVB Vilobí"
+    },
+    {
+     "home": "Veteranos El Barrio",
+     "away": "CE Sant Hilari-Font Vella"
+    },
+    {
+     "home": "Sàbat Veterans",
+     "away": "Inter Lloret"
+    },
+    {
+     "home": "Veterans La Batllòria",
+     "away": "Real Guíxols FC"
+    },
+    {
+     "home": "Veterans Pontenc",
+     "away": "Vet. Sporting Vidrerenca"
+    },
+    {
+     "home": "Veterans d'Arbúcies",
+     "away": "UE Comacros Veterans A"
+    },
+    {
+     "home": "UCE Celrà",
+     "away": "CE Anglès"
+    },
+    {
+     "home": "Atlético Empuriabrava",
+     "away": "Anglès Huellas Colombia"
+    }
+   ]
+  },
+  {
+   "number": 11,
+   "date": "2026-11-14",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Veterans CF Sils",
+     "away": "Comacros C - La H"
+    },
+    {
+     "home": "FVB Vilobí",
+     "away": "Veteranos El Barrio"
+    },
+    {
+     "home": "CE Sant Hilari-Font Vella",
+     "away": "Sàbat Veterans"
+    },
+    {
+     "home": "Inter Lloret",
+     "away": "Veterans La Batllòria"
+    },
+    {
+     "home": "Real Guíxols FC",
+     "away": "Veterans Pontenc"
+    },
+    {
+     "home": "Vet. Sporting Vidrerenca",
+     "away": "Veterans d'Arbúcies"
+    },
+    {
+     "home": "UE Comacros Veterans A",
+     "away": "UCE Celrà"
+    },
+    {
+     "home": "CE Anglès",
+     "away": "Atlético Empuriabrava"
+    },
+    {
+     "home": "Majestic FC",
+     "away": "Anglès Huellas Colombia"
+    }
+   ]
+  },
+  {
+   "number": 12,
+   "date": "2026-11-21",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Comacros C - La H",
+     "away": "Majestic FC"
+    },
+    {
+     "home": "Veteranos El Barrio",
+     "away": "Veterans CF Sils"
+    },
+    {
+     "home": "Sàbat Veterans",
+     "away": "FVB Vilobí"
+    },
+    {
+     "home": "Veterans La Batllòria",
+     "away": "CE Sant Hilari-Font Vella"
+    },
+    {
+     "home": "Veterans Pontenc",
+     "away": "Inter Lloret"
+    },
+    {
+     "home": "Veterans d'Arbúcies",
+     "away": "Real Guíxols FC"
+    },
+    {
+     "home": "UCE Celrà",
+     "away": "Vet. Sporting Vidrerenca"
+    },
+    {
+     "home": "Atlético Empuriabrava",
+     "away": "UE Comacros Veterans A"
+    },
+    {
+     "home": "Anglès Huellas Colombia",
+     "away": "CE Anglès"
+    }
+   ]
+  },
+  {
+   "number": 13,
+   "date": "2026-11-28",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Comacros C - La H",
+     "away": "Veteranos El Barrio"
+    },
+    {
+     "home": "Veterans CF Sils",
+     "away": "Sàbat Veterans"
+    },
+    {
+     "home": "FVB Vilobí",
+     "away": "Veterans La Batllòria"
+    },
+    {
+     "home": "CE Sant Hilari-Font Vella",
+     "away": "Veterans Pontenc"
+    },
+    {
+     "home": "Inter Lloret",
+     "away": "Veterans d'Arbúcies"
+    },
+    {
+     "home": "Real Guíxols FC",
+     "away": "UCE Celrà"
+    },
+    {
+     "home": "Vet. Sporting Vidrerenca",
+     "away": "Atlético Empuriabrava"
+    },
+    {
+     "home": "UE Comacros Veterans A",
+     "away": "Anglès Huellas Colombia"
+    },
+    {
+     "home": "Majestic FC",
+     "away": "CE Anglès"
+    }
+   ]
+  },
+  {
+   "number": 14,
+   "date": "2026-12-12",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Veteranos El Barrio",
+     "away": "Majestic FC"
+    },
+    {
+     "home": "Sàbat Veterans",
+     "away": "Comacros C - La H"
+    },
+    {
+     "home": "Veterans La Batllòria",
+     "away": "Veterans CF Sils"
+    },
+    {
+     "home": "Veterans Pontenc",
+     "away": "FVB Vilobí"
+    },
+    {
+     "home": "Veterans d'Arbúcies",
+     "away": "CE Sant Hilari-Font Vella"
+    },
+    {
+     "home": "UCE Celrà",
+     "away": "Inter Lloret"
+    },
+    {
+     "home": "Atlético Empuriabrava",
+     "away": "Real Guíxols FC"
+    },
+    {
+     "home": "Anglès Huellas Colombia",
+     "away": "Vet. Sporting Vidrerenca"
+    },
+    {
+     "home": "CE Anglès",
+     "away": "UE Comacros Veterans A"
+    }
+   ]
+  },
+  {
+   "number": 15,
+   "date": "2026-12-19",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Veteranos El Barrio",
+     "away": "Sàbat Veterans"
+    },
+    {
+     "home": "Comacros C - La H",
+     "away": "Veterans La Batllòria"
+    },
+    {
+     "home": "Veterans CF Sils",
+     "away": "Veterans Pontenc"
+    },
+    {
+     "home": "FVB Vilobí",
+     "away": "Veterans d'Arbúcies"
+    },
+    {
+     "home": "CE Sant Hilari-Font Vella",
+     "away": "UCE Celrà"
+    },
+    {
+     "home": "Inter Lloret",
+     "away": "Atlético Empuriabrava"
+    },
+    {
+     "home": "Real Guíxols FC",
+     "away": "Anglès Huellas Colombia"
+    },
+    {
+     "home": "Vet. Sporting Vidrerenca",
+     "away": "CE Anglès"
+    },
+    {
+     "home": "Majestic FC",
+     "away": "UE Comacros Veterans A"
+    }
+   ]
+  },
+  {
+   "number": 16,
+   "date": "2027-01-09",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Majestic FC",
+     "away": "Sàbat Veterans"
+    },
+    {
+     "home": "Veterans La Batllòria",
+     "away": "Veteranos El Barrio"
+    },
+    {
+     "home": "Veterans Pontenc",
+     "away": "Comacros C - La H"
+    },
+    {
+     "home": "Veterans d'Arbúcies",
+     "away": "Veterans CF Sils"
+    },
+    {
+     "home": "UCE Celrà",
+     "away": "FVB Vilobí"
+    },
+    {
+     "home": "Atlético Empuriabrava",
+     "away": "CE Sant Hilari-Font Vella"
+    },
+    {
+     "home": "Anglès Huellas Colombia",
+     "away": "Inter Lloret"
+    },
+    {
+     "home": "CE Anglès",
+     "away": "Real Guíxols FC"
+    },
+    {
+     "home": "UE Comacros Veterans A",
+     "away": "Vet. Sporting Vidrerenca"
+    }
+   ]
+  },
+  {
+   "number": 17,
+   "date": "2027-01-16",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Sàbat Veterans",
+     "away": "Veterans La Batllòria"
+    },
+    {
+     "home": "Veteranos El Barrio",
+     "away": "Veterans Pontenc"
+    },
+    {
+     "home": "Comacros C - La H",
+     "away": "Veterans d'Arbúcies"
+    },
+    {
+     "home": "Veterans CF Sils",
+     "away": "UCE Celrà"
+    },
+    {
+     "home": "FVB Vilobí",
+     "away": "Atlético Empuriabrava"
+    },
+    {
+     "home": "CE Sant Hilari-Font Vella",
+     "away": "Anglès Huellas Colombia"
+    },
+    {
+     "home": "Inter Lloret",
+     "away": "CE Anglès"
+    },
+    {
+     "home": "Real Guíxols FC",
+     "away": "UE Comacros Veterans A"
+    },
+    {
+     "home": "Vet. Sporting Vidrerenca",
+     "away": "Majestic FC"
+    }
+   ]
+  },
+  {
+   "number": 18,
+   "date": "2027-01-23",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Real Guíxols FC",
+     "away": "Vet. Sporting Vidrerenca"
+    },
+    {
+     "home": "Inter Lloret",
+     "away": "UE Comacros Veterans A"
+    },
+    {
+     "home": "CE Sant Hilari-Font Vella",
+     "away": "CE Anglès"
+    },
+    {
+     "home": "FVB Vilobí",
+     "away": "Anglès Huellas Colombia"
+    },
+    {
+     "home": "Veterans CF Sils",
+     "away": "Atlético Empuriabrava"
+    },
+    {
+     "home": "Comacros C - La H",
+     "away": "UCE Celrà"
+    },
+    {
+     "home": "Veteranos El Barrio",
+     "away": "Veterans d'Arbúcies"
+    },
+    {
+     "home": "Sàbat Veterans",
+     "away": "Veterans Pontenc"
+    },
+    {
+     "home": "Veterans La Batllòria",
+     "away": "Majestic FC"
+    }
+   ]
+  },
+  {
+   "number": 19,
+   "date": "2027-01-30",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Majestic FC",
+     "away": "Real Guíxols FC"
+    },
+    {
+     "home": "Vet. Sporting Vidrerenca",
+     "away": "Inter Lloret"
+    },
+    {
+     "home": "UE Comacros Veterans A",
+     "away": "CE Sant Hilari-Font Vella"
+    },
+    {
+     "home": "CE Anglès",
+     "away": "FVB Vilobí"
+    },
+    {
+     "home": "Anglès Huellas Colombia",
+     "away": "Veterans CF Sils"
+    },
+    {
+     "home": "Atlético Empuriabrava",
+     "away": "Comacros C - La H"
+    },
+    {
+     "home": "UCE Celrà",
+     "away": "Veteranos El Barrio"
+    },
+    {
+     "home": "Veterans d'Arbúcies",
+     "away": "Sàbat Veterans"
+    },
+    {
+     "home": "Veterans Pontenc",
+     "away": "Veterans La Batllòria"
+    }
+   ]
+  },
+  {
+   "number": 20,
+   "date": "2027-02-13",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Inter Lloret",
+     "away": "Real Guíxols FC"
+    },
+    {
+     "home": "CE Sant Hilari-Font Vella",
+     "away": "Vet. Sporting Vidrerenca"
+    },
+    {
+     "home": "FVB Vilobí",
+     "away": "UE Comacros Veterans A"
+    },
+    {
+     "home": "Veterans CF Sils",
+     "away": "CE Anglès"
+    },
+    {
+     "home": "Comacros C - La H",
+     "away": "Anglès Huellas Colombia"
+    },
+    {
+     "home": "Veteranos El Barrio",
+     "away": "Atlético Empuriabrava"
+    },
+    {
+     "home": "Sàbat Veterans",
+     "away": "UCE Celrà"
+    },
+    {
+     "home": "Veterans La Batllòria",
+     "away": "Veterans d'Arbúcies"
+    },
+    {
+     "home": "Veterans Pontenc",
+     "away": "Majestic FC"
+    }
+   ]
+  },
+  {
+   "number": 21,
+   "date": "2027-02-20",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Majestic FC",
+     "away": "Inter Lloret"
+    },
+    {
+     "home": "Real Guíxols FC",
+     "away": "CE Sant Hilari-Font Vella"
+    },
+    {
+     "home": "Vet. Sporting Vidrerenca",
+     "away": "FVB Vilobí"
+    },
+    {
+     "home": "UE Comacros Veterans A",
+     "away": "Veterans CF Sils"
+    },
+    {
+     "home": "CE Anglès",
+     "away": "Comacros C - La H"
+    },
+    {
+     "home": "Anglès Huellas Colombia",
+     "away": "Veteranos El Barrio"
+    },
+    {
+     "home": "Atlético Empuriabrava",
+     "away": "Sàbat Veterans"
+    },
+    {
+     "home": "UCE Celrà",
+     "away": "Veterans La Batllòria"
+    },
+    {
+     "home": "Veterans d'Arbúcies",
+     "away": "Veterans Pontenc"
+    }
+   ]
+  },
+  {
+   "number": 22,
+   "date": "2027-02-27",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "CE Sant Hilari-Font Vella",
+     "away": "Inter Lloret"
+    },
+    {
+     "home": "FVB Vilobí",
+     "away": "Real Guíxols FC"
+    },
+    {
+     "home": "Veterans CF Sils",
+     "away": "Vet. Sporting Vidrerenca"
+    },
+    {
+     "home": "Comacros C - La H",
+     "away": "UE Comacros Veterans A"
+    },
+    {
+     "home": "Veteranos El Barrio",
+     "away": "CE Anglès"
+    },
+    {
+     "home": "Sàbat Veterans",
+     "away": "Anglès Huellas Colombia"
+    },
+    {
+     "home": "Veterans La Batllòria",
+     "away": "Atlético Empuriabrava"
+    },
+    {
+     "home": "Veterans Pontenc",
+     "away": "UCE Celrà"
+    },
+    {
+     "home": "Veterans d'Arbúcies",
+     "away": "Majestic FC"
+    }
+   ]
+  },
+  {
+   "number": 23,
+   "date": "2027-03-06",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Majestic FC",
+     "away": "CE Sant Hilari-Font Vella"
+    },
+    {
+     "home": "Inter Lloret",
+     "away": "FVB Vilobí"
+    },
+    {
+     "home": "Real Guíxols FC",
+     "away": "Veterans CF Sils"
+    },
+    {
+     "home": "Vet. Sporting Vidrerenca",
+     "away": "Comacros C - La H"
+    },
+    {
+     "home": "UE Comacros Veterans A",
+     "away": "Veteranos El Barrio"
+    },
+    {
+     "home": "CE Anglès",
+     "away": "Sàbat Veterans"
+    },
+    {
+     "home": "Anglès Huellas Colombia",
+     "away": "Veterans La Batllòria"
+    },
+    {
+     "home": "Atlético Empuriabrava",
+     "away": "Veterans Pontenc"
+    },
+    {
+     "home": "UCE Celrà",
+     "away": "Veterans d'Arbúcies"
+    }
+   ]
+  },
+  {
+   "number": 24,
+   "date": "2027-03-13",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "FVB Vilobí",
+     "away": "CE Sant Hilari-Font Vella"
+    },
+    {
+     "home": "Veterans CF Sils",
+     "away": "Inter Lloret"
+    },
+    {
+     "home": "Comacros C - La H",
+     "away": "Real Guíxols FC"
+    },
+    {
+     "home": "Veteranos El Barrio",
+     "away": "Vet. Sporting Vidrerenca"
+    },
+    {
+     "home": "Sàbat Veterans",
+     "away": "UE Comacros Veterans A"
+    },
+    {
+     "home": "Veterans La Batllòria",
+     "away": "CE Anglès"
+    },
+    {
+     "home": "Veterans Pontenc",
+     "away": "Anglès Huellas Colombia"
+    },
+    {
+     "home": "Veterans d'Arbúcies",
+     "away": "Atlético Empuriabrava"
+    },
+    {
+     "home": "UCE Celrà",
+     "away": "Majestic FC"
+    }
+   ]
+  },
+  {
+   "number": 25,
+   "date": "2027-03-20",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Majestic FC",
+     "away": "FVB Vilobí"
+    },
+    {
+     "home": "CE Sant Hilari-Font Vella",
+     "away": "Veterans CF Sils"
+    },
+    {
+     "home": "Inter Lloret",
+     "away": "Comacros C - La H"
+    },
+    {
+     "home": "Real Guíxols FC",
+     "away": "Veteranos El Barrio"
+    },
+    {
+     "home": "Vet. Sporting Vidrerenca",
+     "away": "Sàbat Veterans"
+    },
+    {
+     "home": "UE Comacros Veterans A",
+     "away": "Veterans La Batllòria"
+    },
+    {
+     "home": "CE Anglès",
+     "away": "Veterans Pontenc"
+    },
+    {
+     "home": "Anglès Huellas Colombia",
+     "away": "Veterans d'Arbúcies"
+    },
+    {
+     "home": "Atlético Empuriabrava",
+     "away": "UCE Celrà"
+    }
+   ]
+  },
+  {
+   "number": 26,
+   "date": "2027-04-03",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Veterans CF Sils",
+     "away": "FVB Vilobí"
+    },
+    {
+     "home": "Comacros C - La H",
+     "away": "CE Sant Hilari-Font Vella"
+    },
+    {
+     "home": "Veteranos El Barrio",
+     "away": "Inter Lloret"
+    },
+    {
+     "home": "Sàbat Veterans",
+     "away": "Real Guíxols FC"
+    },
+    {
+     "home": "Veterans La Batllòria",
+     "away": "Vet. Sporting Vidrerenca"
+    },
+    {
+     "home": "Veterans Pontenc",
+     "away": "UE Comacros Veterans A"
+    },
+    {
+     "home": "Veterans d'Arbúcies",
+     "away": "CE Anglès"
+    },
+    {
+     "home": "UCE Celrà",
+     "away": "Anglès Huellas Colombia"
+    },
+    {
+     "home": "Atlético Empuriabrava",
+     "away": "Majestic FC"
+    }
+   ]
+  },
+  {
+   "number": 27,
+   "date": "2027-04-10",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Majestic FC",
+     "away": "Veterans CF Sils"
+    },
+    {
+     "home": "FVB Vilobí",
+     "away": "Comacros C - La H"
+    },
+    {
+     "home": "CE Sant Hilari-Font Vella",
+     "away": "Veteranos El Barrio"
+    },
+    {
+     "home": "Inter Lloret",
+     "away": "Sàbat Veterans"
+    },
+    {
+     "home": "Real Guíxols FC",
+     "away": "Veterans La Batllòria"
+    },
+    {
+     "home": "Vet. Sporting Vidrerenca",
+     "away": "Veterans Pontenc"
+    },
+    {
+     "home": "UE Comacros Veterans A",
+     "away": "Veterans d'Arbúcies"
+    },
+    {
+     "home": "CE Anglès",
+     "away": "UCE Celrà"
+    },
+    {
+     "home": "Anglès Huellas Colombia",
+     "away": "Atlético Empuriabrava"
+    }
+   ]
+  },
+  {
+   "number": 28,
+   "date": "2027-04-17",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Comacros C - La H",
+     "away": "Veterans CF Sils"
+    },
+    {
+     "home": "Veteranos El Barrio",
+     "away": "FVB Vilobí"
+    },
+    {
+     "home": "Sàbat Veterans",
+     "away": "CE Sant Hilari-Font Vella"
+    },
+    {
+     "home": "Veterans La Batllòria",
+     "away": "Inter Lloret"
+    },
+    {
+     "home": "Veterans Pontenc",
+     "away": "Real Guíxols FC"
+    },
+    {
+     "home": "Veterans d'Arbúcies",
+     "away": "Vet. Sporting Vidrerenca"
+    },
+    {
+     "home": "UCE Celrà",
+     "away": "UE Comacros Veterans A"
+    },
+    {
+     "home": "Atlético Empuriabrava",
+     "away": "CE Anglès"
+    },
+    {
+     "home": "Anglès Huellas Colombia",
+     "away": "Majestic FC"
+    }
+   ]
+  },
+  {
+   "number": 29,
+   "date": "2027-04-24",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Majestic FC",
+     "away": "Comacros C - La H"
+    },
+    {
+     "home": "Veterans CF Sils",
+     "away": "Veteranos El Barrio"
+    },
+    {
+     "home": "FVB Vilobí",
+     "away": "Sàbat Veterans"
+    },
+    {
+     "home": "CE Sant Hilari-Font Vella",
+     "away": "Veterans La Batllòria"
+    },
+    {
+     "home": "Inter Lloret",
+     "away": "Veterans Pontenc"
+    },
+    {
+     "home": "Real Guíxols FC",
+     "away": "Veterans d'Arbúcies"
+    },
+    {
+     "home": "Vet. Sporting Vidrerenca",
+     "away": "UCE Celrà"
+    },
+    {
+     "home": "UE Comacros Veterans A",
+     "away": "Atlético Empuriabrava"
+    },
+    {
+     "home": "CE Anglès",
+     "away": "Anglès Huellas Colombia"
+    }
+   ]
+  },
+  {
+   "number": 30,
+   "date": "2027-05-01",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Veteranos El Barrio",
+     "away": "Comacros C - La H"
+    },
+    {
+     "home": "Sàbat Veterans",
+     "away": "Veterans CF Sils"
+    },
+    {
+     "home": "Veterans La Batllòria",
+     "away": "FVB Vilobí"
+    },
+    {
+     "home": "Veterans Pontenc",
+     "away": "CE Sant Hilari-Font Vella"
+    },
+    {
+     "home": "Veterans d'Arbúcies",
+     "away": "Inter Lloret"
+    },
+    {
+     "home": "UCE Celrà",
+     "away": "Real Guíxols FC"
+    },
+    {
+     "home": "Atlético Empuriabrava",
+     "away": "Vet. Sporting Vidrerenca"
+    },
+    {
+     "home": "Anglès Huellas Colombia",
+     "away": "UE Comacros Veterans A"
+    },
+    {
+     "home": "CE Anglès",
+     "away": "Majestic FC"
+    }
+   ]
+  },
+  {
+   "number": 31,
+   "date": "2027-05-08",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Majestic FC",
+     "away": "Veteranos El Barrio"
+    },
+    {
+     "home": "Comacros C - La H",
+     "away": "Sàbat Veterans"
+    },
+    {
+     "home": "Veterans CF Sils",
+     "away": "Veterans La Batllòria"
+    },
+    {
+     "home": "FVB Vilobí",
+     "away": "Veterans Pontenc"
+    },
+    {
+     "home": "CE Sant Hilari-Font Vella",
+     "away": "Veterans d'Arbúcies"
+    },
+    {
+     "home": "Inter Lloret",
+     "away": "UCE Celrà"
+    },
+    {
+     "home": "Real Guíxols FC",
+     "away": "Atlético Empuriabrava"
+    },
+    {
+     "home": "Vet. Sporting Vidrerenca",
+     "away": "Anglès Huellas Colombia"
+    },
+    {
+     "home": "UE Comacros Veterans A",
+     "away": "CE Anglès"
+    }
+   ]
+  },
+  {
+   "number": 32,
+   "date": "2027-05-15",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Sàbat Veterans",
+     "away": "Veteranos El Barrio"
+    },
+    {
+     "home": "Veterans La Batllòria",
+     "away": "Comacros C - La H"
+    },
+    {
+     "home": "Veterans Pontenc",
+     "away": "Veterans CF Sils"
+    },
+    {
+     "home": "Veterans d'Arbúcies",
+     "away": "FVB Vilobí"
+    },
+    {
+     "home": "UCE Celrà",
+     "away": "CE Sant Hilari-Font Vella"
+    },
+    {
+     "home": "Atlético Empuriabrava",
+     "away": "Inter Lloret"
+    },
+    {
+     "home": "Anglès Huellas Colombia",
+     "away": "Real Guíxols FC"
+    },
+    {
+     "home": "CE Anglès",
+     "away": "Vet. Sporting Vidrerenca"
+    },
+    {
+     "home": "UE Comacros Veterans A",
+     "away": "Majestic FC"
+    }
+   ]
+  },
+  {
+   "number": 33,
+   "date": "2027-05-22",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Sàbat Veterans",
+     "away": "Majestic FC"
+    },
+    {
+     "home": "Veteranos El Barrio",
+     "away": "Veterans La Batllòria"
+    },
+    {
+     "home": "Comacros C - La H",
+     "away": "Veterans Pontenc"
+    },
+    {
+     "home": "Veterans CF Sils",
+     "away": "Veterans d'Arbúcies"
+    },
+    {
+     "home": "FVB Vilobí",
+     "away": "UCE Celrà"
+    },
+    {
+     "home": "CE Sant Hilari-Font Vella",
+     "away": "Atlético Empuriabrava"
+    },
+    {
+     "home": "Inter Lloret",
+     "away": "Anglès Huellas Colombia"
+    },
+    {
+     "home": "Real Guíxols FC",
+     "away": "CE Anglès"
+    },
+    {
+     "home": "Vet. Sporting Vidrerenca",
+     "away": "UE Comacros Veterans A"
+    }
+   ]
+  },
+  {
+   "number": 34,
+   "date": "2027-05-29",
+   "altDate": null,
+   "matches": [
+    {
+     "home": "Veterans La Batllòria",
+     "away": "Sàbat Veterans"
+    },
+    {
+     "home": "Veterans Pontenc",
+     "away": "Veteranos El Barrio"
+    },
+    {
+     "home": "Veterans d'Arbúcies",
+     "away": "Comacros C - La H"
+    },
+    {
+     "home": "UCE Celrà",
+     "away": "Veterans CF Sils"
+    },
+    {
+     "home": "Atlético Empuriabrava",
+     "away": "FVB Vilobí"
+    },
+    {
+     "home": "Anglès Huellas Colombia",
+     "away": "CE Sant Hilari-Font Vella"
+    },
+    {
+     "home": "CE Anglès",
+     "away": "Inter Lloret"
+    },
+    {
+     "home": "UE Comacros Veterans A",
+     "away": "Real Guíxols FC"
+    },
+    {
+     "home": "Majestic FC",
+     "away": "Vet. Sporting Vidrerenca"
+    }
+   ]
+  }
+ ]
+}

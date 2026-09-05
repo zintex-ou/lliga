@@ -1,0 +1,177 @@
+[
+ {
+  "surname": "Zinchenko",
+  "name": "Ievgen",
+  "dob": "1982-03-12",
+  "position": "POR",
+  "dorsal": 1
+ },
+ {
+  "surname": "Ait Belqass",
+  "name": "Abdelkarim",
+  "dob": "1989-03-21",
+  "position": "MIG",
+  "dorsal": 11
+ },
+ {
+  "surname": "Hlot",
+  "name": "Viacheslav",
+  "dob": "1991-12-14",
+  "position": "MIG",
+  "dorsal": 14
+ },
+ {
+  "surname": "Ignatov",
+  "name": "Krasimir",
+  "dob": "1979-06-26",
+  "position": "MIG",
+  "dorsal": 4
+ },
+ {
+  "surname": "Clarke Pulido",
+  "name": "Jake",
+  "dob": "1990-10-30",
+  "position": "MIG",
+  "dorsal": 6
+ },
+ {
+  "surname": "Farafontov",
+  "name": "Vitalii",
+  "dob": "1983-02-22",
+  "position": "DEF",
+  "dorsal": 8
+ },
+ {
+  "surname": "Reutsa",
+  "name": "Denys",
+  "dob": "1985-10-25",
+  "position": "DAV",
+  "dorsal": 10
+ },
+ {
+  "surname": "Zelenov",
+  "name": "Anton",
+  "dob": "1984-10-17",
+  "position": "MIG",
+  "dorsal": 15
+ },
+ {
+  "surname": "Stoiachenko",
+  "name": "Dmytro",
+  "dob": "1985-12-17",
+  "position": "DEF",
+  "dorsal": 17
+ },
+ {
+  "surname": "Rubanov",
+  "name": "Oleksii",
+  "dob": "1981-04-17",
+  "position": "DEF",
+  "dorsal": 18
+ },
+ {
+  "surname": "Chaara",
+  "name": "Younes",
+  "dob": "1985-06-06",
+  "position": "MIG",
+  "dorsal": 77
+ },
+ {
+  "surname": "Ratych",
+  "name": "Oleksandr",
+  "dob": "1986-08-06",
+  "position": "DEF",
+  "dorsal": 37
+ },
+ {
+  "surname": "Balleste Da Silva",
+  "name": "Miquel",
+  "dob": "1994-11-06",
+  "position": "MIG",
+  "dorsal": 40
+ },
+ {
+  "surname": "Andreev",
+  "name": "Alexander",
+  "dob": "1998-02-27",
+  "position": "MIG",
+  "dorsal": 27
+ },
+ {
+  "surname": "Cruz Gonzalez",
+  "name": "Jhoan Andres",
+  "dob": "1992-11-19",
+  "position": "DEF",
+  "dorsal": 16
+ },
+ {
+  "surname": "Delgado Baez",
+  "name": "Daniel Alfonzo",
+  "dob": "1989-05-07",
+  "position": "MIG",
+  "dorsal": 5
+ },
+ {
+  "surname": "Segui Martin",
+  "name": "Francisco",
+  "dob": "1970-03-10",
+  "position": "DEF",
+  "dorsal": 3
+ },
+ {
+  "surname": "Coloma Martos",
+  "name": "Josep Lluis",
+  "dob": "1990-04-30",
+  "position": "MIG",
+  "dorsal": 90
+ },
+ {
+  "surname": "Zamora Navarro",
+  "name": "Jesus Enrique",
+  "dob": "1996-04-24",
+  "position": "MIG",
+  "dorsal": 20
+ },
+ {
+  "surname": "Martínez",
+  "name": "Cristian Ezequiel",
+  "dob": "1998-07-15",
+  "position": "DAV",
+  "dorsal": 25
+ },
+ {
+  "surname": "Balleste Planas",
+  "name": "Oscar",
+  "dob": "2006-04-21",
+  "position": "MIG",
+  "dorsal": 7
+ },
+ {
+  "surname": "Cuerva Martinez",
+  "name": "Cristian",
+  "dob": "1990-08-07",
+  "position": "DAV",
+  "dorsal": 22
+ },
+ {
+  "surname": "Pastrana Rodriguez",
+  "name": "Adoni Adalid",
+  "dob": "1993-06-20",
+  "position": "DAV",
+  "dorsal": 30
+ },
+ {
+  "surname": "Lopez Fernandez",
+  "name": "Daniel",
+  "dob": "1998-01-10",
+  "position": "POR",
+  "dorsal": 43
+ },
+ {
+  "surname": "Padaliuk",
+  "name": "Oleksandr",
+  "dob": "1982-12-17",
+  "position": "MIG",
+  "dorsal": 26
+ }
+]

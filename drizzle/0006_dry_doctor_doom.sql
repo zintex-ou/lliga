@@ -1,0 +1,1 @@
+ALTER TABLE `referee_rating` ADD `protest` integer DEFAULT false NOT NULL;

@@ -1,0 +1,11 @@
+services:
+  web:
+    build: .
+    ports: ["3000:3000"]
+    volumes: ["./data:/data"]
+    environment:
+      - AUTH_SECRET=${AUTH_SECRET:-change-me-to-a-long-random-string}
+      - ADMIN_EMAIL=${ADMIN_EMAIL:-admin@lliga.local}
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-admin1234}
+      - SITE_URL=${SITE_URL:-http://localhost:3000}
+    restart: unless-stopped
