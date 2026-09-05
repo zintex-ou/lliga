@@ -68,7 +68,8 @@ export type Row = { team: Team; pj: number; w: number; d: number; l: number; gf:
 export function standings(groupId: number, uptoRound?: number): Row[] {
   const { teams, matches } = loadGroup(groupId);
   const rows = new Map<number, Row>(teams.map((t) => [t.id, { team: t, pj: 0, w: 0, d: 0, l: 0, gf: 0, gc: 0, pts: 0, form: [] }]));
-  for (const m of matches) {
+  const chrono = [...matches].sort((a, b) => matchDate(a).localeCompare(matchDate(b)) || a.round.number - b.round.number); // form by real date (J1/J2 are played in June)
+  for (const m of chrono) {
     if (m.status !== "played" && m.status !== "walkover") continue;
     if (uptoRound && m.round.number > uptoRound) continue;
     if (m.homeGoals == null || m.awayGoals == null) continue;
