@@ -38,10 +38,10 @@ export default async function TeamAdmin({ params }: { params: Promise<{ id: stri
             <div><label>Abreviatura (escut de text, 2-3 lletres)</label><input name="short" defaultValue={team.short ?? ""} maxLength={4} /></div>
             <div><label>Població</label><input name="town" defaultValue={team.town ?? ""} /></div>
             <div><label>Camp (per defecte als partits de casa)</label><input name="field" defaultValue={team.field ?? ""} /></div>
-            <div><label>Colors</label><input name="colors" defaultValue={team.colors ?? ""} /></div>
             <div><label>A la lliga des de</label><input name="founded" defaultValue={team.founded ?? ""} /></div>
             <div className="full"><label>Informació de l'equip</label><textarea name="info" rows={4} defaultValue={team.info ?? ""} /></div>
           </>}
+          <div className="full"><label>Indumentària (colors de la samarreta i el pantaló, segona equipació)</label><input name="colors" defaultValue={team.colors ?? ""} placeholder="samarreta blanca i pantaló negre; segona: verda i blanca" /></div>
           <div><label>Escut (es redimensiona a 400×400)</label>{team.logo && <img className="thumb" src={`/uploads/${team.logo}`} alt="" />}<input type="file" name="logo" accept="image/*" /></div>
           <div><label>Foto d'equip (es retalla a 3:2, 1200×800)</label>{team.photo && <img className="thumb wide" src={`/uploads/${team.photo}`} alt="" />}<input type="file" name="photo" accept="image/*" /></div>
         </div>
@@ -67,7 +67,7 @@ export default async function TeamAdmin({ params }: { params: Promise<{ id: stri
             <form action={saveStaff}><input type="hidden" name="teamId" value={team.id} /><input type="hidden" name="id" value={s.id} />
               <input name="name" defaultValue={s.name} style={{ width: 220 }} />
               <select name="role" defaultValue={s.role} style={{ width: 190 }}><option value="delegat">Delegat</option><option value="entrenador">Entrenador</option><option value="delegat-entrenador">Delegat i entrenador</option></select>
-              <input name="phone" defaultValue={s.phone ?? ""} placeholder="telèfon" style={{ width: 140 }} />
+              <input name="phone" defaultValue={s.phone ?? ""} placeholder="telèfon" style={{ width: 130 }} /><input name="email" type="email" defaultValue={s.email ?? ""} placeholder="e-mail" style={{ width: 200 }} />
               <label style={{ fontSize: 12 }}><input type="checkbox" name="phoneVisible" defaultChecked={s.phoneVisible} /> públic</label>
               <input type="hidden" name="sort" value={s.sort} />
               <button className="btn sm">Desar</button></form>
@@ -77,7 +77,7 @@ export default async function TeamAdmin({ params }: { params: Promise<{ id: stri
         <form action={saveStaff} className="actions"><input type="hidden" name="teamId" value={team.id} /><input type="hidden" name="sort" value={staff.length} />
           <input name="name" placeholder="Nom i cognoms" style={{ width: 220 }} required />
           <select name="role" style={{ width: 190 }}><option value="delegat">Delegat</option><option value="entrenador">Entrenador</option><option value="delegat-entrenador">Delegat i entrenador</option></select>
-          <input name="phone" placeholder="telèfon" style={{ width: 140 }} /><label style={{ fontSize: 12 }}><input type="checkbox" name="phoneVisible" /> públic</label>
+          <input name="phone" placeholder="telèfon" style={{ width: 130 }} /><input name="email" type="email" placeholder="e-mail" style={{ width: 200 }} /><label style={{ fontSize: 12 }}><input type="checkbox" name="phoneVisible" /> públic</label>
           <button className="btn sm">+ Afegir</button></form>
       </div>
 
@@ -93,13 +93,13 @@ export default async function TeamAdmin({ params }: { params: Promise<{ id: stri
               <td>{p.position}</td><td className="num">{fmtDob(p.dob)}</td>
               <td className="num">{pj}</td><td className="num">{goals}</td><td className="num">{yellows || ""}</td><td className="num">{reds || ""}</td>
               <td className="gk">{p.registeredAt ?? ""}</td>
-              <td><Link className="btn ghost sm" href={`/admin/jugadors/${p.id}`}>{full ? "Editar" : "Foto"}</Link></td>
+              <td><Link className="btn ghost sm" href={`/admin/jugadors/${p.id}`}>Editar</Link></td>
             </tr>
           ))}</tbody>
         </table>
       </div>
 
-      {full && <>
+      <>
         <h2>Afegir jugador</h2>
         <form action={savePlayer} className="box">
           <input type="hidden" name="teamId" value={team.id} />
@@ -122,12 +122,12 @@ export default async function TeamAdmin({ params }: { params: Promise<{ id: stri
             <div className="actions"><button className="btn">Importar</button></div>
           </form>
         </details>
-      </>}
-      {full && <details className="edit"><summary style={{ color: "var(--red)" }}>Esborrar jugadors sense partits</summary>
+      </>
+      <details className="edit"><summary style={{ color: "var(--red)" }}>Esborrar jugadors sense partits</summary>
         <div className="box" style={{ marginTop: 8 }}><ul className="rowlist">{stats.filter((s) => s.pj === 0 && s.goals === 0 && s.yellows === 0).map(({ player: p }) => (
           <li key={p.id}><span style={{ flex: 1 }}>{p.dorsal ?? ""} · {p.surname} {p.name}</span><form action={deletePlayer}><input type="hidden" name="id" value={p.id} /><button className="btn danger sm">Esborrar</button></form></li>
         ))}</ul></div>
-      </details>}
+      </details>
     </>
   );
 }

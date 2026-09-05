@@ -38,6 +38,7 @@ export const staff = sqliteTable("staff", {
   name: text("name").notNull(),
   role: text("role").notNull().default("delegat"), // delegat | entrenador | delegat-entrenador
   phone: text("phone"),
+  email: text("email"),
   phoneVisible: integer("phone_visible", { mode: "boolean" }).notNull().default(false),
   sort: integer("sort").notNull().default(0),
 });

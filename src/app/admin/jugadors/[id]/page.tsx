@@ -23,7 +23,7 @@ export default async function PlayerAdmin({ params }: { params: Promise<{ id: st
       <form action={savePlayer} className="box">
         <input type="hidden" name="id" value={p.id} /><input type="hidden" name="teamId" value={p.teamId} />
         <div className="form">
-          {full && <>
+          <>
             <div><label>Cognoms</label><input name="surname" defaultValue={p.surname} required /></div>
             <div><label>Nom</label><input name="name" defaultValue={p.name} /></div>
             <div><label>Data de naixement</label><input type="date" name="dob" defaultValue={p.dob ?? ""} /></div>
@@ -31,7 +31,7 @@ export default async function PlayerAdmin({ params }: { params: Promise<{ id: st
             <div><label>Dorsal</label><input type="number" name="dorsal" min={0} max={99} defaultValue={p.dorsal ?? ""} /></div>
             <div><label>Data de la fitxa</label><input type="date" name="registeredAt" defaultValue={p.registeredAt ?? ""} /></div>
             <div><label>Estat</label><label style={{ fontSize: 14, color: "var(--ink)" }}><input type="checkbox" name="active" defaultChecked={p.active} /> Actiu (desmarca per donar de baixa: desapareix de les actes però conserva les estadístiques)</label></div>
-          </>}
+          </>
           <div><label>Foto (es retalla a 3:4, 600×800)</label>{p.photo && <img className="thumb" src={`/uploads/${p.photo}`} alt="" style={{ width: 90, height: 120 }} />}<input type="file" name="photo" accept="image/*" /></div>
         </div>
         <div className="actions"><button className="btn">Desar</button></div>

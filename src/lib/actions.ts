@@ -64,8 +64,9 @@ export async function saveTeam(fd: FormData) {
   const patch: Partial<typeof schema.teams.$inferInsert> = {};
   if (logo) patch.logo = logo;
   if (photo) patch.photo = photo;
+  if (fd.has("colors")) patch.colors = str(fd, "colors") || null; // delegates may edit the kit description
   if (full) {
-    Object.assign(patch, { name: str(fd, "name") || undefined, short: str(fd, "short") || null, colors: str(fd, "colors") || null, field: str(fd, "field") || null, town: str(fd, "town") || null, founded: str(fd, "founded") || null, info: str(fd, "info") || null });
+    Object.assign(patch, { name: str(fd, "name") || undefined, short: str(fd, "short") || null, field: str(fd, "field") || null, town: str(fd, "town") || null, founded: str(fd, "founded") || null, info: str(fd, "info") || null });
   }
   db.update(schema.teams).set(patch).where(eq(schema.teams.id, id)).run();
   audit(u.id, "team", id, "update");
@@ -76,7 +77,7 @@ export async function saveStaff(fd: FormData) {
   const teamId = Number(fd.get("teamId"));
   const { u } = await teamAccess(teamId);
   const id = num(fd, "id");
-  const row = { teamId, name: str(fd, "name"), role: str(fd, "role") || "delegat", phone: str(fd, "phone") || null, phoneVisible: bool(fd, "phoneVisible"), sort: num(fd, "sort") ?? 0 };
+  const row = { teamId, name: str(fd, "name"), role: str(fd, "role") || "delegat", phone: str(fd, "phone") || null, email: str(fd, "email") || null, phoneVisible: bool(fd, "phoneVisible"), sort: num(fd, "sort") ?? 0 };
   if (!row.name) return;
   if (id) db.update(schema.staff).set(row).where(and(eq(schema.staff.id, id), eq(schema.staff.teamId, teamId))).run();
   else db.insert(schema.staff).values(row).run();
@@ -93,30 +94,29 @@ export async function deleteStaff(fd: FormData) {
 /* ---------- players ---------- */
 export async function savePlayer(fd: FormData) {
   const teamId = Number(fd.get("teamId"));
-  const { u, full } = await teamAccess(teamId);
+  const { u } = await teamAccess(teamId); // admins/presidents and the team's own delegate
   const id = num(fd, "id");
   const photo = await saveUpload(fd.get("photo") as File | null, "player", `p${id ?? "new"}`);
-  if (!full) { // delegat: only photo
-    if (id && photo) db.update(schema.players).set({ photo }).where(and(eq(schema.players.id, id), eq(schema.players.teamId, teamId))).run();
-    revalidateAll(); return;
-  }
   const row = { teamId, surname: str(fd, "surname"), name: str(fd, "name"), dob: str(fd, "dob") || null, position: str(fd, "position") || "MIG", dorsal: num(fd, "dorsal"), registeredAt: str(fd, "registeredAt") || new Date().toISOString().slice(0, 10), active: fd.has("active") ? bool(fd, "active") : true, ...(photo ? { photo } : {}) };
   if (!row.surname) return;
-  if (id) db.update(schema.players).set(row).where(eq(schema.players.id, id)).run();
+  if (id) db.update(schema.players).set(row).where(and(eq(schema.players.id, id), eq(schema.players.teamId, teamId))).run();
   else db.insert(schema.players).values(row).run();
   audit(u.id, "player", id, id ? "update" : "create");
   revalidateAll();
 }
 export async function deletePlayer(fd: FormData) {
-  const u = await requireUser("content");
   const id = Number(fd.get("id"));
+  const pl = db.select().from(schema.players).where(eq(schema.players.id, id)).get();
+  if (!pl) return;
+  const { u } = await teamAccess(pl.teamId);
+  if (db.select().from(schema.appearances).where(eq(schema.appearances.playerId, id)).get()) return; // played: deactivate instead
   db.delete(schema.players).where(eq(schema.players.id, id)).run();
   audit(u.id, "player", id, "delete"); revalidateAll();
 }
 /** Bulk import: one player per line "Cognoms, Nom, dd.mm.aaaa, POS, dorsal" (comma or tab separated). */
 export async function importPlayers(fd: FormData) {
-  const u = await requireUser("content");
   const teamId = Number(fd.get("teamId"));
+  const { u } = await teamAccess(teamId);
   const lines = str(fd, "text").split(/\r?\n/).map((l) => l.trim()).filter(Boolean);
   const POS: Record<string, string> = { POR: "POR", PORTERO: "POR", PORTER: "POR", DEF: "DEF", DEFENSA: "DEF", MIG: "MIG", MED: "MIG", CENTROCAMPISTA: "MIG", MIGCAMPISTA: "MIG", DAV: "DAV", DEL: "DAV", DELANTERO: "DAV", DAVANTER: "DAV" };
   let n = 0;

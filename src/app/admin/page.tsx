@@ -56,7 +56,7 @@ export default async function AdminHome() {
         {team && (() => { const past = loadGroup(team.groupId).matches.filter((m) => (m.homeId === team.id || m.awayId === team.id) && (m.status === "played" || m.status === "walkover") && m.refereeId).sort((a, b) => matchDate(b).localeCompare(matchDate(a))).slice(0, 6); const rated = new Set(db.select().from(schema.refereeRatings).where(eq(schema.refereeRatings.teamId, team.id)).all().map((r) => r.matchId)); return past.length ? (
           <div className="box"><b>Valora l&apos;arbitratge</b> dels últims partits (1-5; si cal, presenta una protesta):<ul className="rowlist" style={{ marginTop: 6 }}>{past.map((m) => <li key={m.id}><span style={{ flex: 1 }}>J{m.round.number} · {m.home.name} {m.homeGoals}–{m.awayGoals} {m.away.name}</span>{rated.has(m.id) ? <span className="tag green">valorat</span> : <Link className="btn sm" href={`/partit/${m.id}#arbitre`}>Valorar</Link>}</li>)}</ul></div>) : null; })()}
         <div className="box">
-          {team ? <p style={{ margin: 0 }}>Pots editar les fotos, la galeria i els delegats del teu equip: <Link href={`/admin/equips/${team.id}`}>obre el meu equip →</Link></p> : <p style={{ margin: 0 }}>El teu compte no té cap equip assignat.</p>}
+          {team ? <p style={{ margin: 0 }}>Pots gestionar la plantilla (alta, baixa, fotos), els delegats, la indumentària, l&apos;escut i les fotos del teu equip: <Link href={`/admin/equips/${team.id}`}>obre el meu equip →</Link></p> : <p style={{ margin: 0 }}>El teu compte no té cap equip assignat.</p>}
         </div>
         <PasswordBox />
       </>
