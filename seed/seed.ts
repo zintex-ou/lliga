@@ -52,7 +52,7 @@ async function main() {
           { teamId: t.id, name: "Ievgen Zinchenko", role: "delegat", sort: 0 },
         ]).run();
       } else {
-        const pos = ["POR", "DEF", "DEF", "DEF", "DEF", "MIG", "MIG", "MIG", "MIG", "DAV", "DAV", "POR", "DEF", "MIG", "MIG", "DAV"];
+        const pos = ["POR", "DEF", "DEF", "DEF", "DEF", "MIG", "MIG", "MIG", "MIG", "DAV", "DAV", "POR", "DEF", "DEF", "MIG", "MIG", "DAV", "DAV", "POR", "DEF", "DEF", "MIG", "MIG", "DAV", "DEF", "MIG", "DAV", "DEF", "MIG", "DAV"];
         db.insert(schema.players).values(pos.map((p, i) => ({
           teamId: t.id, surname: `Jugador ${i + 1}`, name: "", position: p, dorsal: i + 1, registeredAt: "2026-09-01",
         }))).run();

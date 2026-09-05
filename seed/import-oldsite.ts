@@ -122,6 +122,14 @@ async function main() {
     }
     console.log(`✓ ${o.name} → ${team.name}${upd.photo ? " (foto)" : ""}`);
   }
+  // placeholder squads: at least 30 slots ("Jugador N") so delegates can fill them in
+  const POS30 = ["POR", "DEF", "DEF", "DEF", "DEF", "MIG", "MIG", "MIG", "MIG", "DAV", "DAV", "POR", "DEF", "DEF", "MIG", "MIG", "DAV", "DAV", "POR", "DEF", "DEF", "MIG", "MIG", "DAV", "DEF", "MIG", "DAV", "DEF", "MIG", "DAV"];
+  for (const t of teams) {
+    const pl = db.select().from(schema.players).where(eq(schema.players.teamId, t.id)).all();
+    if (!pl.some((x) => /^Jugador \d+$/.test(x.surname))) continue; // real squad: leave alone
+    for (let i = pl.length; i < 30; i++) db.insert(schema.players).values({ teamId: t.id, surname: `Jugador ${i + 1}`, name: "", position: POS30[i % 30], dorsal: i + 1, registeredAt: "2026-09-01" }).run();
+    if (pl.length < 30) console.log(`✓ plantilla ${t.name}: ${pl.length} → 30`);
+  }
   // club crests shipped with the repo (seed/<slug>-logo.png)
   for (const t of teams) {
     const src = path.join(__dirname, `${t.slug}-logo.png`);
