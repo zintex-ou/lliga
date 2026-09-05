@@ -1,0 +1,17 @@
+services:
+  web:
+    build: ..
+    restart: unless-stopped
+    volumes: ["/srv/lliga-data:/data"]
+    env_file: [/srv/lliga.env]
+    expose: ["3000"]
+  caddy:
+    image: caddy:2
+    environment: [DOMAIN=${DOMAIN}]
+    restart: unless-stopped
+    ports: ["80:80", "443:443"]
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - /srv/caddy-data:/data
+      - /srv/caddy-config:/config
+    depends_on: [web]
