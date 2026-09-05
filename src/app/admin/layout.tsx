@@ -12,7 +12,7 @@ export default async function AdminLayout({ children }: { children: React.ReactN
   return (
     <div className="admin">
       <aside>
-        <div className="brand disp"><Link href="/" style={{ color: "#fff" }}>← Futbol Empreses Girona</Link></div>
+        <div className="brand disp"><Link href="/" style={{ color: "#fff" }}>← Amics del futbol amateur</Link></div>
         <div className="who"><b>{user.name}</b>{ROLE_LABEL[user.role]}{team ? ` · ${team.name}` : ""}</div>
         <Link href="/admin">Inici</Link>
         {content && <>

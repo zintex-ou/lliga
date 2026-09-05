@@ -9,7 +9,7 @@ export async function GET(req: NextRequest, { params }: { params: Promise<{ kind
   const { kind, key } = await params;
   const k = key.replace(/\.ics$/i, "");
   const season = getActiveSeason();
-  let matches: MatchFull[] = []; let title = "Futbol Empreses Girona";
+  let matches: MatchFull[] = []; let title = "Amics del futbol amateur";
   if (kind === "equip") {
     const team = db.select().from(schema.teams).where(eq(schema.teams.slug, k)).get();
     if (!team) return new Response("Not found", { status: 404 });
@@ -30,7 +30,7 @@ export async function GET(req: NextRequest, { params }: { params: Promise<{ kind
   const site = process.env.SITE_URL || new URL(req.url).origin;
   const esc = (s: string) => s.replace(/\\/g, "\\\\").replace(/;/g, "\;").replace(/,/g, "\\,").replace(/\n/g, "\\n");
   const stamp = new Date().toISOString().replace(/[-:]/g, "").replace(/\.\d{3}/, "");
-  const lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Futbol Empreses Girona//Lliga//CA", "CALSCALE:GREGORIAN", "METHOD:PUBLISH", `X-WR-CALNAME:${esc(title)}`, "X-WR-TIMEZONE:Europe/Madrid", "REFRESH-INTERVAL;VALUE=DURATION:PT6H", "X-PUBLISHED-TTL:PT6H"];
+  const lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Amics del futbol amateur//Lliga//CA", "CALSCALE:GREGORIAN", "METHOD:PUBLISH", `X-WR-CALNAME:${esc(title)}`, "X-WR-TIMEZONE:Europe/Madrid", "REFRESH-INTERVAL;VALUE=DURATION:PT6H", "X-PUBLISHED-TTL:PT6H"];
   for (const m of matches) {
     if (m.status === "postponed" && !m.date) continue;
     const date = matchDate(m).replace(/-/g, "");

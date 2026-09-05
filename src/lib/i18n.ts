@@ -4,8 +4,8 @@ import { readSeasonCookie } from "@/lib/stats";
 export type Lang = "ca" | "es";
 
 const ca = {
-  siteName: "Futbol Empreses Girona",
-  tagline: "Amics del futbol amateur · Campionats per a veterans",
+  siteName: "Amics del futbol amateur",
+  tagline: "Campionats per a veterans",
   inici: "Inici", lliga: "Lliga", grup: "Grup", normatives: "Normatives", contacte: "Contacte",
   normativa: "Normativa veterans", reglament: "Reglament", arbitratges: "Arbitratges", documentacio: "Documentació", circulars: "Circulars",
   resultats: "Resultats", classificacio: "Classificació", calendari: "Calendari", golejadors: "Golejadors", assistents: "Assistents", sancions: "Sancions",
@@ -35,7 +35,7 @@ const ca = {
   tornaEquip: "Torna a l'equip", tornaLliga: "Torna a la classificació",
   penal: "penal", pen: "pen.", segonaGroga: "2a groga", vermellaDirecta: "vermella directa",
   documents: "Documents", descarregar: "Descarregar", senseContingut: "Contingut pendent de publicar.",
-  peu: "Futbol Empreses Girona · Amics del futbol amateur",
+  peu: "Amics del futbol amateur · Campionats per a veterans",
   admin: "Administració", entrar: "Entrar", sortir: "Sortir",
   golejadorsSub: "Rànquing per grup", sancionsSub: "Targetes i sancionats vigents", calendariSub: "Horaris i camps per jornada", reglamentSub: "Normativa de la lliga",
   forma: "Forma",
@@ -60,8 +60,8 @@ const ca = {
   partitsEndarrerits: "Partits endarrerits i ajornats", dataPerConfirmar: "data per confirmar", aniversaris: "Aniversaris de la setmana", avui: "avui", ahir: "ahir", dema: "demà",
 };
 const es: typeof ca = {
-  siteName: "Futbol Empreses Girona",
-  tagline: "Amics del futbol amateur · Campionats per a veterans",
+  siteName: "Amics del futbol amateur",
+  tagline: "Campionats per a veterans",
   inici: "Inicio", lliga: "Liga", grup: "Grupo", normatives: "Normativas", contacte: "Contacto",
   normativa: "Normativa veteranos", reglament: "Reglamento", arbitratges: "Arbitrajes", documentacio: "Documentación", circulars: "Circulares",
   resultats: "Resultados", classificacio: "Clasificación", calendari: "Calendario", golejadors: "Goleadores", assistents: "Asistentes", sancions: "Sanciones",
@@ -91,7 +91,7 @@ const es: typeof ca = {
   tornaEquip: "Volver al equipo", tornaLliga: "Volver a la clasificación",
   penal: "penalti", pen: "pen.", segonaGroga: "2ª amarilla", vermellaDirecta: "roja directa",
   documents: "Documentos", descarregar: "Descargar", senseContingut: "Contenido pendiente de publicar.",
-  peu: "Futbol Empreses Girona · Amics del futbol amateur",
+  peu: "Amics del futbol amateur · Campionats per a veterans",
   admin: "Administración", entrar: "Entrar", sortir: "Salir",
   golejadorsSub: "Ranking por grupo", sancionsSub: "Tarjetas y sancionados vigentes", calendariSub: "Horarios y campos por jornada", reglamentSub: "Normativa de la liga",
   forma: "Forma",

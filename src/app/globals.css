@@ -31,7 +31,8 @@ img{max-width:100%}
 .brand{display:flex;align-items:center;gap:12px;font-family:var(--disp);font-weight:700;font-size:23px;line-height:1;color:#fff;letter-spacing:.02em}
 .brand:hover{color:#fff}
 .brand img{width:50px;height:50px;object-fit:contain;background:#fff;border-radius:50%;padding:3px;box-shadow:0 4px 14px rgba(0,0,0,.45)}
-.brand small{display:block;font-weight:700;font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;opacity:.7;font-family:var(--sans);margin-top:4px}
+.brand>span{text-transform:uppercase;letter-spacing:.04em}
+.brand small{display:block;font-weight:600;font-size:12px;letter-spacing:.02em;text-transform:none;opacity:.75;font-family:var(--sans);margin-top:4px}
 nav.main{display:flex;gap:4px;margin-left:8px;flex-wrap:wrap}
 nav.main>div{position:relative}
 nav.main .item{background:none;border:0;color:#fff;padding:9px 15px;font-weight:600;font-size:14.5px;border-radius:999px;display:inline-block;cursor:pointer;transition:background .15s;opacity:.9}
@@ -114,8 +115,10 @@ tr.mine td{background:var(--green-soft)}
 /* ===== fixtures ===== */
 .fx{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:6px}
 .fx li{border:0}
-.fx a,.fx .row{display:grid;grid-template-columns:1fr 92px 1fr;align-items:center;padding:12px 12px;gap:12px;border-radius:14px;color:var(--ink);background:var(--panel2);transition:background .15s,transform .15s,box-shadow .15s}
-.fx a:hover{background:var(--panel);box-shadow:var(--shadow);transform:translateY(-1px);color:var(--ink)}
+.fx .row{display:grid;grid-template-columns:1fr 92px 1fr;align-items:center;padding:12px 12px;gap:12px;border-radius:14px;color:var(--ink);background:var(--panel2);transition:background .15s,transform .15s,box-shadow .15s}
+.fx .row.link:hover{background:var(--panel);box-shadow:var(--shadow);transform:translateY(-1px)}
+.fx .h a,.fx .a a{color:var(--ink)}.fx .h a:hover,.fx .a a:hover{color:var(--red)}
+.fx a.s{display:block}.fx .meta a{color:var(--ink3)}.fx .meta a:hover{color:var(--red)}
 .fx .h{text-align:right;font-weight:700;font-size:14.5px}
 .fx .a{font-weight:700;font-size:14.5px}
 .fx .s{text-align:center;font-family:var(--disp);font-weight:700;font-size:22px;background:var(--score-bg,var(--ink));color:var(--score-fg,#fff);border-radius:10px;padding:4px 0;line-height:1.2;letter-spacing:.06em}

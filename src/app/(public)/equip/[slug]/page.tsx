@@ -15,7 +15,7 @@ export async function generateMetadata({ params }: { params: Promise<{ slug: str
   const { slug } = await params;
   const team = db.select().from(schema.teams).where(eq(schema.teams.slug, slug)).get();
   if (!team) return {};
-  const desc = [team.town, team.field].filter(Boolean).join(" · ") || "Futbol Empreses Girona";
+  const desc = [team.town, team.field].filter(Boolean).join(" · ") || "Amics del futbol amateur";
   return { title: team.name, description: desc, openGraph: { title: team.name, description: desc, images: [{ url: `/og/equip/${team.slug}`, width: 1200, height: 630 }] }, twitter: { card: "summary_large_image" } };
 }
 

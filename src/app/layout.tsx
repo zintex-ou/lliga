@@ -6,12 +6,12 @@ import { PwaRegister } from "@/components/PwaRegister";
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
-    title: { default: "Futbol Empreses Girona", template: "%s · Futbol Empreses Girona" },
+    title: { default: "Amics del futbol amateur", template: "%s · Amics del futbol amateur" },
     description: "Lliga de futbol veterans de Girona — classificació, resultats, calendari i plantilles",
     icons: { icon: siteLogo(), apple: "/icons/apple-touch-icon.png" },
     manifest: "/manifest.webmanifest",
     metadataBase: process.env.SITE_URL ? new URL(process.env.SITE_URL) : undefined,
-    openGraph: { siteName: "Futbol Empreses Girona", locale: "ca_ES", type: "website", images: [{ url: "/og/site", width: 1200, height: 630 }] },
+    openGraph: { siteName: "Amics del futbol amateur", locale: "ca_ES", type: "website", images: [{ url: "/og/site", width: 1200, height: 630 }] },
     appleWebApp: { capable: true, title: "FEG Lliga", statusBarStyle: "black-translucent" },
   };
 }

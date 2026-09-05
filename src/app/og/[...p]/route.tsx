@@ -18,7 +18,7 @@ export async function GET(_req: NextRequest, { params }: { params: Promise<{ p: 
         <div style={{ display: "flex", height: 14, width: "100%" }}>{Array.from({ length: 9 }).map((_, i) => <div key={i} style={{ flex: 1, background: i % 2 ? "#DA121A" : "#FCDD09" }} />)}</div>
         <div style={{ display: "flex", alignItems: "center", gap: 20, padding: "28px 56px 0" }}>
           <img src={logo} width={72} height={72} style={{ borderRadius: 36, background: "#fff" }} />
-          <div style={{ display: "flex", flexDirection: "column" }}><div style={{ fontSize: 30, fontWeight: 700 }}>Futbol Empreses Girona</div><div style={{ fontSize: 16, letterSpacing: 3, color: "#B9BCC3" }}>AMICS DEL FUTBOL AMATEUR · CAMPIONATS PER A VETERANS</div></div>
+          <div style={{ display: "flex", flexDirection: "column" }}><div style={{ fontSize: 30, fontWeight: 700 }}>Amics del futbol amateur</div><div style={{ fontSize: 16, letterSpacing: 3, color: "#B9BCC3" }}>AMICS DEL FUTBOL AMATEUR · CAMPIONATS PER A VETERANS</div></div>
         </div>
         <div style={{ flex: 1, display: "flex", flexDirection: "column", justifyContent: "center", padding: "0 56px" }}>{content}</div>
         {sub && <div style={{ padding: "0 56px 36px", fontSize: 24, color: "#B9BCC3" }}>{sub}</div>}

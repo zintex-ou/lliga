@@ -45,7 +45,9 @@ footer{text-align:center;color:var(--ink2);font-size:13px;padding:20px}
 </head>
 <body>
 <div class="sen"></div>
-<header><div class="in" style="display:flex;align-items:flex-start;gap:16px;flex-wrap:wrap"><div style="flex:1;min-width:240px"><h1><span class="L ca">Manual d'ús del web de la lliga</span><span class="L es" hidden>Manual de uso de la web de la liga</span></h1><p>Futbol Empreses Girona · Amics del futbol amateur · Campionats per a veterans · Temporada 2026-27</p></div>
+<header><div class="in" style="display:flex;align-items:center;gap:16px;flex-wrap:wrap">
+<img src="/logo.png" alt="" style="width:56px;height:56px;border-radius:50%;background:#fff;padding:3px;object-fit:contain"><div style="flex:1;min-width:240px"><h1 style="text-transform:uppercase">Amics del futbol amateur</h1><p style="margin-top:6px;font-size:14px;font-weight:600;color:#D9DBDF">Campionats per a veterans</p>
+<p style="margin-top:10px;color:#fff;font-size:17px;font-weight:700"><span class="L ca">Manual d'ús del web · Temporada 2026-27</span><span class="L es" hidden>Manual de uso de la web · Temporada 2026-27</span></p></div>
 <div class="lang" role="group" aria-label="Idioma"><button type="button" data-l="ca" class="on">CA</button><button type="button" data-l="es">ES</button></div></div></header>
 <main id="ca" lang="ca">
 
@@ -261,7 +263,7 @@ footer{text-align:center;color:var(--ink2);font-size:13px;padding:20px}
 <div class="tip warn">Los textos de <b>Normativa veteranos</b>, <b>Reglamento</b> y <b>Arbitrajes</b> (Normativas → …) se han copiado de la web antigua de forma automática y pueden contener algún error de transcripción. Es necesario que el presidente de la liga los revise y, si hace falta, los corrija en Administración → Normativas y documentos. Si se dispone del documento original (Word o PDF), se puede subir directamente a Normativas y documentos como archivo descargable, o hacerlo llegar a la liga para que se sustituya el texto.</div>
 <div class="tip">Dudas o problemas: <b>Comité Organizador</b> · 972 204 640 · jaumemonegros@hotmail.com</div>
 </main>
-<footer><span class="L ca">Futbol Empreses Girona · manual d'ús · v2 · setembre 2026</span><span class="L es" hidden>Futbol Empreses Girona · manual de uso · v2 · septiembre 2026</span></footer><script>
+<footer><span class="L ca">Amics del futbol amateur · manual d'ús · v2 · setembre 2026</span><span class="L es" hidden>Amics del futbol amateur · manual de uso · v2 · septiembre 2026</span></footer><script>
 (function(){var b=document.querySelectorAll('.lang button');function set(l){document.getElementById('ca').hidden=l!=='ca';document.getElementById('es').hidden=l!=='es';document.querySelectorAll('.L').forEach(function(e){e.hidden=!e.classList.contains(l)});b.forEach(function(x){x.classList.toggle('on',x.dataset.l===l)});document.documentElement.lang=l;try{localStorage.setItem('manual-lang',l)}catch(e){}}
 b.forEach(function(x){x.addEventListener('click',function(){set(x.dataset.l)})});var l='ca';try{l=localStorage.getItem('manual-lang')||l}catch(e){}if(location.hash.endsWith('-es'))l='es';set(l);})();
 </script>

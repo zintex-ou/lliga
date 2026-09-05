@@ -8,8 +8,8 @@ self.addEventListener("fetch", (e) => {
   e.respondWith(fetch(req).then((res) => { if (res.ok) { const c = res.clone(); caches.open(CACHE).then((cache) => cache.put(req, c)); } return res; }).catch(() => caches.match(req).then((r) => r || caches.match("/"))));
 });
 self.addEventListener("push", (e) => {
-  let d = {}; try { d = e.data ? e.data.json() : {}; } catch { d = { title: "Futbol Empreses Girona", body: e.data && e.data.text() }; }
-  e.waitUntil(self.registration.showNotification(d.title || "Futbol Empreses Girona", { body: d.body || "", icon: d.icon || "/icons/icon-192.png", badge: d.badge || "/icons/icon-192.png", tag: d.tag, data: { url: d.url || "/" } }));
+  let d = {}; try { d = e.data ? e.data.json() : {}; } catch { d = { title: "Amics del futbol amateur", body: e.data && e.data.text() }; }
+  e.waitUntil(self.registration.showNotification(d.title || "Amics del futbol amateur", { body: d.body || "", icon: d.icon || "/icons/icon-192.png", badge: d.badge || "/icons/icon-192.png", tag: d.tag, data: { url: d.url || "/" } }));
 });
 self.addEventListener("notificationclick", (e) => {
   e.notification.close();

@@ -108,19 +108,25 @@ export function FixtureList({ matches, t, lang, showDate }: { matches: MatchFull
         const score = played ? <span className="s">{m.homeGoals}–{m.awayGoals}</span>
           : m.status === "postponed" ? <span className="s post">{t.ajornat}</span>
           : <span className="s t">{m.time || "–:–"}</span>;
-        const inner = (
-          <>
-            <span className="h">{m.home.name}</span>{score}<span className="a">{m.away.name}</span>
-            <span className="meta">
-              {played ? <b>{t.acta} ›</b> : <span>{fmtDate(matchDate(m), lang, false)}{!m.time && m.status === "scheduled" ? ` · ${t.horaPerConfirmar}` : ""}</span>}
-              {showDate && played && <span>{fmtDate(matchDate(m), lang, false)}</span>}
-              {(m.field || m.home.field) && <span>{m.field || m.home.field}</span>}
-              {m.refereeId && !played && refNames?.get(m.refereeId) && <span>⚑ {refNames.get(m.refereeId)}</span>}
-              {m.status === "walkover" && <span>{t.noPresentat}</span>}
-            </span>
-          </>
+        const hasPage = played || !!m.refereeId;
+        const M = ({ children, className }: { children: React.ReactNode; className?: string }) => hasPage ? <Link className={className} href={`/partit/${m.id}`}>{children}</Link> : <span className={className}>{children}</span>;
+        const field = m.field || m.home.field;
+        return (
+          <li key={m.id}>
+            <div className={"row" + (hasPage ? " link" : "")}>
+              <span className="h"><Link href={`/equip/${m.home.slug}`}>{m.home.name}</Link></span>
+              <M>{score}</M>
+              <span className="a"><Link href={`/equip/${m.away.slug}`}>{m.away.name}</Link></span>
+              <span className="meta">
+                {played ? <M><b>{t.acta} ›</b></M> : <span>{fmtDate(matchDate(m), lang, false)}{!m.time && m.status === "scheduled" ? ` · ${t.horaPerConfirmar}` : ""}</span>}
+                {showDate && played && <span>{fmtDate(matchDate(m), lang, false)}</span>}
+                {field && <MapLink field={field} town={m.home.town} hint={m.home.info} />}
+                {m.refereeId && !played && refNames?.get(m.refereeId) && <M>⚑ {refNames.get(m.refereeId)}</M>}
+                {m.status === "walkover" && <span>{t.noPresentat}</span>}
+              </span>
+            </div>
+          </li>
         );
-        return <li key={m.id}>{played || m.refereeId ? <Link href={`/partit/${m.id}`}>{inner}</Link> : <div className="row">{inner}</div>}</li>;
       })}
     </ul>
   );
