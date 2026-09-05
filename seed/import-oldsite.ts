@@ -40,9 +40,10 @@ function parse(html: string): Old[] {
       if (!mm) continue;
       const label = norm(mm[1]), val = mm[2].trim();
       if (label === "delegat") t.delegat = val;
-      else if (label.includes("segon")) t.segon = val;
+      else if (label.startsWith("segon d") || label.startsWith("2n d")) t.segon = val;
       else if (label === "camp") t.camp = val;
       else if (label.startsWith("indument")) t.kit = val;
+      else if (/^(segona|tercera|2a|3a) equipaci/.test(label)) t.kit = `${t.kit ? t.kit + ". " : ""}${mm[1].trim()}: ${val}`;
     }
     const img = body.match(/<img[^>]+src="([^"]+)"/i);
     if (img) t.img = img[1];
@@ -96,7 +97,7 @@ async function main() {
       if (!team.field) upd.field = (m ? m[1] : o.camp).trim();
       if (m && !team.info) upd.info = `Camp: ${o.camp}`;
     }
-    if (o.kit && !team.colors) upd.colors = o.kit;
+    if (o.kit && team.colors !== o.kit) upd.colors = o.kit;
     if (o.img && !team.photo) {
       const ph = await photo(o.img, team.slug);
       if (ph) {
@@ -109,6 +110,7 @@ async function main() {
     if (Object.keys(upd).length) db.update(schema.teams).set(upd).where(eq(schema.teams.id, team.id)).run();
     // delegates: drop placeholders, add real ones if not present
     db.delete(schema.staff).where(and(eq(schema.staff.teamId, team.id), like(schema.staff.name, "Delegat %"))).run();
+    db.delete(schema.staff).where(and(eq(schema.staff.teamId, team.id), like(schema.staff.name, "samarreta%"))).run(); // earlier mis-parse
     const cur = db.select().from(schema.staff).where(eq(schema.staff.teamId, team.id)).all();
     let sort = cur.length;
     for (const p of [person(o.delegat), person(o.segon)]) {
@@ -118,6 +120,16 @@ async function main() {
       db.insert(schema.staff).values({ teamId: team.id, name: p.name, role: "delegat", phone: p.phone, email: p.email, sort: sort++ }).run();
     }
     console.log(`✓ ${o.name} → ${team.name}${upd.photo ? " (foto)" : ""}`);
+  }
+  // club crests shipped with the repo (seed/<slug>-logo.png)
+  for (const t of teams) {
+    const src = path.join(__dirname, `${t.slug}-logo.png`);
+    if (!fs.existsSync(src) || t.logo) continue;
+    fs.mkdirSync(path.join(UPLOAD_DIR, "logo"), { recursive: true });
+    const file = `logo/t${t.id}-seed.png`;
+    await sharp(src).resize(400, 400, { fit: "contain", background: { r: 0, g: 0, b: 0, alpha: 0 } }).png().toFile(path.join(UPLOAD_DIR, file));
+    db.update(schema.teams).set({ logo: file }).where(eq(schema.teams.id, t.id)).run();
+    console.log(`✓ escut ${t.name}`);
   }
   if (unmatched.length) console.log(`\nNo match (old site team not in 2026-27 or renamed): ${unmatched.join(" | ")}`);
   const noData = teams.filter((t) => !olds.some((o) => (ALIASES[norm(o.name)] === t.slug) || core(o.name) === core(t.name) || core(o.name).includes(core(t.name)) || core(t.name).includes(core(o.name))));
