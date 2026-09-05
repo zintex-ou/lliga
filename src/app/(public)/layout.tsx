@@ -32,8 +32,6 @@ export default async function PublicLayout({ children }: { children: React.React
               <span className="item" tabIndex={0}>{t.lliga} ▾</span>
               <div className="dd">
                 {groups.map((g) => <Link key={g.id} href={`/lliga/${g.name.toLowerCase()}`}>{t.grup} {g.name}</Link>)}
-                <Link href="/calendari">{t.calendari}</Link>
-                <Link href="/resultats">{t.resultats}</Link>
                 <Link href="/golejadors">{t.golejadors}</Link>
                 <Link href="/sancions">{t.sancions}</Link>
                 <Link href="/records">{t.records}</Link>
