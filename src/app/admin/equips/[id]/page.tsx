@@ -68,7 +68,7 @@ export default async function TeamAdmin({ params }: { params: Promise<{ id: stri
               <input name="name" defaultValue={s.name} style={{ width: 220 }} />
               <select name="role" defaultValue={s.role} style={{ width: 190 }}><option value="delegat">Delegat</option><option value="entrenador">Entrenador</option><option value="delegat-entrenador">Delegat i entrenador</option></select>
               <input name="phone" defaultValue={s.phone ?? ""} placeholder="telèfon" style={{ width: 130 }} /><input name="email" type="email" defaultValue={s.email ?? ""} placeholder="e-mail" style={{ width: 200 }} />
-              <label style={{ fontSize: 12 }}><input type="checkbox" name="phoneVisible" defaultChecked={s.phoneVisible} /> contacte públic</label>
+              
               <input type="hidden" name="sort" value={s.sort} />
               <button className="btn sm">Desar</button></form>
             <form action={deleteStaff}><input type="hidden" name="teamId" value={team.id} /><input type="hidden" name="id" value={s.id} /><button className="btn ghost sm">×</button></form>
@@ -77,7 +77,7 @@ export default async function TeamAdmin({ params }: { params: Promise<{ id: stri
         <form action={saveStaff} className="actions"><input type="hidden" name="teamId" value={team.id} /><input type="hidden" name="sort" value={staff.length} />
           <input name="name" placeholder="Nom i cognoms" style={{ width: 220 }} required />
           <select name="role" style={{ width: 190 }}><option value="delegat">Delegat</option><option value="entrenador">Entrenador</option><option value="delegat-entrenador">Delegat i entrenador</option></select>
-          <input name="phone" placeholder="telèfon" style={{ width: 130 }} /><input name="email" type="email" placeholder="e-mail" style={{ width: 200 }} /><label style={{ fontSize: 12 }}><input type="checkbox" name="phoneVisible" /> contacte públic</label>
+          <input name="phone" placeholder="telèfon" style={{ width: 130 }} /><input name="email" type="email" placeholder="e-mail" style={{ width: 200 }} />
           <button className="btn sm">+ Afegir</button></form>
       </div>
 

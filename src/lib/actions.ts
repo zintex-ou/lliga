@@ -77,7 +77,7 @@ export async function saveStaff(fd: FormData) {
   const teamId = Number(fd.get("teamId"));
   const { u } = await teamAccess(teamId);
   const id = num(fd, "id");
-  const row = { teamId, name: str(fd, "name"), role: str(fd, "role") || "delegat", phone: str(fd, "phone") || null, email: str(fd, "email") || null, phoneVisible: bool(fd, "phoneVisible"), sort: num(fd, "sort") ?? 0 };
+  const row = { teamId, name: str(fd, "name"), role: str(fd, "role") || "delegat", phone: str(fd, "phone") || null, email: str(fd, "email") || null, phoneVisible: true, sort: num(fd, "sort") ?? 0 };
   if (!row.name) return;
   if (id) db.update(schema.staff).set(row).where(and(eq(schema.staff.id, id), eq(schema.staff.teamId, teamId))).run();
   else db.insert(schema.staff).values(row).run();

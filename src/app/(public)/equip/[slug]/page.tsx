@@ -64,7 +64,7 @@ export default async function TeamPage({ params, searchParams }: { params: Promi
         </div>
         {staff.length > 0 && (
           <div className="staff">{staff.map((s) => (
-            <div key={s.id}><b>{s.name}</b>{t[s.role as "delegat"] ?? s.role}{s.phoneVisible && s.phone ? <> · <a href={`tel:${s.phone.replace(/\s/g, "")}`}>{s.phone}</a></> : ""}{s.phoneVisible && s.email ? <><br /><a href={`mailto:${s.email}`}>{s.email}</a></> : ""}</div>
+            <div key={s.id}><b>{s.name}</b>{t[s.role as "delegat"] ?? s.role}{s.phone ? <> · <a href={`tel:${s.phone.replace(/\s/g, "")}`}>{s.phone}</a></> : ""}{s.email ? <><br /><a href={`mailto:${s.email}`}>{s.email}</a></> : ""}</div>
           ))}</div>
         )}
         {team.info && <div className="info">{team.info}</div>}
