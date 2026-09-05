@@ -471,3 +471,6 @@ details.edit summary{cursor:pointer;font-weight:600;color:var(--green)}
 footer.site .credit{display:inline-flex;align-items:center;gap:10px;color:#A3A7AE;font-size:13px}
 footer.site .credit img{height:18px;width:auto;opacity:.85;transition:opacity .15s}
 footer.site .credit:hover{color:#fff}footer.site .credit:hover img{opacity:1}
+
+.maplink{color:inherit;text-decoration:underline dotted var(--ink3);text-underline-offset:3px}
+.maplink:hover{color:var(--red)}

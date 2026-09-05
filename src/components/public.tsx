@@ -8,6 +8,16 @@ import { loadGroup } from "@/lib/stats";
 
 type Group = typeof schema.groups.$inferSelect;
 
+/** Google Maps link for a football field. `hint` may hold an address, e.g. the team's "Camp: name (address)" info. */
+export function mapsUrl(field: string, town?: string | null, hint?: string | null) {
+  const addr = hint?.match(/\(([^)]+)\)/)?.[1];
+  const q = [field, addr, town && !(addr ?? "").toLowerCase().includes(town.toLowerCase()) ? town : null].filter(Boolean).join(", ");
+  return `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(q)}`;
+}
+export function MapLink({ field, town, hint }: { field: string; town?: string | null; hint?: string | null }) {
+  return <a className="maplink" href={mapsUrl(field, town, hint)} target="_blank" rel="noopener" title="Google Maps">{field} <span aria-hidden>📍</span></a>;
+}
+
 export function teamInitials(team: Team) {
   const words = team.name.replace(/Veterans|Veteranos|Vet\.|d'|\bde\b|\bdel\b|\bla\b|\bFC\b|\bCF\b|\bCE\b|\bUE\b|\bEF\b|\bCEF\b|\bUCE\b|\bFVB\b/g, "").trim().split(/[\s-]+/).filter(Boolean);
   return (team.short || (words.length >= 3 ? words.slice(0, 3).map((w) => w[0]).join("") : words.length === 2 ? words[0].slice(0, 2) + words[1][0] : (words[0] || team.name).slice(0, 3))).toUpperCase();

@@ -4,7 +4,7 @@ import { db, schema } from "@/db";
 import { eq, asc } from "drizzle-orm";
 import { getT, fmtDob } from "@/lib/i18n";
 import { getGroups, getSeason, loadGroup, teamPlayerStats, playerLabel, matchDate } from "@/lib/stats";
-import { Crest, FixtureList } from "@/components/public";
+import { Crest, FixtureList, MapLink } from "@/components/public";
 import { PlayerCard } from "@/components/PlayerCard";
 import { teamSummary } from "@/lib/records";
 import { PushToggle } from "@/components/PushToggle";
@@ -49,7 +49,7 @@ export default async function TeamPage({ params, searchParams }: { params: Promi
             <dl className="kv">
               <dt>{t.grup}</dt><dd><Link href={`/lliga/${group.name.toLowerCase()}`}>{group.name}</Link></dd>
               {team.town && <><dt>{t.poblacio}</dt><dd>{team.town}</dd></>}
-              {team.field && <><dt>{t.camp}</dt><dd>{team.field}</dd></>}
+              {team.field && <><dt>{t.camp}</dt><dd><MapLink field={team.field} town={team.town} hint={team.info} /></dd></>}
               {team.colors && <><dt>{t.colors}</dt><dd>{team.colors}</dd></>}
               {team.founded && <><dt>{t.aLaLligaDes}</dt><dd>{team.founded}</dd></>}
             </dl>
@@ -64,7 +64,7 @@ export default async function TeamPage({ params, searchParams }: { params: Promi
         </div>
         {staff.length > 0 && (
           <div className="staff">{staff.map((s) => (
-            <div key={s.id}><b>{s.name}</b>{t[s.role as "delegat"] ?? s.role}{s.phoneVisible && s.phone ? ` · ${s.phone}` : ""}</div>
+            <div key={s.id}><b>{s.name}</b>{t[s.role as "delegat"] ?? s.role}{s.phoneVisible && s.phone ? <> · <a href={`tel:${s.phone.replace(/\s/g, "")}`}>{s.phone}</a></> : ""}{s.phoneVisible && s.email ? <><br /><a href={`mailto:${s.email}`}>{s.email}</a></> : ""}</div>
           ))}</div>
         )}
         {team.info && <div className="info">{team.info}</div>}

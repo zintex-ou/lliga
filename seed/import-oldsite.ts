@@ -43,7 +43,7 @@ function parse(html: string): Old[] {
       else if (label.startsWith("segon d") || label.startsWith("2n d")) t.segon = val;
       else if (label === "camp") t.camp = val;
       else if (label.startsWith("indument")) t.kit = val;
-      else if (/^(segona|tercera|2a|3a) equipaci/.test(label)) t.kit = `${t.kit ? t.kit + ". " : ""}${mm[1].trim()}: ${val}`;
+      else if (/^(segona|2a) equipaci/.test(label)) t.kit = `${t.kit ? t.kit + ". " : ""}${mm[1].trim()}: ${val}`;
     }
     const img = body.match(/<img[^>]+src="([^"]+)"/i);
     if (img) t.img = img[1];
@@ -116,8 +116,9 @@ async function main() {
     for (const p of [person(o.delegat), person(o.segon)]) {
       if (!p) continue;
       const same = cur.find((s) => norm(s.name) === norm(p.name));
-      if (same) { db.update(schema.staff).set({ phone: same.phone ?? p.phone, email: same.email ?? p.email }).where(eq(schema.staff.id, same.id)).run(); continue; }
-      db.insert(schema.staff).values({ teamId: team.id, name: p.name, role: "delegat", phone: p.phone, email: p.email, sort: sort++ }).run();
+      // contacts were public on the old site, so they stay public here (delegates can hide them in the admin)
+      if (same) { db.update(schema.staff).set({ phone: same.phone ?? p.phone, email: same.email ?? p.email, phoneVisible: true }).where(eq(schema.staff.id, same.id)).run(); continue; }
+      db.insert(schema.staff).values({ teamId: team.id, name: p.name, role: "delegat", phone: p.phone, email: p.email, phoneVisible: true, sort: sort++ }).run();
     }
     console.log(`✓ ${o.name} → ${team.name}${upd.photo ? " (foto)" : ""}`);
   }

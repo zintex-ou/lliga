@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { getT, fmtDate } from "@/lib/i18n";
 import { matchDetails, matchDate, playerLabel, getGroups, type Player } from "@/lib/stats";
 import { getUser, canEditMatches } from "@/lib/auth";
-import { FixtureList } from "@/components/public";
+import { FixtureList, MapLink } from "@/components/public";
 import { ReportForm } from "@/components/ReportForm";
 import { refereeStats } from "@/lib/referees";
 import { Stars } from "@/components/Stars";
@@ -123,7 +123,7 @@ export default async function MatchPage({ params }: { params: Promise<{ id: stri
         </div>
       )}
       <div className="mfoot">
-        {(m.field || m.home.field) && <span>{t.camp}: {m.field || m.home.field}</span>}
+        {(m.field || m.home.field) && <span>{t.camp}: <MapLink field={(m.field || m.home.field)!} town={m.home.town} hint={m.home.info} /></span>}
         {!rs && (refName || m.referee) && <span>{t.arbitre}: {refName || m.referee}</span>}
         {m.notes && <span>{m.notes}</span>}
         <Link href={`/resultats/${groupName}?j=${m.round.number}`} style={{ marginLeft: "auto" }}>{t.resultats} J{m.round.number} →</Link>
