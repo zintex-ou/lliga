@@ -8,7 +8,7 @@
    "matches": [
     {
      "home": "Esportiu Bonmatí",
-     "away": "Bar Moreda"
+     "away": "Restaurant Amura"
     },
     {
      "home": "Veterans Sant Antoni",
@@ -19,7 +19,7 @@
      "away": "Athlètic Can Borell"
     },
     {
-     "home": "Veterans San Andrés",
+     "home": "Veterans Sant Andreu",
      "away": "CE l'Aigüeta"
     },
     {
@@ -50,7 +50,7 @@
    "altDate": "2026-09-12",
    "matches": [
     {
-     "home": "Bar Moreda",
+     "home": "Restaurant Amura",
      "away": "Veterans Bordils-Flaçà"
     },
     {
@@ -67,7 +67,7 @@
     },
     {
      "home": "Veterans CE Farners",
-     "away": "Veterans San Andrés"
+     "away": "Veterans Sant Andreu"
     },
     {
      "home": "CF Torderenc",
@@ -93,7 +93,7 @@
    "altDate": null,
    "matches": [
     {
-     "home": "Bar Moreda",
+     "home": "Restaurant Amura",
      "away": "FC Palafrugell Veterans"
     },
     {
@@ -109,7 +109,7 @@
      "away": "Veterans CE Farners"
     },
     {
-     "home": "Veterans San Andrés",
+     "home": "Veterans Sant Andreu",
      "away": "CF Torderenc"
     },
     {
@@ -141,7 +141,7 @@
     },
     {
      "home": "Athlètic Can Borell",
-     "away": "Bar Moreda"
+     "away": "Restaurant Amura"
     },
     {
      "home": "CE l'Aigüeta",
@@ -157,7 +157,7 @@
     },
     {
      "home": "FC Honduras Figueres",
-     "away": "Veterans San Andrés"
+     "away": "Veterans Sant Andreu"
     },
     {
      "home": "CF Fogars Veterans",
@@ -183,7 +183,7 @@
      "away": "Athlètic Can Borell"
     },
     {
-     "home": "Bar Moreda",
+     "home": "Restaurant Amura",
      "away": "CE l'Aigüeta"
     },
     {
@@ -199,7 +199,7 @@
      "away": "FC Honduras Figueres"
     },
     {
-     "home": "Veterans San Andrés",
+     "home": "Veterans Sant Andreu",
      "away": "CF Fogars Veterans"
     },
     {
@@ -231,7 +231,7 @@
     },
     {
      "home": "Veterans CE Farners",
-     "away": "Bar Moreda"
+     "away": "Restaurant Amura"
     },
     {
      "home": "CF Torderenc",
@@ -247,7 +247,7 @@
     },
     {
      "home": "Veterans Alt Empordà",
-     "away": "Veterans San Andrés"
+     "away": "Veterans Sant Andreu"
     },
     {
      "home": "CEF Veterans SFG",
@@ -273,7 +273,7 @@
      "away": "Veterans CE Farners"
     },
     {
-     "home": "Bar Moreda",
+     "home": "Restaurant Amura",
      "away": "CF Torderenc"
     },
     {
@@ -289,7 +289,7 @@
      "away": "Veterans Alt Empordà"
     },
     {
-     "home": "Veterans San Andrés",
+     "home": "Veterans Sant Andreu",
      "away": "CEF Veterans SFG"
     },
     {
@@ -321,7 +321,7 @@
     },
     {
      "home": "FC Honduras Figueres",
-     "away": "Bar Moreda"
+     "away": "Restaurant Amura"
     },
     {
      "home": "CF Fogars Veterans",
@@ -337,7 +337,7 @@
     },
     {
      "home": "Veterans CF Lloret",
-     "away": "Veterans San Andrés"
+     "away": "Veterans Sant Andreu"
     },
     {
      "home": "Racing Blanenc B",
@@ -363,7 +363,7 @@
      "away": "FC Honduras Figueres"
     },
     {
-     "home": "Bar Moreda",
+     "home": "Restaurant Amura",
      "away": "CF Fogars Veterans"
     },
     {
@@ -379,7 +379,7 @@
      "away": "Veterans CF Lloret"
     },
     {
-     "home": "Veterans San Andrés",
+     "home": "Veterans Sant Andreu",
      "away": "Racing Blanenc B"
     },
     {
@@ -411,7 +411,7 @@
     },
     {
      "home": "Veterans Alt Empordà",
-     "away": "Bar Moreda"
+     "away": "Restaurant Amura"
     },
     {
      "home": "CEF Veterans SFG",
@@ -427,7 +427,7 @@
     },
     {
      "home": "EF Maçanet",
-     "away": "Veterans San Andrés"
+     "away": "Veterans Sant Andreu"
     }
    ]
   },
@@ -453,7 +453,7 @@
      "away": "Veterans Alt Empordà"
     },
     {
-     "home": "Bar Moreda",
+     "home": "Restaurant Amura",
      "away": "CEF Veterans SFG"
     },
     {
@@ -470,7 +470,7 @@
     },
     {
      "home": "Veterans Bordils-Flaçà",
-     "away": "Veterans San Andrés"
+     "away": "Veterans Sant Andreu"
     }
    ]
   },
@@ -501,7 +501,7 @@
     },
     {
      "home": "Veterans CF Lloret",
-     "away": "Bar Moreda"
+     "away": "Restaurant Amura"
     },
     {
      "home": "Racing Blanenc B",
@@ -512,7 +512,7 @@
      "away": "Veterans Sant Antoni"
     },
     {
-     "home": "Veterans San Andrés",
+     "home": "Veterans Sant Andreu",
      "away": "Veterans Ath. Hostalric"
     }
    ]
@@ -543,7 +543,7 @@
      "away": "Veterans CF Lloret"
     },
     {
-     "home": "Bar Moreda",
+     "home": "Restaurant Amura",
      "away": "Racing Blanenc B"
     },
     {
@@ -552,7 +552,7 @@
     },
     {
      "home": "Veterans Sant Antoni",
-     "away": "Veterans San Andrés"
+     "away": "Veterans Sant Andreu"
     },
     {
      "home": "Veterans Bordils-Flaçà",
@@ -591,10 +591,10 @@
     },
     {
      "home": "EF Maçanet",
-     "away": "Bar Moreda"
+     "away": "Restaurant Amura"
     },
     {
-     "home": "Veterans San Andrés",
+     "home": "Veterans Sant Andreu",
      "away": "Esportiu Bonmatí"
     },
     {
@@ -633,8 +633,8 @@
      "away": "EF Maçanet"
     },
     {
-     "home": "Bar Moreda",
-     "away": "Veterans San Andrés"
+     "home": "Restaurant Amura",
+     "away": "Veterans Sant Andreu"
     },
     {
      "home": "Esportiu Bonmatí",
@@ -676,12 +676,12 @@
      "away": "Athlètic Can Borell"
     },
     {
-     "home": "Veterans San Andrés",
+     "home": "Veterans Sant Andreu",
      "away": "FC Palafrugell Veterans"
     },
     {
      "home": "Veterans Ath. Hostalric",
-     "away": "Bar Moreda"
+     "away": "Restaurant Amura"
     },
     {
      "home": "Veterans Sant Antoni",
@@ -716,14 +716,14 @@
     },
     {
      "home": "Athlètic Can Borell",
-     "away": "Veterans San Andrés"
+     "away": "Veterans Sant Andreu"
     },
     {
      "home": "FC Palafrugell Veterans",
      "away": "Veterans Ath. Hostalric"
     },
     {
-     "home": "Bar Moreda",
+     "home": "Restaurant Amura",
      "away": "Veterans Sant Antoni"
     },
     {
@@ -738,7 +738,7 @@
    "altDate": null,
    "matches": [
     {
-     "home": "Bar Moreda",
+     "home": "Restaurant Amura",
      "away": "Esportiu Bonmatí"
     },
     {
@@ -751,7 +751,7 @@
     },
     {
      "home": "CE l'Aigüeta",
-     "away": "Veterans San Andrés"
+     "away": "Veterans Sant Andreu"
     },
     {
      "home": "Veterans CE Farners",
@@ -782,7 +782,7 @@
    "matches": [
     {
      "home": "Veterans Bordils-Flaçà",
-     "away": "Bar Moreda"
+     "away": "Restaurant Amura"
     },
     {
      "home": "Esportiu Bonmatí",
@@ -797,7 +797,7 @@
      "away": "CE l'Aigüeta"
     },
     {
-     "home": "Veterans San Andrés",
+     "home": "Veterans Sant Andreu",
      "away": "Veterans CE Farners"
     },
     {
@@ -825,7 +825,7 @@
    "matches": [
     {
      "home": "FC Palafrugell Veterans",
-     "away": "Bar Moreda"
+     "away": "Restaurant Amura"
     },
     {
      "home": "Athlètic Can Borell",
@@ -841,7 +841,7 @@
     },
     {
      "home": "CF Torderenc",
-     "away": "Veterans San Andrés"
+     "away": "Veterans Sant Andreu"
     },
     {
      "home": "FC Honduras Figueres",
@@ -871,7 +871,7 @@
      "away": "FC Palafrugell Veterans"
     },
     {
-     "home": "Bar Moreda",
+     "home": "Restaurant Amura",
      "away": "Athlètic Can Borell"
     },
     {
@@ -887,7 +887,7 @@
      "away": "CF Torderenc"
     },
     {
-     "home": "Veterans San Andrés",
+     "home": "Veterans Sant Andreu",
      "away": "FC Honduras Figueres"
     },
     {
@@ -915,7 +915,7 @@
     },
     {
      "home": "CE l'Aigüeta",
-     "away": "Bar Moreda"
+     "away": "Restaurant Amura"
     },
     {
      "home": "Veterans CE Farners",
@@ -931,7 +931,7 @@
     },
     {
      "home": "CF Fogars Veterans",
-     "away": "Veterans San Andrés"
+     "away": "Veterans Sant Andreu"
     },
     {
      "home": "Veterans Alt Empordà",
@@ -961,7 +961,7 @@
      "away": "CE l'Aigüeta"
     },
     {
-     "home": "Bar Moreda",
+     "home": "Restaurant Amura",
      "away": "Veterans CE Farners"
     },
     {
@@ -977,7 +977,7 @@
      "away": "CF Fogars Veterans"
     },
     {
-     "home": "Veterans San Andrés",
+     "home": "Veterans Sant Andreu",
      "away": "Veterans Alt Empordà"
     },
     {
@@ -1005,7 +1005,7 @@
     },
     {
      "home": "CF Torderenc",
-     "away": "Bar Moreda"
+     "away": "Restaurant Amura"
     },
     {
      "home": "FC Honduras Figueres",
@@ -1021,7 +1021,7 @@
     },
     {
      "home": "CEF Veterans SFG",
-     "away": "Veterans San Andrés"
+     "away": "Veterans Sant Andreu"
     },
     {
      "home": "Veterans CF Lloret",
@@ -1051,7 +1051,7 @@
      "away": "CF Torderenc"
     },
     {
-     "home": "Bar Moreda",
+     "home": "Restaurant Amura",
      "away": "FC Honduras Figueres"
     },
     {
@@ -1067,7 +1067,7 @@
      "away": "CEF Veterans SFG"
     },
     {
-     "home": "Veterans San Andrés",
+     "home": "Veterans Sant Andreu",
      "away": "Veterans CF Lloret"
     },
     {
@@ -1095,7 +1095,7 @@
     },
     {
      "home": "CF Fogars Veterans",
-     "away": "Bar Moreda"
+     "away": "Restaurant Amura"
     },
     {
      "home": "Veterans Alt Empordà",
@@ -1111,7 +1111,7 @@
     },
     {
      "home": "Racing Blanenc B",
-     "away": "Veterans San Andrés"
+     "away": "Veterans Sant Andreu"
     },
     {
      "home": "EF Maçanet",
@@ -1141,7 +1141,7 @@
      "away": "CF Fogars Veterans"
     },
     {
-     "home": "Bar Moreda",
+     "home": "Restaurant Amura",
      "away": "Veterans Alt Empordà"
     },
     {
@@ -1157,7 +1157,7 @@
      "away": "Racing Blanenc B"
     },
     {
-     "home": "Veterans San Andrés",
+     "home": "Veterans Sant Andreu",
      "away": "EF Maçanet"
     }
    ]
@@ -1185,7 +1185,7 @@
     },
     {
      "home": "CEF Veterans SFG",
-     "away": "Bar Moreda"
+     "away": "Restaurant Amura"
     },
     {
      "home": "Veterans CF Lloret",
@@ -1200,7 +1200,7 @@
      "away": "Veterans Ath. Hostalric"
     },
     {
-     "home": "Veterans San Andrés",
+     "home": "Veterans Sant Andreu",
      "away": "Veterans Bordils-Flaçà"
     }
    ]
@@ -1231,7 +1231,7 @@
      "away": "CEF Veterans SFG"
     },
     {
-     "home": "Bar Moreda",
+     "home": "Restaurant Amura",
      "away": "Veterans CF Lloret"
     },
     {
@@ -1244,7 +1244,7 @@
     },
     {
      "home": "Veterans Ath. Hostalric",
-     "away": "Veterans San Andrés"
+     "away": "Veterans Sant Andreu"
     }
    ]
   },
@@ -1275,14 +1275,14 @@
     },
     {
      "home": "Racing Blanenc B",
-     "away": "Bar Moreda"
+     "away": "Restaurant Amura"
     },
     {
      "home": "EF Maçanet",
      "away": "Esportiu Bonmatí"
     },
     {
-     "home": "Veterans San Andrés",
+     "home": "Veterans Sant Andreu",
      "away": "Veterans Sant Antoni"
     },
     {
@@ -1321,12 +1321,12 @@
      "away": "Racing Blanenc B"
     },
     {
-     "home": "Bar Moreda",
+     "home": "Restaurant Amura",
      "away": "EF Maçanet"
     },
     {
      "home": "Esportiu Bonmatí",
-     "away": "Veterans San Andrés"
+     "away": "Veterans Sant Andreu"
     },
     {
      "home": "Veterans Sant Antoni",
@@ -1364,8 +1364,8 @@
      "away": "FC Palafrugell Veterans"
     },
     {
-     "home": "Veterans San Andrés",
-     "away": "Bar Moreda"
+     "home": "Veterans Sant Andreu",
+     "away": "Restaurant Amura"
     },
     {
      "home": "Veterans Ath. Hostalric",
@@ -1408,10 +1408,10 @@
     },
     {
      "home": "FC Palafrugell Veterans",
-     "away": "Veterans San Andrés"
+     "away": "Veterans Sant Andreu"
     },
     {
-     "home": "Bar Moreda",
+     "home": "Restaurant Amura",
      "away": "Veterans Ath. Hostalric"
     },
     {
@@ -1446,7 +1446,7 @@
      "away": "CE l'Aigüeta"
     },
     {
-     "home": "Veterans San Andrés",
+     "home": "Veterans Sant Andreu",
      "away": "Athlètic Can Borell"
     },
     {
@@ -1455,7 +1455,7 @@
     },
     {
      "home": "Veterans Sant Antoni",
-     "away": "Bar Moreda"
+     "away": "Restaurant Amura"
     },
     {
      "home": "Veterans Bordils-Flaçà",
