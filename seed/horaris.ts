@@ -3,7 +3,6 @@
    Idempotent. Edit ROUND / ROWS / RENAMES for each new round. */
 import { db, schema } from "../src/db";
 import { eq, and } from "drizzle-orm";
-import { teamKey } from "../src/lib/stats";
 
 const RENAMES: Record<string, string> = { "Bar Moreda": "Restaurant Amura", "Veterans San Andrés": "Veterans Sant Andreu" };
 const ALIASES: Record<string, string> = { "fb vilobi": "fvb vilobi", "ce sant hilari font vella": "ce sant hilari font vella" };
@@ -33,6 +32,7 @@ const ROWS: [string, string, string, string, string, string?][] = [
 const RETURN_FIELDS: [string, string, string, string][] = [["A", "CE Sant Hilari-Font Vella", "Vet. Sporting Vidrerenca", "Municipal de Vidreres"]];
 
 const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[–—-]/g, " ").replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
+const teamKey = (name: string) => name.trim().toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/[^a-z0-9]+/g, "-");
 const slugify = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 
 function main() {
