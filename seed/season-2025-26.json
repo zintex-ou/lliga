@@ -1,0 +1,5298 @@
+{
+ "season": "2025-26",
+ "groups": {
+  "A": {
+   "teams": [
+    "Veterans Sant Antoni",
+    "AE Aeroport",
+    "Sàbat Veterans",
+    "FC Alianza Girona",
+    "Vet. Sporting Vidrerenca",
+    "Athlètic Can Borell",
+    "Veterans CF Sils",
+    "Veterans Pontenc",
+    "CE Anglès",
+    "Real Guíxols FC",
+    "Anglès Huellas Colombia",
+    "Veterans Coma Cros B",
+    "Racing Blanenc A",
+    "Coma Cros C - La H",
+    "Inter Lloret",
+    "Veterans d'Arbúcies",
+    "Cafeteros FC",
+    "Veterans La Batllòria"
+   ],
+   "rounds": {
+    "3": {
+     "date": "2025-09-20",
+     "matches": [
+      {
+       "home": "Veterans Sant Antoni",
+       "away": "AE Aeroport",
+       "date": "2025-09-20",
+       "hg": 3,
+       "ag": 6,
+       "status": "played"
+      },
+      {
+       "home": "Sàbat Veterans",
+       "away": "FC Alianza Girona",
+       "date": "2025-09-20",
+       "hg": 6,
+       "ag": 6,
+       "status": "played"
+      },
+      {
+       "home": "Vet. Sporting Vidrerenca",
+       "away": "Athlètic Can Borell",
+       "date": "2025-09-20",
+       "hg": 2,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Sils",
+       "away": "Veterans Pontenc",
+       "date": "2025-09-20",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "CE Anglès",
+       "away": "Real Guíxols FC",
+       "date": "2025-09-20",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Anglès Huellas Colombia",
+       "away": "Veterans Coma Cros B",
+       "date": "2025-09-20",
+       "hg": 0,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc A",
+       "away": "Coma Cros C - La H",
+       "date": "2025-09-20",
+       "hg": 3,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Inter Lloret",
+       "away": "Veterans d'Arbúcies",
+       "date": "2025-09-20",
+       "hg": 1,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Cafeteros FC",
+       "away": "Veterans La Batllòria",
+       "date": "2025-09-20",
+       "hg": 7,
+       "ag": 0,
+       "status": "played"
+      }
+     ]
+    },
+    "4": {
+     "date": "2025-09-27",
+     "matches": [
+      {
+       "home": "AE Aeroport",
+       "away": "Cafeteros FC",
+       "date": "2025-09-27",
+       "hg": 2,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "FC Alianza Girona",
+       "away": "Veterans Sant Antoni",
+       "date": "2025-09-27",
+       "hg": 4,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Athlètic Can Borell",
+       "away": "Sàbat Veterans",
+       "date": "2025-09-27",
+       "hg": 1,
+       "ag": 8,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Pontenc",
+       "away": "Vet. Sporting Vidrerenca",
+       "date": "2025-09-27",
+       "hg": 1,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Real Guíxols FC",
+       "away": "Veterans CF Sils",
+       "date": "2025-09-27",
+       "hg": 2,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Coma Cros B",
+       "away": "CE Anglès",
+       "date": "2025-09-27",
+       "hg": 1,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Coma Cros C - La H",
+       "away": "Anglès Huellas Colombia",
+       "date": "2025-09-27",
+       "hg": 1,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Veterans d'Arbúcies",
+       "away": "Racing Blanenc A",
+       "date": "2025-09-27",
+       "hg": 4,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans La Batllòria",
+       "away": "Inter Lloret",
+       "date": "2025-09-27",
+       "hg": 1,
+       "ag": 7,
+       "status": "played"
+      }
+     ]
+    },
+    "5": {
+     "date": "2025-10-04",
+     "matches": [
+      {
+       "home": "AE Aeroport",
+       "away": "FC Alianza Girona",
+       "date": "2025-10-04",
+       "hg": 1,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sant Antoni",
+       "away": "Athlètic Can Borell",
+       "date": "2025-10-04",
+       "hg": 7,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Sàbat Veterans",
+       "away": "Veterans Pontenc",
+       "date": "2025-10-04",
+       "hg": 8,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Vet. Sporting Vidrerenca",
+       "away": "Real Guíxols FC",
+       "date": "2025-10-04",
+       "hg": 1,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Sils",
+       "away": "Veterans Coma Cros B",
+       "date": "2025-10-04",
+       "hg": 2,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "CE Anglès",
+       "away": "Coma Cros C - La H",
+       "date": "2025-10-04",
+       "hg": 1,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "Anglès Huellas Colombia",
+       "away": "Veterans d'Arbúcies",
+       "date": "2025-10-04",
+       "hg": 2,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc A",
+       "away": "Veterans La Batllòria",
+       "date": "2025-10-04",
+       "hg": 7,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Cafeteros FC",
+       "away": "Inter Lloret",
+       "date": "2025-10-04",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      }
+     ]
+    },
+    "6": {
+     "date": "2025-10-11",
+     "matches": [
+      {
+       "home": "FC Alianza Girona",
+       "away": "Cafeteros FC",
+       "date": "2025-10-11",
+       "hg": 4,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Athlètic Can Borell",
+       "away": "AE Aeroport",
+       "date": "2025-10-11",
+       "hg": 2,
+       "ag": 11,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Pontenc",
+       "away": "Veterans Sant Antoni",
+       "date": "2025-10-11",
+       "hg": 0,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Real Guíxols FC",
+       "away": "Sàbat Veterans",
+       "date": "2025-10-11",
+       "hg": 2,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Coma Cros B",
+       "away": "Vet. Sporting Vidrerenca",
+       "date": "2025-10-11",
+       "hg": 1,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Coma Cros C - La H",
+       "away": "Veterans CF Sils",
+       "date": "2025-10-11",
+       "hg": 4,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans d'Arbúcies",
+       "away": "CE Anglès",
+       "date": "2025-10-11",
+       "hg": 4,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans La Batllòria",
+       "away": "Anglès Huellas Colombia",
+       "date": "2025-10-11",
+       "hg": 1,
+       "ag": 8,
+       "status": "played"
+      },
+      {
+       "home": "Inter Lloret",
+       "away": "Racing Blanenc A",
+       "date": "2025-10-11",
+       "hg": 2,
+       "ag": 2,
+       "status": "played"
+      }
+     ]
+    },
+    "7": {
+     "date": "2025-10-18",
+     "matches": [
+      {
+       "home": "FC Alianza Girona",
+       "away": "Athlètic Can Borell",
+       "date": "2025-10-18",
+       "hg": 8,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "AE Aeroport",
+       "away": "Veterans Pontenc",
+       "date": "2025-10-18",
+       "hg": 4,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sant Antoni",
+       "away": "Real Guíxols FC",
+       "date": "2025-10-18",
+       "hg": 4,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Sàbat Veterans",
+       "away": "Veterans Coma Cros B",
+       "date": "2025-10-18",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Vet. Sporting Vidrerenca",
+       "away": "Coma Cros C - La H",
+       "date": "2025-10-18",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Sils",
+       "away": "Veterans d'Arbúcies",
+       "date": "2025-10-18",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "CE Anglès",
+       "away": "Veterans La Batllòria",
+       "date": "2025-10-18",
+       "hg": 3,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Anglès Huellas Colombia",
+       "away": "Inter Lloret",
+       "date": "2025-10-18",
+       "hg": 3,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Cafeteros FC",
+       "away": "Racing Blanenc A",
+       "date": "2025-10-18",
+       "hg": 2,
+       "ag": 5,
+       "status": "played"
+      }
+     ]
+    },
+    "8": {
+     "date": "2025-10-25",
+     "matches": [
+      {
+       "home": "Athlètic Can Borell",
+       "away": "Cafeteros FC",
+       "date": "2025-10-25",
+       "hg": 2,
+       "ag": 7,
+       "status": "played"
+      },
+      {
+       "home": "Real Guíxols FC",
+       "away": "AE Aeroport",
+       "date": "2025-10-25",
+       "hg": 3,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Coma Cros B",
+       "away": "Veterans Sant Antoni",
+       "date": "2025-10-25",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Coma Cros C - La H",
+       "away": "Sàbat Veterans",
+       "date": "2025-10-25",
+       "hg": 1,
+       "ag": 8,
+       "status": "played"
+      },
+      {
+       "home": "Veterans d'Arbúcies",
+       "away": "Vet. Sporting Vidrerenca",
+       "date": "2025-10-25",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans La Batllòria",
+       "away": "Veterans CF Sils",
+       "date": "2025-10-25",
+       "hg": 1,
+       "ag": 7,
+       "status": "played"
+      },
+      {
+       "home": "Inter Lloret",
+       "away": "CE Anglès",
+       "date": "2025-10-25",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc A",
+       "away": "Anglès Huellas Colombia",
+       "date": "2025-10-25",
+       "hg": 7,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Pontenc",
+       "away": "FC Alianza Girona",
+       "date": "2025-10-25",
+       "hg": 4,
+       "ag": 3,
+       "status": "played"
+      }
+     ]
+    },
+    "9": {
+     "date": "2025-11-01",
+     "matches": [
+      {
+       "home": "Athlètic Can Borell",
+       "away": "Veterans Pontenc",
+       "date": "2025-11-01",
+       "hg": 3,
+       "ag": 6,
+       "status": "played"
+      },
+      {
+       "home": "FC Alianza Girona",
+       "away": "Real Guíxols FC",
+       "date": "2025-11-01",
+       "hg": 5,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "AE Aeroport",
+       "away": "Veterans Coma Cros B",
+       "date": "2025-11-01",
+       "hg": 4,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sant Antoni",
+       "away": "Coma Cros C - La H",
+       "date": "2025-11-01",
+       "hg": 5,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Sàbat Veterans",
+       "away": "Veterans d'Arbúcies",
+       "date": "2025-11-01",
+       "hg": 1,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Vet. Sporting Vidrerenca",
+       "away": "Veterans La Batllòria",
+       "date": "2025-11-01",
+       "hg": 6,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Sils",
+       "away": "Inter Lloret",
+       "date": "2025-11-01",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "CE Anglès",
+       "away": "Racing Blanenc A",
+       "date": "2025-11-01",
+       "hg": 2,
+       "ag": 7,
+       "status": "played"
+      },
+      {
+       "home": "Cafeteros FC",
+       "away": "Anglès Huellas Colombia",
+       "date": "2025-11-01",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      }
+     ]
+    },
+    "10": {
+     "date": "2025-11-08",
+     "matches": [
+      {
+       "home": "Veterans Pontenc",
+       "away": "Cafeteros FC",
+       "date": "2025-11-08",
+       "hg": 0,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Real Guíxols FC",
+       "away": "Athlètic Can Borell",
+       "date": "2025-11-08",
+       "hg": 11,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Coma Cros B",
+       "away": "FC Alianza Girona",
+       "date": "2025-11-08",
+       "hg": 0,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Coma Cros C - La H",
+       "away": "AE Aeroport",
+       "date": "2025-11-08",
+       "hg": 2,
+       "ag": 7,
+       "status": "played"
+      },
+      {
+       "home": "Veterans d'Arbúcies",
+       "away": "Veterans Sant Antoni",
+       "date": "2025-11-08",
+       "hg": 2,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans La Batllòria",
+       "away": "Sàbat Veterans",
+       "date": "2025-11-08",
+       "hg": 1,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Inter Lloret",
+       "away": "Vet. Sporting Vidrerenca",
+       "date": "2025-11-08",
+       "hg": 2,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc A",
+       "away": "Veterans CF Sils",
+       "date": "2025-11-08",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Anglès Huellas Colombia",
+       "away": "CE Anglès",
+       "date": "2025-11-08",
+       "hg": 5,
+       "ag": 3,
+       "status": "played"
+      }
+     ]
+    },
+    "11": {
+     "date": "2025-11-15",
+     "matches": [
+      {
+       "home": "Veterans Pontenc",
+       "away": "Real Guíxols FC",
+       "date": "2025-11-15",
+       "hg": 2,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Athlètic Can Borell",
+       "away": "Veterans Coma Cros B",
+       "date": "2025-11-15",
+       "hg": 5,
+       "ag": 8,
+       "status": "played"
+      },
+      {
+       "home": "FC Alianza Girona",
+       "away": "Coma Cros C - La H",
+       "date": "2025-11-15",
+       "hg": 4,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "AE Aeroport",
+       "away": "Veterans d'Arbúcies",
+       "date": "2025-11-15",
+       "hg": 4,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sant Antoni",
+       "away": "Veterans La Batllòria",
+       "date": "2025-11-15",
+       "hg": 9,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Sàbat Veterans",
+       "away": "Inter Lloret",
+       "date": "2025-11-15",
+       "hg": 5,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Vet. Sporting Vidrerenca",
+       "away": "Racing Blanenc A",
+       "date": "2025-11-15",
+       "hg": 2,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Sils",
+       "away": "Anglès Huellas Colombia",
+       "date": "2025-11-15",
+       "hg": 2,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Cafeteros FC",
+       "away": "CE Anglès",
+       "date": "2025-11-15",
+       "hg": 4,
+       "ag": 0,
+       "status": "played"
+      }
+     ]
+    },
+    "12": {
+     "date": "2025-11-22",
+     "matches": [
+      {
+       "home": "Real Guíxols FC",
+       "away": "Cafeteros FC",
+       "date": "2025-11-22",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Coma Cros B",
+       "away": "Veterans Pontenc",
+       "date": "2025-11-22",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Coma Cros C - La H",
+       "away": "Athlètic Can Borell",
+       "date": "2025-11-22",
+       "hg": 9,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans d'Arbúcies",
+       "away": "FC Alianza Girona",
+       "date": "2025-11-22",
+       "hg": 0,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Veterans La Batllòria",
+       "away": "AE Aeroport",
+       "date": "2025-11-22",
+       "hg": 0,
+       "ag": 8,
+       "status": "played"
+      },
+      {
+       "home": "Inter Lloret",
+       "away": "Veterans Sant Antoni",
+       "date": "2025-11-22",
+       "hg": 6,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc A",
+       "away": "Sàbat Veterans",
+       "date": "2025-11-22",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Anglès Huellas Colombia",
+       "away": "Vet. Sporting Vidrerenca",
+       "date": "2025-11-22",
+       "hg": 3,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "CE Anglès",
+       "away": "Veterans CF Sils",
+       "date": "2025-11-22",
+       "hg": 2,
+       "ag": 4,
+       "status": "played"
+      }
+     ]
+    },
+    "13": {
+     "date": "2025-11-29",
+     "matches": [
+      {
+       "home": "Real Guíxols FC",
+       "away": "Veterans Coma Cros B",
+       "date": "2025-11-29",
+       "hg": 0,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Pontenc",
+       "away": "Coma Cros C - La H",
+       "date": "2025-11-29",
+       "hg": 3,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Athlètic Can Borell",
+       "away": "Veterans d'Arbúcies",
+       "date": "2025-11-29",
+       "hg": 0,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "FC Alianza Girona",
+       "away": "Veterans La Batllòria",
+       "date": "2025-11-29",
+       "hg": 9,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "AE Aeroport",
+       "away": "Inter Lloret",
+       "date": "2025-11-29",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sant Antoni",
+       "away": "Racing Blanenc A",
+       "date": "2025-11-29",
+       "hg": 2,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Sàbat Veterans",
+       "away": "Anglès Huellas Colombia",
+       "date": "2025-11-29",
+       "hg": 7,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Vet. Sporting Vidrerenca",
+       "away": "CE Anglès",
+       "date": "2025-11-29",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Cafeteros FC",
+       "away": "Veterans CF Sils",
+       "date": "2025-11-29",
+       "hg": 4,
+       "ag": 2,
+       "status": "played"
+      }
+     ]
+    },
+    "14": {
+     "date": "2025-12-13",
+     "matches": [
+      {
+       "home": "Veterans Coma Cros B",
+       "away": "Cafeteros FC",
+       "date": "2025-12-13",
+       "hg": 0,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Coma Cros C - La H",
+       "away": "Real Guíxols FC",
+       "date": "2025-12-13",
+       "hg": 1,
+       "ag": 6,
+       "status": "played"
+      },
+      {
+       "home": "Veterans d'Arbúcies",
+       "away": "Veterans Pontenc",
+       "date": "2025-12-13",
+       "hg": 2,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Veterans La Batllòria",
+       "away": "Athlètic Can Borell",
+       "date": "2025-12-13",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Inter Lloret",
+       "away": "FC Alianza Girona",
+       "date": "2025-12-13",
+       "hg": 2,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc A",
+       "away": "AE Aeroport",
+       "date": "2025-12-13",
+       "hg": 0,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Anglès Huellas Colombia",
+       "away": "Veterans Sant Antoni",
+       "date": "2025-12-13",
+       "hg": 3,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "CE Anglès",
+       "away": "Sàbat Veterans",
+       "date": "2025-12-13",
+       "hg": 1,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Sils",
+       "away": "Vet. Sporting Vidrerenca",
+       "date": "2025-12-13",
+       "hg": 4,
+       "ag": 1,
+       "status": "played"
+      }
+     ]
+    },
+    "15": {
+     "date": "2025-12-20",
+     "matches": [
+      {
+       "home": "Veterans Coma Cros B",
+       "away": "Coma Cros C - La H",
+       "date": "2025-12-20",
+       "hg": 5,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Real Guíxols FC",
+       "away": "Veterans d'Arbúcies",
+       "date": "2025-12-20",
+       "hg": 5,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Pontenc",
+       "away": "Veterans La Batllòria",
+       "date": "2025-12-20",
+       "hg": 8,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Athlètic Can Borell",
+       "away": "Inter Lloret",
+       "date": "2025-12-20",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "FC Alianza Girona",
+       "away": "Racing Blanenc A",
+       "date": "2025-12-20",
+       "hg": 3,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "AE Aeroport",
+       "away": "Anglès Huellas Colombia",
+       "date": "2025-12-20",
+       "hg": 2,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sant Antoni",
+       "away": "CE Anglès",
+       "date": "2025-12-20",
+       "hg": 7,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Sàbat Veterans",
+       "away": "Veterans CF Sils",
+       "date": "2025-12-20",
+       "hg": 4,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Cafeteros FC",
+       "away": "Vet. Sporting Vidrerenca",
+       "date": "2025-12-20",
+       "hg": 1,
+       "ag": 1,
+       "status": "played"
+      }
+     ]
+    },
+    "16": {
+     "date": "2026-01-10",
+     "matches": [
+      {
+       "home": "Cafeteros FC",
+       "away": "Coma Cros C - La H",
+       "date": "2026-01-10",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans d'Arbúcies",
+       "away": "Veterans Coma Cros B",
+       "date": "2026-01-10",
+       "hg": 3,
+       "ag": 7,
+       "status": "played"
+      },
+      {
+       "home": "Veterans La Batllòria",
+       "away": "Real Guíxols FC",
+       "date": "2026-01-10",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc A",
+       "away": "Athlètic Can Borell",
+       "date": "2026-01-10",
+       "hg": 8,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Anglès Huellas Colombia",
+       "away": "FC Alianza Girona",
+       "date": "2026-01-10",
+       "hg": 3,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "CE Anglès",
+       "away": "AE Aeroport",
+       "date": "2026-01-10",
+       "hg": 0,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Sils",
+       "away": "Veterans Sant Antoni",
+       "date": "2026-01-10",
+       "hg": 7,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Vet. Sporting Vidrerenca",
+       "away": "Sàbat Veterans",
+       "date": "2026-01-10",
+       "hg": 1,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Inter Lloret",
+       "away": "Veterans Pontenc",
+       "date": "2026-01-10",
+       "hg": 1,
+       "ag": 0,
+       "status": "played"
+      }
+     ]
+    },
+    "17": {
+     "date": "2026-01-17",
+     "matches": [
+      {
+       "home": "Coma Cros C - La H",
+       "away": "Veterans d'Arbúcies",
+       "date": "2026-01-17",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Coma Cros B",
+       "away": "Veterans La Batllòria",
+       "date": "2026-01-17",
+       "hg": 5,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Real Guíxols FC",
+       "away": "Inter Lloret",
+       "date": "2026-01-17",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Pontenc",
+       "away": "Racing Blanenc A",
+       "date": "2026-01-17",
+       "hg": 0,
+       "ag": 7,
+       "status": "played"
+      },
+      {
+       "home": "Athlètic Can Borell",
+       "away": "Anglès Huellas Colombia",
+       "date": "2026-01-17",
+       "hg": 1,
+       "ag": 6,
+       "status": "played"
+      },
+      {
+       "home": "FC Alianza Girona",
+       "away": "CE Anglès",
+       "date": "2026-01-17",
+       "hg": 3,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "AE Aeroport",
+       "away": "Veterans CF Sils",
+       "date": "2026-01-17",
+       "hg": 2,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sant Antoni",
+       "away": "Vet. Sporting Vidrerenca",
+       "date": "2026-01-17",
+       "hg": 4,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Sàbat Veterans",
+       "away": "Cafeteros FC",
+       "date": "2026-01-17",
+       "hg": 4,
+       "ag": 4,
+       "status": "played"
+      }
+     ]
+    },
+    "18": {
+     "date": "2026-01-24",
+     "matches": [
+      {
+       "home": "Veterans Sant Antoni",
+       "away": "Sàbat Veterans",
+       "date": "2026-01-24",
+       "hg": 4,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "AE Aeroport",
+       "away": "Vet. Sporting Vidrerenca",
+       "date": "2026-01-24",
+       "hg": 3,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "FC Alianza Girona",
+       "away": "Veterans CF Sils",
+       "date": "2026-01-24",
+       "hg": 4,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Athlètic Can Borell",
+       "away": "CE Anglès",
+       "date": "2026-01-24",
+       "hg": 2,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Pontenc",
+       "away": "Anglès Huellas Colombia",
+       "date": "2026-01-24",
+       "hg": 2,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Real Guíxols FC",
+       "away": "Racing Blanenc A",
+       "date": "2026-01-24",
+       "hg": 0,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Coma Cros B",
+       "away": "Inter Lloret",
+       "date": "2026-01-24",
+       "hg": 3,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Coma Cros C - La H",
+       "away": "Veterans La Batllòria",
+       "date": "2026-01-24",
+       "hg": 3,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans d'Arbúcies",
+       "away": "Cafeteros FC",
+       "date": "2026-01-24",
+       "hg": 0,
+       "ag": 1,
+       "status": "played"
+      }
+     ]
+    },
+    "19": {
+     "date": "2026-01-31",
+     "matches": [
+      {
+       "home": "Cafeteros FC",
+       "away": "Veterans Sant Antoni",
+       "date": "2026-01-31",
+       "hg": 5,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Sàbat Veterans",
+       "away": "AE Aeroport",
+       "date": "2026-01-31",
+       "hg": 1,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Vet. Sporting Vidrerenca",
+       "away": "FC Alianza Girona",
+       "date": "2026-01-31",
+       "hg": 1,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Sils",
+       "away": "Athlètic Can Borell",
+       "date": "2026-01-31",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "CE Anglès",
+       "away": "Veterans Pontenc",
+       "date": "2026-01-31",
+       "hg": 3,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Anglès Huellas Colombia",
+       "away": "Real Guíxols FC",
+       "date": "2026-01-31",
+       "hg": 5,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc A",
+       "away": "Veterans Coma Cros B",
+       "date": "2026-01-31",
+       "hg": 3,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Inter Lloret",
+       "away": "Coma Cros C - La H",
+       "date": "2026-01-31",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans La Batllòria",
+       "away": "Veterans d'Arbúcies",
+       "date": "2026-01-31",
+       "hg": 4,
+       "ag": 3,
+       "status": "played"
+      }
+     ]
+    },
+    "20": {
+     "date": "2026-02-07",
+     "matches": [
+      {
+       "home": "AE Aeroport",
+       "away": "Veterans Sant Antoni",
+       "date": "2026-02-07",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "FC Alianza Girona",
+       "away": "Sàbat Veterans",
+       "date": "2026-02-07",
+       "hg": 2,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Athlètic Can Borell",
+       "away": "Vet. Sporting Vidrerenca",
+       "date": "2026-02-07",
+       "hg": 0,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Pontenc",
+       "away": "Veterans CF Sils",
+       "date": "2026-02-07",
+       "hg": 1,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Real Guíxols FC",
+       "away": "CE Anglès",
+       "date": "2026-02-07",
+       "hg": 7,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Coma Cros B",
+       "away": "Anglès Huellas Colombia",
+       "date": "2026-02-07",
+       "hg": 4,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Coma Cros C - La H",
+       "away": "Racing Blanenc A",
+       "date": "2026-02-07",
+       "hg": 3,
+       "ag": 6,
+       "status": "played"
+      },
+      {
+       "home": "Veterans d'Arbúcies",
+       "away": "Inter Lloret",
+       "date": "2026-02-07",
+       "hg": 1,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans La Batllòria",
+       "away": "Cafeteros FC",
+       "date": "2026-02-07",
+       "hg": 1,
+       "ag": 3,
+       "status": "played"
+      }
+     ]
+    },
+    "21": {
+     "date": "2026-02-21",
+     "matches": [
+      {
+       "home": "Veterans Sant Antoni",
+       "away": "FC Alianza Girona",
+       "date": "2026-02-21",
+       "hg": 5,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Sàbat Veterans",
+       "away": "Athlètic Can Borell",
+       "date": "2026-02-21",
+       "hg": 18,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Vet. Sporting Vidrerenca",
+       "away": "Veterans Pontenc",
+       "date": "2026-02-21",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Sils",
+       "away": "Real Guíxols FC",
+       "date": "2026-02-21",
+       "hg": 3,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "CE Anglès",
+       "away": "Veterans Coma Cros B",
+       "date": "2026-02-21",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Anglès Huellas Colombia",
+       "away": "Coma Cros C - La H",
+       "date": "2026-02-21",
+       "hg": 5,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc A",
+       "away": "Veterans d'Arbúcies",
+       "date": "2026-02-21",
+       "hg": 3,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Inter Lloret",
+       "away": "Veterans La Batllòria",
+       "date": "2026-02-21",
+       "hg": 5,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Cafeteros FC",
+       "away": "AE Aeroport",
+       "date": "2026-02-21",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      }
+     ]
+    },
+    "22": {
+     "date": "2026-02-28",
+     "matches": [
+      {
+       "home": "Athlètic Can Borell",
+       "away": "Veterans Sant Antoni",
+       "date": "2026-02-28",
+       "hg": 1,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Pontenc",
+       "away": "Sàbat Veterans",
+       "date": "2026-02-28",
+       "hg": 4,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Real Guíxols FC",
+       "away": "Vet. Sporting Vidrerenca",
+       "date": "2026-02-28",
+       "hg": 1,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Coma Cros B",
+       "away": "Veterans CF Sils",
+       "date": "2026-02-28",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Coma Cros C - La H",
+       "away": "CE Anglès",
+       "date": "2026-02-28",
+       "hg": 2,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans d'Arbúcies",
+       "away": "Anglès Huellas Colombia",
+       "date": "2026-02-28",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans La Batllòria",
+       "away": "Racing Blanenc A",
+       "date": "2026-02-28",
+       "hg": 1,
+       "ag": 6,
+       "status": "played"
+      },
+      {
+       "home": "Inter Lloret",
+       "away": "Cafeteros FC",
+       "date": "2026-02-28",
+       "hg": 1,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "FC Alianza Girona",
+       "away": "AE Aeroport",
+       "date": "2026-02-28",
+       "hg": 0,
+       "ag": 3,
+       "status": "played"
+      }
+     ]
+    },
+    "23": {
+     "date": "2026-03-07",
+     "matches": [
+      {
+       "home": "Cafeteros FC",
+       "away": "FC Alianza Girona",
+       "date": "2026-03-07",
+       "hg": 3,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "AE Aeroport",
+       "away": "Athlètic Can Borell",
+       "date": "2026-03-07",
+       "hg": 10,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sant Antoni",
+       "away": "Veterans Pontenc",
+       "date": "2026-03-07",
+       "hg": 3,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Sàbat Veterans",
+       "away": "Real Guíxols FC",
+       "date": "2026-03-07",
+       "hg": 5,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Vet. Sporting Vidrerenca",
+       "away": "Veterans Coma Cros B",
+       "date": "2026-03-07",
+       "hg": 1,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Sils",
+       "away": "Coma Cros C - La H",
+       "date": "2026-03-07",
+       "hg": 7,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "CE Anglès",
+       "away": "Veterans d'Arbúcies",
+       "date": "2026-03-07",
+       "hg": 0,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Anglès Huellas Colombia",
+       "away": "Veterans La Batllòria",
+       "date": "2026-03-07",
+       "hg": 1,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc A",
+       "away": "Inter Lloret",
+       "date": "2026-03-07",
+       "hg": 6,
+       "ag": 1,
+       "status": "played"
+      }
+     ]
+    },
+    "24": {
+     "date": "2026-03-14",
+     "matches": [
+      {
+       "home": "Athlètic Can Borell",
+       "away": "FC Alianza Girona",
+       "date": "2026-03-14",
+       "hg": 2,
+       "ag": 6,
+       "status": "played"
+      },
+      {
+       "home": "Real Guíxols FC",
+       "away": "Veterans Sant Antoni",
+       "date": "2026-03-14",
+       "hg": 1,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Coma Cros B",
+       "away": "Sàbat Veterans",
+       "date": "2026-03-14",
+       "hg": 4,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Coma Cros C - La H",
+       "away": "Vet. Sporting Vidrerenca",
+       "date": "2026-03-14",
+       "hg": 1,
+       "ag": 6,
+       "status": "played"
+      },
+      {
+       "home": "Veterans d'Arbúcies",
+       "away": "Veterans CF Sils",
+       "date": "2026-03-14",
+       "hg": 0,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans La Batllòria",
+       "away": "CE Anglès",
+       "date": "2026-03-14",
+       "hg": 5,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Inter Lloret",
+       "away": "Anglès Huellas Colombia",
+       "date": "2026-03-14",
+       "hg": 2,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc A",
+       "away": "Cafeteros FC",
+       "date": "2026-03-14",
+       "hg": 5,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Pontenc",
+       "away": "AE Aeroport",
+       "date": "2026-03-14",
+       "hg": 2,
+       "ag": 4,
+       "status": "played"
+      }
+     ]
+    },
+    "25": {
+     "date": "2026-03-21",
+     "matches": [
+      {
+       "home": "Cafeteros FC",
+       "away": "Athlètic Can Borell",
+       "date": "2026-03-21",
+       "hg": 4,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "FC Alianza Girona",
+       "away": "Veterans Pontenc",
+       "date": "2026-03-21",
+       "hg": 4,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "AE Aeroport",
+       "away": "Real Guíxols FC",
+       "date": "2026-03-21",
+       "hg": 7,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sant Antoni",
+       "away": "Veterans Coma Cros B",
+       "date": "2026-03-21",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Sàbat Veterans",
+       "away": "Coma Cros C - La H",
+       "date": "2026-03-21",
+       "hg": 3,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Vet. Sporting Vidrerenca",
+       "away": "Veterans d'Arbúcies",
+       "date": "2026-03-21",
+       "hg": 0,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Sils",
+       "away": "Veterans La Batllòria",
+       "date": "2026-03-21",
+       "hg": 3,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "CE Anglès",
+       "away": "Inter Lloret",
+       "date": "2026-03-21",
+       "hg": 1,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "Anglès Huellas Colombia",
+       "away": "Racing Blanenc A",
+       "date": "2026-03-21",
+       "hg": 5,
+       "ag": 6,
+       "status": "played"
+      }
+     ]
+    },
+    "26": {
+     "date": "2026-03-28",
+     "matches": [
+      {
+       "home": "Veterans Pontenc",
+       "away": "Athlètic Can Borell",
+       "date": "2026-03-28",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Real Guíxols FC",
+       "away": "FC Alianza Girona",
+       "date": "2026-03-28",
+       "hg": 2,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Coma Cros B",
+       "away": "AE Aeroport",
+       "date": "2026-03-28",
+       "hg": 1,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Coma Cros C - La H",
+       "away": "Veterans Sant Antoni",
+       "date": "2026-03-28",
+       "hg": 2,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans d'Arbúcies",
+       "away": "Sàbat Veterans",
+       "date": "2026-03-28",
+       "hg": 4,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans La Batllòria",
+       "away": "Vet. Sporting Vidrerenca",
+       "date": "2026-03-28",
+       "hg": 4,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Inter Lloret",
+       "away": "Veterans CF Sils",
+       "date": "2026-03-28",
+       "hg": 2,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc A",
+       "away": "CE Anglès",
+       "date": "2026-03-28",
+       "hg": 5,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Anglès Huellas Colombia",
+       "away": "Cafeteros FC",
+       "date": "2026-03-28",
+       "hg": 1,
+       "ag": 1,
+       "status": "played"
+      }
+     ]
+    },
+    "27": {
+     "date": "2026-04-11",
+     "matches": [
+      {
+       "home": "Cafeteros FC",
+       "away": "Veterans Pontenc",
+       "date": "2026-04-11",
+       "hg": 4,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Athlètic Can Borell",
+       "away": "Real Guíxols FC",
+       "date": "2026-04-11",
+       "hg": 2,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "FC Alianza Girona",
+       "away": "Veterans Coma Cros B",
+       "date": "2026-04-11",
+       "hg": 1,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "AE Aeroport",
+       "away": "Coma Cros C - La H",
+       "date": "2026-04-11",
+       "hg": 3,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sant Antoni",
+       "away": "Veterans d'Arbúcies",
+       "date": "2026-04-11",
+       "hg": 6,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Sàbat Veterans",
+       "away": "Veterans La Batllòria",
+       "date": "2026-04-11",
+       "hg": 7,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Vet. Sporting Vidrerenca",
+       "away": "Inter Lloret",
+       "date": "2026-04-11",
+       "hg": 0,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Sils",
+       "away": "Racing Blanenc A",
+       "date": "2026-04-11",
+       "hg": 1,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "CE Anglès",
+       "away": "Anglès Huellas Colombia",
+       "date": "2026-04-11",
+       "hg": 3,
+       "ag": 4,
+       "status": "played"
+      }
+     ]
+    },
+    "28": {
+     "date": "2026-04-18",
+     "matches": [
+      {
+       "home": "Real Guíxols FC",
+       "away": "Veterans Pontenc",
+       "date": "2026-04-18",
+       "hg": 4,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Coma Cros B",
+       "away": "Athlètic Can Borell",
+       "date": "2026-04-18",
+       "hg": 0,
+       "ag": 3,
+       "status": "walkover"
+      },
+      {
+       "home": "Coma Cros C - La H",
+       "away": "FC Alianza Girona",
+       "date": "2026-04-18",
+       "hg": 3,
+       "ag": 0,
+       "status": "walkover"
+      },
+      {
+       "home": "Veterans d'Arbúcies",
+       "away": "AE Aeroport",
+       "date": "2026-04-18",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans La Batllòria",
+       "away": "Veterans Sant Antoni",
+       "date": "2026-04-18",
+       "hg": 1,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Inter Lloret",
+       "away": "Sàbat Veterans",
+       "date": "2026-04-18",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc A",
+       "away": "Vet. Sporting Vidrerenca",
+       "date": "2026-04-18",
+       "hg": 1,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Anglès Huellas Colombia",
+       "away": "Veterans CF Sils",
+       "date": "2026-04-18",
+       "hg": 4,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "CE Anglès",
+       "away": "Cafeteros FC",
+       "date": "2026-04-18",
+       "hg": 3,
+       "ag": 4,
+       "status": "played"
+      }
+     ]
+    },
+    "29": {
+     "date": "2026-04-25",
+     "matches": [
+      {
+       "home": "Cafeteros FC",
+       "away": "Real Guíxols FC",
+       "date": "2026-04-25",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Pontenc",
+       "away": "Veterans Coma Cros B",
+       "date": "2026-04-25",
+       "hg": 3,
+       "ag": 0,
+       "status": "walkover"
+      },
+      {
+       "home": "Athlètic Can Borell",
+       "away": "Coma Cros C - La H",
+       "date": "2026-04-25",
+       "hg": 3,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "FC Alianza Girona",
+       "away": "Veterans d'Arbúcies",
+       "date": "2026-04-25",
+       "hg": 0,
+       "ag": 3,
+       "status": "walkover"
+      },
+      {
+       "home": "AE Aeroport",
+       "away": "Veterans La Batllòria",
+       "date": "2026-04-25",
+       "hg": 3,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sant Antoni",
+       "away": "Inter Lloret",
+       "date": "2026-04-25",
+       "hg": 2,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Vet. Sporting Vidrerenca",
+       "away": "Anglès Huellas Colombia",
+       "date": "2026-04-25",
+       "hg": 5,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Sils",
+       "away": "CE Anglès",
+       "date": "2026-04-25",
+       "hg": 3,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Sàbat Veterans",
+       "away": "Racing Blanenc A",
+       "date": "2026-04-25",
+       "hg": 3,
+       "ag": 0,
+       "status": "walkover"
+      }
+     ]
+    },
+    "30": {
+     "date": "2026-05-02",
+     "matches": [
+      {
+       "home": "Veterans Coma Cros B",
+       "away": "Real Guíxols FC",
+       "date": "2026-05-02",
+       "hg": 0,
+       "ag": 3,
+       "status": "walkover"
+      },
+      {
+       "home": "Coma Cros C - La H",
+       "away": "Veterans Pontenc",
+       "date": "2026-05-02",
+       "hg": 2,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Veterans d'Arbúcies",
+       "away": "Athlètic Can Borell",
+       "date": "2026-05-02",
+       "hg": 6,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans La Batllòria",
+       "away": "FC Alianza Girona",
+       "date": "2026-05-02",
+       "hg": 3,
+       "ag": 0,
+       "status": "walkover"
+      },
+      {
+       "home": "Racing Blanenc A",
+       "away": "Veterans Sant Antoni",
+       "date": "2026-05-02",
+       "hg": 0,
+       "ag": 3,
+       "status": "walkover"
+      },
+      {
+       "home": "Anglès Huellas Colombia",
+       "away": "Sàbat Veterans",
+       "date": "2026-05-02",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "CE Anglès",
+       "away": "Vet. Sporting Vidrerenca",
+       "date": "2026-05-02",
+       "hg": 4,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Sils",
+       "away": "Cafeteros FC",
+       "date": "2026-05-02",
+       "hg": 4,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Inter Lloret",
+       "away": "AE Aeroport",
+       "date": "2026-05-02",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      }
+     ]
+    },
+    "31": {
+     "date": "2026-05-09",
+     "matches": [
+      {
+       "home": "Cafeteros FC",
+       "away": "Veterans Coma Cros B",
+       "date": "2026-05-09",
+       "hg": 3,
+       "ag": 0,
+       "status": "walkover"
+      },
+      {
+       "home": "Real Guíxols FC",
+       "away": "Coma Cros C - La H",
+       "date": "2026-05-09",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Pontenc",
+       "away": "Veterans d'Arbúcies",
+       "date": "2026-05-09",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Athlètic Can Borell",
+       "away": "Veterans La Batllòria",
+       "date": "2026-05-09",
+       "hg": 4,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "FC Alianza Girona",
+       "away": "Inter Lloret",
+       "date": "2026-05-09",
+       "hg": 0,
+       "ag": 3,
+       "status": "walkover"
+      },
+      {
+       "home": "AE Aeroport",
+       "away": "Racing Blanenc A",
+       "date": "2026-05-09",
+       "hg": 3,
+       "ag": 0,
+       "status": "walkover"
+      },
+      {
+       "home": "Veterans Sant Antoni",
+       "away": "Anglès Huellas Colombia",
+       "date": "2026-05-09",
+       "hg": 7,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Sàbat Veterans",
+       "away": "CE Anglès",
+       "date": "2026-05-09",
+       "hg": 9,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Vet. Sporting Vidrerenca",
+       "away": "Veterans CF Sils",
+       "date": "2026-05-09",
+       "hg": 4,
+       "ag": 2,
+       "status": "played"
+      }
+     ]
+    },
+    "32": {
+     "date": "2026-05-16",
+     "matches": [
+      {
+       "home": "Coma Cros C - La H",
+       "away": "Veterans Coma Cros B",
+       "date": "2026-05-16",
+       "hg": 3,
+       "ag": 0,
+       "status": "walkover"
+      },
+      {
+       "home": "Veterans d'Arbúcies",
+       "away": "Real Guíxols FC",
+       "date": "2026-05-16",
+       "hg": 3,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans La Batllòria",
+       "away": "Veterans Pontenc",
+       "date": "2026-05-16",
+       "hg": 4,
+       "ag": 6,
+       "status": "played"
+      },
+      {
+       "home": "Inter Lloret",
+       "away": "Athlètic Can Borell",
+       "date": "2026-05-16",
+       "hg": 7,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Anglès Huellas Colombia",
+       "away": "AE Aeroport",
+       "date": "2026-05-16",
+       "hg": 1,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "CE Anglès",
+       "away": "Veterans Sant Antoni",
+       "date": "2026-05-16",
+       "hg": 5,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Sils",
+       "away": "Sàbat Veterans",
+       "date": "2026-05-16",
+       "hg": 2,
+       "ag": 7,
+       "status": "played"
+      },
+      {
+       "home": "Vet. Sporting Vidrerenca",
+       "away": "Cafeteros FC",
+       "date": "2026-05-16",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc A",
+       "away": "FC Alianza Girona",
+       "date": "2026-05-16",
+       "hg": null,
+       "ag": null,
+       "status": "postponed",
+       "notes": "No disputat (equips retirats)"
+      }
+     ]
+    },
+    "33": {
+     "date": "2026-05-23",
+     "matches": [
+      {
+       "home": "Coma Cros C - La H",
+       "away": "Cafeteros FC",
+       "date": "2026-05-23",
+       "hg": 1,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Coma Cros B",
+       "away": "Veterans d'Arbúcies",
+       "date": "2026-05-23",
+       "hg": 0,
+       "ag": 3,
+       "status": "walkover"
+      },
+      {
+       "home": "Real Guíxols FC",
+       "away": "Veterans La Batllòria",
+       "date": "2026-05-23",
+       "hg": 4,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Pontenc",
+       "away": "Inter Lloret",
+       "date": "2026-05-23",
+       "hg": 5,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Athlètic Can Borell",
+       "away": "Racing Blanenc A",
+       "date": "2026-05-23",
+       "hg": 3,
+       "ag": 0,
+       "status": "walkover"
+      },
+      {
+       "home": "FC Alianza Girona",
+       "away": "Anglès Huellas Colombia",
+       "date": "2026-05-23",
+       "hg": 0,
+       "ag": 3,
+       "status": "walkover"
+      },
+      {
+       "home": "AE Aeroport",
+       "away": "CE Anglès",
+       "date": "2026-05-23",
+       "hg": 3,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sant Antoni",
+       "away": "Veterans CF Sils",
+       "date": "2026-05-23",
+       "hg": 3,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Sàbat Veterans",
+       "away": "Vet. Sporting Vidrerenca",
+       "date": "2026-05-23",
+       "hg": 6,
+       "ag": 2,
+       "status": "played"
+      }
+     ]
+    },
+    "34": {
+     "date": "2026-05-30",
+     "matches": [
+      {
+       "home": "Veterans d'Arbúcies",
+       "away": "Coma Cros C - La H",
+       "date": "2026-05-30",
+       "hg": 4,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans La Batllòria",
+       "away": "Veterans Coma Cros B",
+       "date": "2026-05-30",
+       "hg": 3,
+       "ag": 0,
+       "status": "walkover"
+      },
+      {
+       "home": "Inter Lloret",
+       "away": "Real Guíxols FC",
+       "date": "2026-05-30",
+       "hg": 3,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc A",
+       "away": "Veterans Pontenc",
+       "date": "2026-05-30",
+       "hg": 0,
+       "ag": 3,
+       "status": "walkover"
+      },
+      {
+       "home": "Anglès Huellas Colombia",
+       "away": "Athlètic Can Borell",
+       "date": "2026-05-30",
+       "hg": 2,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "CE Anglès",
+       "away": "FC Alianza Girona",
+       "date": "2026-05-30",
+       "hg": 3,
+       "ag": 0,
+       "status": "walkover"
+      },
+      {
+       "home": "Veterans CF Sils",
+       "away": "AE Aeroport",
+       "date": "2026-05-30",
+       "hg": 0,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Vet. Sporting Vidrerenca",
+       "away": "Veterans Sant Antoni",
+       "date": "2026-05-30",
+       "hg": 2,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Cafeteros FC",
+       "away": "Sàbat Veterans",
+       "date": "2026-05-30",
+       "hg": 0,
+       "ag": 4,
+       "status": "played"
+      }
+     ]
+    },
+    "1": {
+     "date": "2026-06-06",
+     "matches": [
+      {
+       "home": "Sàbat Veterans",
+       "away": "Veterans Sant Antoni",
+       "date": "2026-06-06",
+       "hg": 4,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Vet. Sporting Vidrerenca",
+       "away": "AE Aeroport",
+       "date": "2026-06-06",
+       "hg": 0,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Sils",
+       "away": "FC Alianza Girona",
+       "date": "2026-06-06",
+       "hg": 3,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "CE Anglès",
+       "away": "Athlètic Can Borell",
+       "date": "2026-06-06",
+       "hg": 4,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Anglès Huellas Colombia",
+       "away": "Veterans Pontenc",
+       "date": "2026-06-06",
+       "hg": 0,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc A",
+       "away": "Real Guíxols FC",
+       "date": "2026-06-06",
+       "hg": 0,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Inter Lloret",
+       "away": "Veterans Coma Cros B",
+       "date": "2026-06-06",
+       "hg": 3,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans La Batllòria",
+       "away": "Coma Cros C - La H",
+       "date": "2026-06-06",
+       "hg": 3,
+       "ag": 7,
+       "status": "played"
+      },
+      {
+       "home": "Cafeteros FC",
+       "away": "Veterans d'Arbúcies",
+       "date": "2026-06-06",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      }
+     ]
+    },
+    "2": {
+     "date": "2026-06-13",
+     "matches": [
+      {
+       "home": "Veterans Sant Antoni",
+       "away": "Cafeteros FC",
+       "date": "2026-06-13",
+       "hg": 0,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "AE Aeroport",
+       "away": "Sàbat Veterans",
+       "date": "2026-06-13",
+       "hg": 4,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "FC Alianza Girona",
+       "away": "Vet. Sporting Vidrerenca",
+       "date": "2026-06-13",
+       "hg": 0,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Athlètic Can Borell",
+       "away": "Veterans CF Sils",
+       "date": "2026-06-13",
+       "hg": 0,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Pontenc",
+       "away": "CE Anglès",
+       "date": "2026-06-13",
+       "hg": 4,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Real Guíxols FC",
+       "away": "Anglès Huellas Colombia",
+       "date": "2026-06-13",
+       "hg": 0,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Coma Cros C - La H",
+       "away": "Inter Lloret",
+       "date": "2026-06-13",
+       "hg": 1,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans d'Arbúcies",
+       "away": "Veterans La Batllòria",
+       "date": "2026-06-13",
+       "hg": 4,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Coma Cros B",
+       "away": "Racing Blanenc A",
+       "date": "2026-06-13",
+       "hg": null,
+       "ag": null,
+       "status": "postponed",
+       "notes": "No disputat (equips retirats)"
+      }
+     ]
+    }
+   },
+   "topSlots": 1,
+   "relegSlots": 2,
+   "topLabel": "campio"
+  },
+  "B": {
+   "teams": [
+    "CE l'Aigüeta",
+    "Veterans CF Lloret",
+    "Esportiu Bonmatí",
+    "CF Torderenc",
+    "EF Maçanet",
+    "FC Honduras Figueres",
+    "LP Malcriat SFG",
+    "Veterans Bordils-Flaçà",
+    "FC Palafrugell Veterans",
+    "Veterans Sarrià FC",
+    "Racing Blanenc B",
+    "Bar Moreda",
+    "Veterans San Andrés",
+    "CF Fogars Veterans",
+    "Veterans Atlètic Hostalric",
+    "Veterans CE Farners",
+    "Atlético Empuriabrava",
+    "Veterans Alt Empordà"
+   ],
+   "rounds": {
+    "3": {
+     "date": "2025-09-20",
+     "matches": [
+      {
+       "home": "CE l'Aigüeta",
+       "away": "Veterans CF Lloret",
+       "date": "2025-09-20",
+       "hg": 1,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "Esportiu Bonmatí",
+       "away": "CF Torderenc",
+       "date": "2025-09-20",
+       "hg": 0,
+       "ag": 7,
+       "status": "played"
+      },
+      {
+       "home": "EF Maçanet",
+       "away": "FC Honduras Figueres",
+       "date": "2025-09-20",
+       "hg": 4,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "LP Malcriat SFG",
+       "away": "Veterans Bordils-Flaçà",
+       "date": "2025-09-20",
+       "hg": 0,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "FC Palafrugell Veterans",
+       "away": "Veterans Sarrià FC",
+       "date": "2025-09-20",
+       "hg": 3,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc B",
+       "away": "Bar Moreda",
+       "date": "2025-09-20",
+       "hg": 2,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans San Andrés",
+       "away": "CF Fogars Veterans",
+       "date": "2025-09-20",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Atlètic Hostalric",
+       "away": "Veterans CE Farners",
+       "date": "2025-09-20",
+       "hg": 2,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Atlético Empuriabrava",
+       "away": "Veterans Alt Empordà",
+       "date": "2025-09-20",
+       "hg": 3,
+       "ag": 0,
+       "status": "played"
+      }
+     ]
+    },
+    "4": {
+     "date": "2025-09-27",
+     "matches": [
+      {
+       "home": "Veterans CF Lloret",
+       "away": "Atlético Empuriabrava",
+       "date": "2025-09-27",
+       "hg": 0,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "CF Torderenc",
+       "away": "CE l'Aigüeta",
+       "date": "2025-09-27",
+       "hg": 6,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "FC Honduras Figueres",
+       "away": "Esportiu Bonmatí",
+       "date": "2025-09-27",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Bordils-Flaçà",
+       "away": "EF Maçanet",
+       "date": "2025-09-27",
+       "hg": 2,
+       "ag": 6,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sarrià FC",
+       "away": "LP Malcriat SFG",
+       "date": "2025-09-27",
+       "hg": 2,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "Bar Moreda",
+       "away": "FC Palafrugell Veterans",
+       "date": "2025-09-27",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "CF Fogars Veterans",
+       "away": "Racing Blanenc B",
+       "date": "2025-09-27",
+       "hg": 0,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CE Farners",
+       "away": "Veterans San Andrés",
+       "date": "2025-09-27",
+       "hg": 3,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Alt Empordà",
+       "away": "Veterans Atlètic Hostalric",
+       "date": "2025-09-27",
+       "hg": 0,
+       "ag": 2,
+       "status": "played"
+      }
+     ]
+    },
+    "5": {
+     "date": "2025-10-04",
+     "matches": [
+      {
+       "home": "Veterans CF Lloret",
+       "away": "CF Torderenc",
+       "date": "2025-10-04",
+       "hg": 2,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "CE l'Aigüeta",
+       "away": "FC Honduras Figueres",
+       "date": "2025-10-04",
+       "hg": 1,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "Esportiu Bonmatí",
+       "away": "Veterans Bordils-Flaçà",
+       "date": "2025-10-04",
+       "hg": 4,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "EF Maçanet",
+       "away": "Veterans Sarrià FC",
+       "date": "2025-10-04",
+       "hg": 4,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "LP Malcriat SFG",
+       "away": "Bar Moreda",
+       "date": "2025-10-04",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "FC Palafrugell Veterans",
+       "away": "CF Fogars Veterans",
+       "date": "2025-10-04",
+       "hg": 1,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc B",
+       "away": "Veterans CE Farners",
+       "date": "2025-10-04",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans San Andrés",
+       "away": "Veterans Alt Empordà",
+       "date": "2025-10-04",
+       "hg": 4,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Atlético Empuriabrava",
+       "away": "Veterans Atlètic Hostalric",
+       "date": "2025-10-04",
+       "hg": 2,
+       "ag": 0,
+       "status": "played"
+      }
+     ]
+    },
+    "6": {
+     "date": "2025-10-11",
+     "matches": [
+      {
+       "home": "CF Torderenc",
+       "away": "Atlético Empuriabrava",
+       "date": "2025-10-11",
+       "hg": 2,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "FC Honduras Figueres",
+       "away": "Veterans CF Lloret",
+       "date": "2025-10-11",
+       "hg": 1,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Bordils-Flaçà",
+       "away": "CE l'Aigüeta",
+       "date": "2025-10-11",
+       "hg": 5,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sarrià FC",
+       "away": "Esportiu Bonmatí",
+       "date": "2025-10-11",
+       "hg": 6,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Bar Moreda",
+       "away": "EF Maçanet",
+       "date": "2025-10-11",
+       "hg": 5,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "CF Fogars Veterans",
+       "away": "LP Malcriat SFG",
+       "date": "2025-10-11",
+       "hg": 4,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CE Farners",
+       "away": "FC Palafrugell Veterans",
+       "date": "2025-10-11",
+       "hg": 2,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Alt Empordà",
+       "away": "Racing Blanenc B",
+       "date": "2025-10-11",
+       "hg": 4,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Atlètic Hostalric",
+       "away": "Veterans San Andrés",
+       "date": "2025-10-11",
+       "hg": 2,
+       "ag": 1,
+       "status": "played"
+      }
+     ]
+    },
+    "7": {
+     "date": "2025-10-18",
+     "matches": [
+      {
+       "home": "CF Torderenc",
+       "away": "FC Honduras Figueres",
+       "date": "2025-10-18",
+       "hg": 4,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Lloret",
+       "away": "Veterans Bordils-Flaçà",
+       "date": "2025-10-18",
+       "hg": 2,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "CE l'Aigüeta",
+       "away": "Veterans Sarrià FC",
+       "date": "2025-10-18",
+       "hg": 2,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Esportiu Bonmatí",
+       "away": "Bar Moreda",
+       "date": "2025-10-18",
+       "hg": 2,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "EF Maçanet",
+       "away": "CF Fogars Veterans",
+       "date": "2025-10-18",
+       "hg": 1,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "LP Malcriat SFG",
+       "away": "Veterans CE Farners",
+       "date": "2025-10-18",
+       "hg": 4,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "FC Palafrugell Veterans",
+       "away": "Veterans Alt Empordà",
+       "date": "2025-10-18",
+       "hg": 11,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc B",
+       "away": "Veterans Atlètic Hostalric",
+       "date": "2025-10-18",
+       "hg": 1,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Atlético Empuriabrava",
+       "away": "Veterans San Andrés",
+       "date": "2025-10-18",
+       "hg": 4,
+       "ag": 0,
+       "status": "played"
+      }
+     ]
+    },
+    "8": {
+     "date": "2025-10-25",
+     "matches": [
+      {
+       "home": "FC Honduras Figueres",
+       "away": "Atlético Empuriabrava",
+       "date": "2025-10-25",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Bordils-Flaçà",
+       "away": "CF Torderenc",
+       "date": "2025-10-25",
+       "hg": 3,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sarrià FC",
+       "away": "Veterans CF Lloret",
+       "date": "2025-10-25",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Bar Moreda",
+       "away": "CE l'Aigüeta",
+       "date": "2025-10-25",
+       "hg": 4,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "CF Fogars Veterans",
+       "away": "Esportiu Bonmatí",
+       "date": "2025-10-25",
+       "hg": 1,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CE Farners",
+       "away": "EF Maçanet",
+       "date": "2025-10-25",
+       "hg": 2,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Alt Empordà",
+       "away": "LP Malcriat SFG",
+       "date": "2025-10-25",
+       "hg": 1,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Atlètic Hostalric",
+       "away": "FC Palafrugell Veterans",
+       "date": "2025-10-25",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans San Andrés",
+       "away": "Racing Blanenc B",
+       "date": "2025-10-25",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      }
+     ]
+    },
+    "9": {
+     "date": "2025-11-01",
+     "matches": [
+      {
+       "home": "FC Honduras Figueres",
+       "away": "Veterans Bordils-Flaçà",
+       "date": "2025-11-01",
+       "hg": 4,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "CF Torderenc",
+       "away": "Veterans Sarrià FC",
+       "date": "2025-11-01",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Lloret",
+       "away": "Bar Moreda",
+       "date": "2025-11-01",
+       "hg": 3,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "CE l'Aigüeta",
+       "away": "CF Fogars Veterans",
+       "date": "2025-11-01",
+       "hg": 1,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "Esportiu Bonmatí",
+       "away": "Veterans CE Farners",
+       "date": "2025-11-01",
+       "hg": 1,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "EF Maçanet",
+       "away": "Veterans Alt Empordà",
+       "date": "2025-11-01",
+       "hg": 4,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "LP Malcriat SFG",
+       "away": "Veterans Atlètic Hostalric",
+       "date": "2025-11-01",
+       "hg": 4,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "FC Palafrugell Veterans",
+       "away": "Veterans San Andrés",
+       "date": "2025-11-01",
+       "hg": 2,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Atlético Empuriabrava",
+       "away": "Racing Blanenc B",
+       "date": "2025-11-01",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      }
+     ]
+    },
+    "10": {
+     "date": "2025-11-08",
+     "matches": [
+      {
+       "home": "Veterans Bordils-Flaçà",
+       "away": "Atlético Empuriabrava",
+       "date": "2025-11-08",
+       "hg": 2,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sarrià FC",
+       "away": "FC Honduras Figueres",
+       "date": "2025-11-08",
+       "hg": 2,
+       "ag": 7,
+       "status": "played"
+      },
+      {
+       "home": "CF Fogars Veterans",
+       "away": "Veterans CF Lloret",
+       "date": "2025-11-08",
+       "hg": 2,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CE Farners",
+       "away": "CE l'Aigüeta",
+       "date": "2025-11-08",
+       "hg": 4,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Alt Empordà",
+       "away": "Esportiu Bonmatí",
+       "date": "2025-11-08",
+       "hg": 2,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Atlètic Hostalric",
+       "away": "EF Maçanet",
+       "date": "2025-11-08",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans San Andrés",
+       "away": "LP Malcriat SFG",
+       "date": "2025-11-08",
+       "hg": 1,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc B",
+       "away": "FC Palafrugell Veterans",
+       "date": "2025-11-08",
+       "hg": 3,
+       "ag": 8,
+       "status": "played"
+      },
+      {
+       "home": "Bar Moreda",
+       "away": "CF Torderenc",
+       "date": "2025-11-08",
+       "hg": 6,
+       "ag": 4,
+       "status": "played"
+      }
+     ]
+    },
+    "11": {
+     "date": "2025-11-15",
+     "matches": [
+      {
+       "home": "Veterans Bordils-Flaçà",
+       "away": "Veterans Sarrià FC",
+       "date": "2025-11-15",
+       "hg": 7,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "FC Honduras Figueres",
+       "away": "Bar Moreda",
+       "date": "2025-11-15",
+       "hg": 2,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "CF Torderenc",
+       "away": "CF Fogars Veterans",
+       "date": "2025-11-15",
+       "hg": 6,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Lloret",
+       "away": "Veterans CE Farners",
+       "date": "2025-11-15",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "CE l'Aigüeta",
+       "away": "Veterans Alt Empordà",
+       "date": "2025-11-15",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Esportiu Bonmatí",
+       "away": "Veterans Atlètic Hostalric",
+       "date": "2025-11-15",
+       "hg": 1,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "EF Maçanet",
+       "away": "Veterans San Andrés",
+       "date": "2025-11-15",
+       "hg": 2,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "LP Malcriat SFG",
+       "away": "Racing Blanenc B",
+       "date": "2025-11-15",
+       "hg": 2,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Atlético Empuriabrava",
+       "away": "FC Palafrugell Veterans",
+       "date": "2025-11-15",
+       "hg": 1,
+       "ag": 0,
+       "status": "played"
+      }
+     ]
+    },
+    "12": {
+     "date": "2025-11-22",
+     "matches": [
+      {
+       "home": "Veterans Sarrià FC",
+       "away": "Atlético Empuriabrava",
+       "date": "2025-11-22",
+       "hg": 0,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Bar Moreda",
+       "away": "Veterans Bordils-Flaçà",
+       "date": "2025-11-22",
+       "hg": 0,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "CF Fogars Veterans",
+       "away": "FC Honduras Figueres",
+       "date": "2025-11-22",
+       "hg": 1,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CE Farners",
+       "away": "CF Torderenc",
+       "date": "2025-11-22",
+       "hg": 2,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Alt Empordà",
+       "away": "Veterans CF Lloret",
+       "date": "2025-11-22",
+       "hg": 0,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Atlètic Hostalric",
+       "away": "CE l'Aigüeta",
+       "date": "2025-11-22",
+       "hg": 7,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans San Andrés",
+       "away": "Esportiu Bonmatí",
+       "date": "2025-11-22",
+       "hg": 2,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc B",
+       "away": "EF Maçanet",
+       "date": "2025-11-22",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "FC Palafrugell Veterans",
+       "away": "LP Malcriat SFG",
+       "date": "2025-11-22",
+       "hg": 2,
+       "ag": 2,
+       "status": "played"
+      }
+     ]
+    },
+    "13": {
+     "date": "2025-11-29",
+     "matches": [
+      {
+       "home": "Veterans Sarrià FC",
+       "away": "Bar Moreda",
+       "date": "2025-11-29",
+       "hg": 5,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Bordils-Flaçà",
+       "away": "CF Fogars Veterans",
+       "date": "2025-11-29",
+       "hg": 3,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "FC Honduras Figueres",
+       "away": "Veterans CE Farners",
+       "date": "2025-11-29",
+       "hg": 2,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "CF Torderenc",
+       "away": "Veterans Alt Empordà",
+       "date": "2025-11-29",
+       "hg": 11,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Lloret",
+       "away": "Veterans Atlètic Hostalric",
+       "date": "2025-11-29",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "CE l'Aigüeta",
+       "away": "Veterans San Andrés",
+       "date": "2025-11-29",
+       "hg": 2,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "EF Maçanet",
+       "away": "FC Palafrugell Veterans",
+       "date": "2025-11-29",
+       "hg": 0,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Atlético Empuriabrava",
+       "away": "LP Malcriat SFG",
+       "date": "2025-11-29",
+       "hg": 1,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Esportiu Bonmatí",
+       "away": "Racing Blanenc B",
+       "date": "2025-11-29",
+       "hg": 2,
+       "ag": 2,
+       "status": "played"
+      }
+     ]
+    },
+    "14": {
+     "date": "2025-12-13",
+     "matches": [
+      {
+       "home": "Bar Moreda",
+       "away": "Atlético Empuriabrava",
+       "date": "2025-12-13",
+       "hg": 2,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "CF Fogars Veterans",
+       "away": "Veterans Sarrià FC",
+       "date": "2025-12-13",
+       "hg": 7,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CE Farners",
+       "away": "Veterans Bordils-Flaçà",
+       "date": "2025-12-13",
+       "hg": 0,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Alt Empordà",
+       "away": "FC Honduras Figueres",
+       "date": "2025-12-13",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Atlètic Hostalric",
+       "away": "CF Torderenc",
+       "date": "2025-12-13",
+       "hg": 2,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans San Andrés",
+       "away": "Veterans CF Lloret",
+       "date": "2025-12-13",
+       "hg": 1,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc B",
+       "away": "CE l'Aigüeta",
+       "date": "2025-12-13",
+       "hg": 5,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "FC Palafrugell Veterans",
+       "away": "Esportiu Bonmatí",
+       "date": "2025-12-13",
+       "hg": 4,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "LP Malcriat SFG",
+       "away": "EF Maçanet",
+       "date": "2025-12-13",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      }
+     ]
+    },
+    "15": {
+     "date": "2025-12-20",
+     "matches": [
+      {
+       "home": "Bar Moreda",
+       "away": "CF Fogars Veterans",
+       "date": "2025-12-20",
+       "hg": 2,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sarrià FC",
+       "away": "Veterans CE Farners",
+       "date": "2025-12-20",
+       "hg": 3,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Bordils-Flaçà",
+       "away": "Veterans Alt Empordà",
+       "date": "2025-12-20",
+       "hg": 2,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "FC Honduras Figueres",
+       "away": "Veterans Atlètic Hostalric",
+       "date": "2025-12-20",
+       "hg": 2,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "CF Torderenc",
+       "away": "Veterans San Andrés",
+       "date": "2025-12-20",
+       "hg": 4,
+       "ag": 6,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Lloret",
+       "away": "Racing Blanenc B",
+       "date": "2025-12-20",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "CE l'Aigüeta",
+       "away": "FC Palafrugell Veterans",
+       "date": "2025-12-20",
+       "hg": 2,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Esportiu Bonmatí",
+       "away": "LP Malcriat SFG",
+       "date": "2025-12-20",
+       "hg": 0,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Atlético Empuriabrava",
+       "away": "EF Maçanet",
+       "date": "2025-12-20",
+       "hg": 4,
+       "ag": 1,
+       "status": "played"
+      }
+     ]
+    },
+    "16": {
+     "date": "2026-01-10",
+     "matches": [
+      {
+       "home": "Atlético Empuriabrava",
+       "away": "CF Fogars Veterans",
+       "date": "2026-01-10",
+       "hg": 1,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CE Farners",
+       "away": "Bar Moreda",
+       "date": "2026-01-10",
+       "hg": 1,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Alt Empordà",
+       "away": "Veterans Sarrià FC",
+       "date": "2026-01-10",
+       "hg": 2,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Atlètic Hostalric",
+       "away": "Veterans Bordils-Flaçà",
+       "date": "2026-01-10",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans San Andrés",
+       "away": "FC Honduras Figueres",
+       "date": "2026-01-10",
+       "hg": 2,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc B",
+       "away": "CF Torderenc",
+       "date": "2026-01-10",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "FC Palafrugell Veterans",
+       "away": "Veterans CF Lloret",
+       "date": "2026-01-10",
+       "hg": 6,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "LP Malcriat SFG",
+       "away": "CE l'Aigüeta",
+       "date": "2026-01-10",
+       "hg": 7,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "EF Maçanet",
+       "away": "Esportiu Bonmatí",
+       "date": "2026-01-10",
+       "hg": 1,
+       "ag": 1,
+       "status": "played"
+      }
+     ]
+    },
+    "17": {
+     "date": "2026-01-17",
+     "matches": [
+      {
+       "home": "CF Fogars Veterans",
+       "away": "Veterans CE Farners",
+       "date": "2026-01-17",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Bar Moreda",
+       "away": "Veterans Alt Empordà",
+       "date": "2026-01-17",
+       "hg": 2,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sarrià FC",
+       "away": "Veterans Atlètic Hostalric",
+       "date": "2026-01-17",
+       "hg": 0,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Bordils-Flaçà",
+       "away": "Veterans San Andrés",
+       "date": "2026-01-17",
+       "hg": 4,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "FC Honduras Figueres",
+       "away": "Racing Blanenc B",
+       "date": "2026-01-17",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "CF Torderenc",
+       "away": "FC Palafrugell Veterans",
+       "date": "2026-01-17",
+       "hg": 2,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Lloret",
+       "away": "LP Malcriat SFG",
+       "date": "2026-01-17",
+       "hg": 2,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "CE l'Aigüeta",
+       "away": "EF Maçanet",
+       "date": "2026-01-17",
+       "hg": 0,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "Esportiu Bonmatí",
+       "away": "Atlético Empuriabrava",
+       "date": "2026-01-17",
+       "hg": 2,
+       "ag": 3,
+       "status": "played"
+      }
+     ]
+    },
+    "18": {
+     "date": "2026-01-24",
+     "matches": [
+      {
+       "home": "CE l'Aigüeta",
+       "away": "Esportiu Bonmatí",
+       "date": "2026-01-24",
+       "hg": 5,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Lloret",
+       "away": "EF Maçanet",
+       "date": "2026-01-24",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "CF Torderenc",
+       "away": "LP Malcriat SFG",
+       "date": "2026-01-24",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "FC Honduras Figueres",
+       "away": "FC Palafrugell Veterans",
+       "date": "2026-01-24",
+       "hg": 2,
+       "ag": 9,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Bordils-Flaçà",
+       "away": "Racing Blanenc B",
+       "date": "2026-01-24",
+       "hg": 3,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sarrià FC",
+       "away": "Veterans San Andrés",
+       "date": "2026-01-24",
+       "hg": 1,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "Bar Moreda",
+       "away": "Veterans Atlètic Hostalric",
+       "date": "2026-01-24",
+       "hg": 0,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "CF Fogars Veterans",
+       "away": "Veterans Alt Empordà",
+       "date": "2026-01-24",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CE Farners",
+       "away": "Atlético Empuriabrava",
+       "date": "2026-01-24",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      }
+     ]
+    },
+    "19": {
+     "date": "2026-01-31",
+     "matches": [
+      {
+       "home": "Atlético Empuriabrava",
+       "away": "CE l'Aigüeta",
+       "date": "2026-01-31",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Esportiu Bonmatí",
+       "away": "Veterans CF Lloret",
+       "date": "2026-01-31",
+       "hg": 2,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "EF Maçanet",
+       "away": "CF Torderenc",
+       "date": "2026-01-31",
+       "hg": 1,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "FC Palafrugell Veterans",
+       "away": "Veterans Bordils-Flaçà",
+       "date": "2026-01-31",
+       "hg": 5,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc B",
+       "away": "Veterans Sarrià FC",
+       "date": "2026-01-31",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans San Andrés",
+       "away": "Bar Moreda",
+       "date": "2026-01-31",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Atlètic Hostalric",
+       "away": "CF Fogars Veterans",
+       "date": "2026-01-31",
+       "hg": 0,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Alt Empordà",
+       "away": "Veterans CE Farners",
+       "date": "2026-01-31",
+       "hg": 1,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "LP Malcriat SFG",
+       "away": "FC Honduras Figueres",
+       "date": "2026-01-31",
+       "hg": 3,
+       "ag": 0,
+       "status": "walkover"
+      }
+     ]
+    },
+    "20": {
+     "date": "2026-02-07",
+     "matches": [
+      {
+       "home": "Veterans CF Lloret",
+       "away": "CE l'Aigüeta",
+       "date": "2026-02-07",
+       "hg": 4,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "CF Torderenc",
+       "away": "Esportiu Bonmatí",
+       "date": "2026-02-07",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "FC Honduras Figueres",
+       "away": "EF Maçanet",
+       "date": "2026-02-07",
+       "hg": 0,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Bordils-Flaçà",
+       "away": "LP Malcriat SFG",
+       "date": "2026-02-07",
+       "hg": 4,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sarrià FC",
+       "away": "FC Palafrugell Veterans",
+       "date": "2026-02-07",
+       "hg": 1,
+       "ag": 11,
+       "status": "played"
+      },
+      {
+       "home": "Bar Moreda",
+       "away": "Racing Blanenc B",
+       "date": "2026-02-07",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "CF Fogars Veterans",
+       "away": "Veterans San Andrés",
+       "date": "2026-02-07",
+       "hg": 1,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CE Farners",
+       "away": "Veterans Atlètic Hostalric",
+       "date": "2026-02-07",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Alt Empordà",
+       "away": "Atlético Empuriabrava",
+       "date": "2026-02-07",
+       "hg": 1,
+       "ag": 3,
+       "status": "played"
+      }
+     ]
+    },
+    "21": {
+     "date": "2026-02-21",
+     "matches": [
+      {
+       "home": "Atlético Empuriabrava",
+       "away": "Veterans CF Lloret",
+       "date": "2026-02-21",
+       "hg": 2,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "CE l'Aigüeta",
+       "away": "CF Torderenc",
+       "date": "2026-02-21",
+       "hg": 1,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "Esportiu Bonmatí",
+       "away": "FC Honduras Figueres",
+       "date": "2026-02-21",
+       "hg": 6,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "EF Maçanet",
+       "away": "Veterans Bordils-Flaçà",
+       "date": "2026-02-21",
+       "hg": 2,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "LP Malcriat SFG",
+       "away": "Veterans Sarrià FC",
+       "date": "2026-02-21",
+       "hg": 6,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "FC Palafrugell Veterans",
+       "away": "Bar Moreda",
+       "date": "2026-02-21",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc B",
+       "away": "CF Fogars Veterans",
+       "date": "2026-02-21",
+       "hg": 2,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans San Andrés",
+       "away": "Veterans CE Farners",
+       "date": "2026-02-21",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Atlètic Hostalric",
+       "away": "Veterans Alt Empordà",
+       "date": "2026-02-21",
+       "hg": 6,
+       "ag": 2,
+       "status": "played"
+      }
+     ]
+    },
+    "22": {
+     "date": "2026-02-28",
+     "matches": [
+      {
+       "home": "CF Torderenc",
+       "away": "Veterans CF Lloret",
+       "date": "2026-02-28",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "FC Honduras Figueres",
+       "away": "CE l'Aigüeta",
+       "date": "2026-02-28",
+       "hg": 2,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Bordils-Flaçà",
+       "away": "Esportiu Bonmatí",
+       "date": "2026-02-28",
+       "hg": 5,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sarrià FC",
+       "away": "EF Maçanet",
+       "date": "2026-02-28",
+       "hg": 3,
+       "ag": 10,
+       "status": "played"
+      },
+      {
+       "home": "Bar Moreda",
+       "away": "LP Malcriat SFG",
+       "date": "2026-02-28",
+       "hg": 1,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "CF Fogars Veterans",
+       "away": "FC Palafrugell Veterans",
+       "date": "2026-02-28",
+       "hg": 5,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CE Farners",
+       "away": "Racing Blanenc B",
+       "date": "2026-02-28",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Alt Empordà",
+       "away": "Veterans San Andrés",
+       "date": "2026-02-28",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Atlètic Hostalric",
+       "away": "Atlético Empuriabrava",
+       "date": "2026-02-28",
+       "hg": 0,
+       "ag": 1,
+       "status": "played"
+      }
+     ]
+    },
+    "23": {
+     "date": "2026-03-07",
+     "matches": [
+      {
+       "home": "Atlético Empuriabrava",
+       "away": "CF Torderenc",
+       "date": "2026-03-07",
+       "hg": 3,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Lloret",
+       "away": "FC Honduras Figueres",
+       "date": "2026-03-07",
+       "hg": 4,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "CE l'Aigüeta",
+       "away": "Veterans Bordils-Flaçà",
+       "date": "2026-03-07",
+       "hg": 2,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Esportiu Bonmatí",
+       "away": "Veterans Sarrià FC",
+       "date": "2026-03-07",
+       "hg": 4,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "EF Maçanet",
+       "away": "Bar Moreda",
+       "date": "2026-03-07",
+       "hg": 4,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "LP Malcriat SFG",
+       "away": "CF Fogars Veterans",
+       "date": "2026-03-07",
+       "hg": 1,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc B",
+       "away": "Veterans Alt Empordà",
+       "date": "2026-03-07",
+       "hg": 2,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans San Andrés",
+       "away": "Veterans Atlètic Hostalric",
+       "date": "2026-03-07",
+       "hg": 4,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "FC Palafrugell Veterans",
+       "away": "Veterans CE Farners",
+       "date": "2026-03-07",
+       "hg": 3,
+       "ag": 0,
+       "status": "walkover"
+      }
+     ]
+    },
+    "24": {
+     "date": "2026-03-14",
+     "matches": [
+      {
+       "home": "FC Honduras Figueres",
+       "away": "CF Torderenc",
+       "date": "2026-03-14",
+       "hg": 2,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Bordils-Flaçà",
+       "away": "Veterans CF Lloret",
+       "date": "2026-03-14",
+       "hg": 2,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sarrià FC",
+       "away": "CE l'Aigüeta",
+       "date": "2026-03-14",
+       "hg": 4,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Bar Moreda",
+       "away": "Esportiu Bonmatí",
+       "date": "2026-03-14",
+       "hg": 6,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "CF Fogars Veterans",
+       "away": "EF Maçanet",
+       "date": "2026-03-14",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CE Farners",
+       "away": "LP Malcriat SFG",
+       "date": "2026-03-14",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Alt Empordà",
+       "away": "FC Palafrugell Veterans",
+       "date": "2026-03-14",
+       "hg": 1,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Atlètic Hostalric",
+       "away": "Racing Blanenc B",
+       "date": "2026-03-14",
+       "hg": 3,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans San Andrés",
+       "away": "Atlético Empuriabrava",
+       "date": "2026-03-14",
+       "hg": 2,
+       "ag": 3,
+       "status": "played"
+      }
+     ]
+    },
+    "25": {
+     "date": "2026-03-21",
+     "matches": [
+      {
+       "home": "Atlético Empuriabrava",
+       "away": "FC Honduras Figueres",
+       "date": "2026-03-21",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "CF Torderenc",
+       "away": "Veterans Bordils-Flaçà",
+       "date": "2026-03-21",
+       "hg": 0,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Lloret",
+       "away": "Veterans Sarrià FC",
+       "date": "2026-03-21",
+       "hg": 6,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "CE l'Aigüeta",
+       "away": "Bar Moreda",
+       "date": "2026-03-21",
+       "hg": 2,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Esportiu Bonmatí",
+       "away": "CF Fogars Veterans",
+       "date": "2026-03-21",
+       "hg": 4,
+       "ag": 6,
+       "status": "played"
+      },
+      {
+       "home": "EF Maçanet",
+       "away": "Veterans CE Farners",
+       "date": "2026-03-21",
+       "hg": 3,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "LP Malcriat SFG",
+       "away": "Veterans Alt Empordà",
+       "date": "2026-03-21",
+       "hg": 2,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "FC Palafrugell Veterans",
+       "away": "Veterans Atlètic Hostalric",
+       "date": "2026-03-21",
+       "hg": 8,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc B",
+       "away": "Veterans San Andrés",
+       "date": "2026-03-21",
+       "hg": 2,
+       "ag": 0,
+       "status": "played"
+      }
+     ]
+    },
+    "26": {
+     "date": "2026-03-28",
+     "matches": [
+      {
+       "home": "Veterans Bordils-Flaçà",
+       "away": "FC Honduras Figueres",
+       "date": "2026-03-28",
+       "hg": 3,
+       "ag": 6,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sarrià FC",
+       "away": "CF Torderenc",
+       "date": "2026-03-28",
+       "hg": 3,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Bar Moreda",
+       "away": "Veterans CF Lloret",
+       "date": "2026-03-28",
+       "hg": 3,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "CF Fogars Veterans",
+       "away": "CE l'Aigüeta",
+       "date": "2026-03-28",
+       "hg": 4,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CE Farners",
+       "away": "Esportiu Bonmatí",
+       "date": "2026-03-28",
+       "hg": 4,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Alt Empordà",
+       "away": "EF Maçanet",
+       "date": "2026-03-28",
+       "hg": 2,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Atlètic Hostalric",
+       "away": "LP Malcriat SFG",
+       "date": "2026-03-28",
+       "hg": 4,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans San Andrés",
+       "away": "FC Palafrugell Veterans",
+       "date": "2026-03-28",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc B",
+       "away": "Atlético Empuriabrava",
+       "date": "2026-03-28",
+       "hg": 0,
+       "ag": 2,
+       "status": "played"
+      }
+     ]
+    },
+    "27": {
+     "date": "2026-04-11",
+     "matches": [
+      {
+       "home": "Atlético Empuriabrava",
+       "away": "Veterans Bordils-Flaçà",
+       "date": "2026-04-11",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "FC Honduras Figueres",
+       "away": "Veterans Sarrià FC",
+       "date": "2026-04-11",
+       "hg": 2,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "CF Torderenc",
+       "away": "Bar Moreda",
+       "date": "2026-04-11",
+       "hg": 1,
+       "ag": 6,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Lloret",
+       "away": "CF Fogars Veterans",
+       "date": "2026-04-11",
+       "hg": 0,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "CE l'Aigüeta",
+       "away": "Veterans CE Farners",
+       "date": "2026-04-11",
+       "hg": 4,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Esportiu Bonmatí",
+       "away": "Veterans Alt Empordà",
+       "date": "2026-04-11",
+       "hg": 0,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "EF Maçanet",
+       "away": "Veterans Atlètic Hostalric",
+       "date": "2026-04-11",
+       "hg": 5,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "LP Malcriat SFG",
+       "away": "Veterans San Andrés",
+       "date": "2026-04-11",
+       "hg": 6,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "FC Palafrugell Veterans",
+       "away": "Racing Blanenc B",
+       "date": "2026-04-11",
+       "hg": 5,
+       "ag": 3,
+       "status": "played"
+      }
+     ]
+    },
+    "28": {
+     "date": "2026-04-18",
+     "matches": [
+      {
+       "home": "Veterans Sarrià FC",
+       "away": "Veterans Bordils-Flaçà",
+       "date": "2026-04-18",
+       "hg": 1,
+       "ag": 8,
+       "status": "played"
+      },
+      {
+       "home": "Bar Moreda",
+       "away": "FC Honduras Figueres",
+       "date": "2026-04-18",
+       "hg": 4,
+       "ag": 7,
+       "status": "played"
+      },
+      {
+       "home": "CF Fogars Veterans",
+       "away": "CF Torderenc",
+       "date": "2026-04-18",
+       "hg": 2,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CE Farners",
+       "away": "Veterans CF Lloret",
+       "date": "2026-04-18",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Alt Empordà",
+       "away": "CE l'Aigüeta",
+       "date": "2026-04-18",
+       "hg": 4,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Atlètic Hostalric",
+       "away": "Esportiu Bonmatí",
+       "date": "2026-04-18",
+       "hg": 3,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans San Andrés",
+       "away": "EF Maçanet",
+       "date": "2026-04-18",
+       "hg": 4,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc B",
+       "away": "LP Malcriat SFG",
+       "date": "2026-04-18",
+       "hg": 2,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "FC Palafrugell Veterans",
+       "away": "Atlético Empuriabrava",
+       "date": "2026-04-18",
+       "hg": 0,
+       "ag": 2,
+       "status": "played"
+      }
+     ]
+    },
+    "29": {
+     "date": "2026-04-25",
+     "matches": [
+      {
+       "home": "Atlético Empuriabrava",
+       "away": "Veterans Sarrià FC",
+       "date": "2026-04-25",
+       "hg": 5,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Bordils-Flaçà",
+       "away": "Bar Moreda",
+       "date": "2026-04-25",
+       "hg": 3,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "FC Honduras Figueres",
+       "away": "CF Fogars Veterans",
+       "date": "2026-04-25",
+       "hg": 2,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "CF Torderenc",
+       "away": "Veterans CE Farners",
+       "date": "2026-04-25",
+       "hg": 3,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Lloret",
+       "away": "Veterans Alt Empordà",
+       "date": "2026-04-25",
+       "hg": 2,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "CE l'Aigüeta",
+       "away": "Veterans Atlètic Hostalric",
+       "date": "2026-04-25",
+       "hg": 4,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Esportiu Bonmatí",
+       "away": "Veterans San Andrés",
+       "date": "2026-04-25",
+       "hg": 1,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "LP Malcriat SFG",
+       "away": "FC Palafrugell Veterans",
+       "date": "2026-04-25",
+       "hg": 2,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "EF Maçanet",
+       "away": "Racing Blanenc B",
+       "date": "2026-04-25",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      }
+     ]
+    },
+    "30": {
+     "date": "2026-05-02",
+     "matches": [
+      {
+       "home": "Bar Moreda",
+       "away": "Veterans Sarrià FC",
+       "date": "2026-05-02",
+       "hg": 2,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "CF Fogars Veterans",
+       "away": "Veterans Bordils-Flaçà",
+       "date": "2026-05-02",
+       "hg": 1,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CE Farners",
+       "away": "FC Honduras Figueres",
+       "date": "2026-05-02",
+       "hg": 3,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Alt Empordà",
+       "away": "CF Torderenc",
+       "date": "2026-05-02",
+       "hg": 2,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Atlètic Hostalric",
+       "away": "Veterans CF Lloret",
+       "date": "2026-05-02",
+       "hg": 4,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans San Andrés",
+       "away": "CE l'Aigüeta",
+       "date": "2026-05-02",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc B",
+       "away": "Esportiu Bonmatí",
+       "date": "2026-05-02",
+       "hg": 4,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "FC Palafrugell Veterans",
+       "away": "EF Maçanet",
+       "date": "2026-05-02",
+       "hg": 2,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "LP Malcriat SFG",
+       "away": "Atlético Empuriabrava",
+       "date": "2026-05-02",
+       "hg": 2,
+       "ag": 3,
+       "status": "played"
+      }
+     ]
+    },
+    "31": {
+     "date": "2026-05-09",
+     "matches": [
+      {
+       "home": "Atlético Empuriabrava",
+       "away": "Bar Moreda",
+       "date": "2026-05-09",
+       "hg": 2,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sarrià FC",
+       "away": "CF Fogars Veterans",
+       "date": "2026-05-09",
+       "hg": 0,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Bordils-Flaçà",
+       "away": "Veterans CE Farners",
+       "date": "2026-05-09",
+       "hg": 6,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "FC Honduras Figueres",
+       "away": "Veterans Alt Empordà",
+       "date": "2026-05-09",
+       "hg": 4,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "CF Torderenc",
+       "away": "Veterans Atlètic Hostalric",
+       "date": "2026-05-09",
+       "hg": 4,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Lloret",
+       "away": "Veterans San Andrés",
+       "date": "2026-05-09",
+       "hg": 4,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "CE l'Aigüeta",
+       "away": "Racing Blanenc B",
+       "date": "2026-05-09",
+       "hg": 2,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Esportiu Bonmatí",
+       "away": "FC Palafrugell Veterans",
+       "date": "2026-05-09",
+       "hg": 1,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "EF Maçanet",
+       "away": "LP Malcriat SFG",
+       "date": "2026-05-09",
+       "hg": 2,
+       "ag": 1,
+       "status": "played"
+      }
+     ]
+    },
+    "32": {
+     "date": "2026-05-16",
+     "matches": [
+      {
+       "home": "CF Fogars Veterans",
+       "away": "Bar Moreda",
+       "date": "2026-05-16",
+       "hg": 2,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CE Farners",
+       "away": "Veterans Sarrià FC",
+       "date": "2026-05-16",
+       "hg": 2,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Alt Empordà",
+       "away": "Veterans Bordils-Flaçà",
+       "date": "2026-05-16",
+       "hg": 2,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Atlètic Hostalric",
+       "away": "FC Honduras Figueres",
+       "date": "2026-05-16",
+       "hg": 5,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans San Andrés",
+       "away": "CF Torderenc",
+       "date": "2026-05-16",
+       "hg": 4,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc B",
+       "away": "Veterans CF Lloret",
+       "date": "2026-05-16",
+       "hg": 1,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "FC Palafrugell Veterans",
+       "away": "CE l'Aigüeta",
+       "date": "2026-05-16",
+       "hg": 6,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "LP Malcriat SFG",
+       "away": "Esportiu Bonmatí",
+       "date": "2026-05-16",
+       "hg": 8,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "EF Maçanet",
+       "away": "Atlético Empuriabrava",
+       "date": "2026-05-16",
+       "hg": 0,
+       "ag": 0,
+       "status": "played"
+      }
+     ]
+    },
+    "33": {
+     "date": "2026-05-23",
+     "matches": [
+      {
+       "home": "CF Fogars Veterans",
+       "away": "Atlético Empuriabrava",
+       "date": "2026-05-23",
+       "hg": 3,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Bar Moreda",
+       "away": "Veterans CE Farners",
+       "date": "2026-05-23",
+       "hg": 1,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sarrià FC",
+       "away": "Veterans Alt Empordà",
+       "date": "2026-05-23",
+       "hg": 3,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Bordils-Flaçà",
+       "away": "Veterans Atlètic Hostalric",
+       "date": "2026-05-23",
+       "hg": 1,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "FC Honduras Figueres",
+       "away": "Veterans San Andrés",
+       "date": "2026-05-23",
+       "hg": 3,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "CF Torderenc",
+       "away": "Racing Blanenc B",
+       "date": "2026-05-23",
+       "hg": 0,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Lloret",
+       "away": "FC Palafrugell Veterans",
+       "date": "2026-05-23",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "CE l'Aigüeta",
+       "away": "LP Malcriat SFG",
+       "date": "2026-05-23",
+       "hg": 3,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Esportiu Bonmatí",
+       "away": "EF Maçanet",
+       "date": "2026-05-23",
+       "hg": 1,
+       "ag": 7,
+       "status": "played"
+      }
+     ]
+    },
+    "34": {
+     "date": "2026-05-30",
+     "matches": [
+      {
+       "home": "Veterans CE Farners",
+       "away": "CF Fogars Veterans",
+       "date": "2026-05-30",
+       "hg": 1,
+       "ag": 6,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Alt Empordà",
+       "away": "Bar Moreda",
+       "date": "2026-05-30",
+       "hg": 2,
+       "ag": 7,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Atlètic Hostalric",
+       "away": "Veterans Sarrià FC",
+       "date": "2026-05-30",
+       "hg": 8,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans San Andrés",
+       "away": "Veterans Bordils-Flaçà",
+       "date": "2026-05-30",
+       "hg": 4,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "FC Palafrugell Veterans",
+       "away": "CF Torderenc",
+       "date": "2026-05-30",
+       "hg": 3,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "LP Malcriat SFG",
+       "away": "Veterans CF Lloret",
+       "date": "2026-05-30",
+       "hg": 2,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "EF Maçanet",
+       "away": "CE l'Aigüeta",
+       "date": "2026-05-30",
+       "hg": 2,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Atlético Empuriabrava",
+       "away": "Esportiu Bonmatí",
+       "date": "2026-05-30",
+       "hg": 3,
+       "ag": 0,
+       "status": "walkover"
+      },
+      {
+       "home": "Racing Blanenc B",
+       "away": "FC Honduras Figueres",
+       "date": "2026-05-30",
+       "hg": 0,
+       "ag": 3,
+       "status": "played"
+      }
+     ]
+    },
+    "1": {
+     "date": "2026-06-06",
+     "matches": [
+      {
+       "home": "Esportiu Bonmatí",
+       "away": "CE l'Aigüeta",
+       "date": "2026-06-06",
+       "hg": 0,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "EF Maçanet",
+       "away": "Veterans CF Lloret",
+       "date": "2026-06-06",
+       "hg": 1,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "LP Malcriat SFG",
+       "away": "CF Torderenc",
+       "date": "2026-06-06",
+       "hg": 5,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "FC Palafrugell Veterans",
+       "away": "FC Honduras Figueres",
+       "date": "2026-06-06",
+       "hg": 3,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Racing Blanenc B",
+       "away": "Veterans Bordils-Flaçà",
+       "date": "2026-06-06",
+       "hg": 3,
+       "ag": 6,
+       "status": "played"
+      },
+      {
+       "home": "Veterans San Andrés",
+       "away": "Veterans Sarrià FC",
+       "date": "2026-06-06",
+       "hg": 5,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Atlètic Hostalric",
+       "away": "Bar Moreda",
+       "date": "2026-06-06",
+       "hg": 7,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Alt Empordà",
+       "away": "CF Fogars Veterans",
+       "date": "2026-06-06",
+       "hg": 0,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "Atlético Empuriabrava",
+       "away": "Veterans CE Farners",
+       "date": "2026-06-06",
+       "hg": 3,
+       "ag": 5,
+       "status": "played"
+      }
+     ]
+    },
+    "2": {
+     "date": "2026-06-13",
+     "matches": [
+      {
+       "home": "CE l'Aigüeta",
+       "away": "Atlético Empuriabrava",
+       "date": "2026-06-13",
+       "hg": 1,
+       "ag": 4,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CF Lloret",
+       "away": "Esportiu Bonmatí",
+       "date": "2026-06-13",
+       "hg": 3,
+       "ag": 0,
+       "status": "played"
+      },
+      {
+       "home": "CF Torderenc",
+       "away": "EF Maçanet",
+       "date": "2026-06-13",
+       "hg": 3,
+       "ag": 5,
+       "status": "played"
+      },
+      {
+       "home": "FC Honduras Figueres",
+       "away": "LP Malcriat SFG",
+       "date": "2026-06-13",
+       "hg": 7,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Bordils-Flaçà",
+       "away": "FC Palafrugell Veterans",
+       "date": "2026-06-13",
+       "hg": 2,
+       "ag": 7,
+       "status": "played"
+      },
+      {
+       "home": "Veterans Sarrià FC",
+       "away": "Racing Blanenc B",
+       "date": "2026-06-13",
+       "hg": 0,
+       "ag": 3,
+       "status": "played"
+      },
+      {
+       "home": "Bar Moreda",
+       "away": "Veterans San Andrés",
+       "date": "2026-06-13",
+       "hg": 1,
+       "ag": 2,
+       "status": "played"
+      },
+      {
+       "home": "CF Fogars Veterans",
+       "away": "Veterans Atlètic Hostalric",
+       "date": "2026-06-13",
+       "hg": 5,
+       "ag": 1,
+       "status": "played"
+      },
+      {
+       "home": "Veterans CE Farners",
+       "away": "Veterans Alt Empordà",
+       "date": "2026-06-13",
+       "hg": 0,
+       "ag": 3,
+       "status": "played"
+      }
+     ]
+    }
+   },
+   "topSlots": 2,
+   "relegSlots": 1,
+   "topLabel": "ascens"
+  }
+ },
+ "note": "Resultats importats de les circulars de la temporada 2025-26. La classificació es calcula a partir dels resultats; la classificació oficial final (circular del 13 de juny de 2026) aplica les normes del comitè sobre els equips retirats i és aquesta — Grup A: 1 AE Aeroport, 2 Inter Lloret, 3 Sàbat Veterans, 4 Cafeteros FC, 5 Veterans Sant Antoni, 6 Real Guíxols FC, 7 Veterans Pontenc, 8 Veterans d'Arbúcies, 9 Veterans CF Sils, 10 Vet. Sporting Vidrerenca, 11 Anglès Huellas Colombia, 12 CE Anglès, 13 Coma Cros C - La H, 14 Veterans La Batllòria, 15 Athlètic Can Borell (Racing Blanenc A, Veterans Coma Cros B i FC Alianza Girona, retirats, sense classificar). Grup B: 1 Atlético Empuriabrava, 2 FC Palafrugell Veterans, 3 Veterans CF Lloret, 4 Veterans Bordils-Flaçà, 5 EF Maçanet, 6 CF Fogars Veterans, 7 Veterans Atlètic Hostalric, 8 LP Malcriat SFG, 9 Bar Moreda, 10 Veterans San Andrés, 11 Racing Blanenc B, 12 CF Torderenc, 13 FC Honduras Figueres, 14 CE l'Aigüeta, 15 Veterans CE Farners, 16 Veterans Sarrià FC, 17 Veterans Alt Empordà (Esportiu Bonmatí, retirat, sense classificar)."
+}

@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { getT, fmtDate } from "@/lib/i18n";
-import { getSeason, getGroups, loadGroup, siteLogo, getAllSeasons, isArchive, popupSettings } from "@/lib/stats";
+import { getSeason, getGroups, loadGroup, siteLogo, getAllSeasons, isArchive, popupSettings, getSetting } from "@/lib/stats";
 import { Popup } from "@/components/Popup";
 import { WebcalFix } from "@/components/WebcalFix";
 import { Hit } from "@/components/Hit";
@@ -69,7 +69,8 @@ export default async function PublicLayout({ children }: { children: React.React
           <span>{user ? <Link href="/admin">{t.admin}</Link> : <Link href="/admin/login">{t.entrar}</Link>}</span>
         </div>
       </div>
-      {archive && <div className="archive-banner"><div className="wrap"><span>{t.arxiuBanner} <b>{season.name}</b></span><Link href="/temporada/actual?to=/">{t.tornaActual} →</Link></div></div>}
+      {archive && <div className="archive-banner"><div className="wrap"><span>{t.arxiuBanner} <b>{season.name}</b></span><Link href="/temporada/actual?to=/">{t.tornaActual} →</Link></div>
+        {getSetting(`season_note_${season.name}`) && <div className="wrap" style={{ display: "block", minHeight: 0, fontSize: 12.5, paddingBottom: 8, opacity: .85 }}>{getSetting(`season_note_${season.name}`)}</div>}</div>}
       <main className="site"><div className="wrap">{children}</div></main>
       <WebcalFix />
       <Hit />
