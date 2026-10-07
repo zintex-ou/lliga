@@ -24,7 +24,9 @@ export default async function Home({ searchParams }: { searchParams: Promise<Rec
   const data = loadGroup(group.id);
   const maxRound = data.rounds.length;
   const nothingPlayed = data.lastPlayedRound === 0;
-  const nextMode = showNextRound();
+  // switch the left column to the next round once its kick-off times are published (or from Thursday on)
+  const nextHasTimes = data.matches.some((m) => m.round.number === data.nextRound && m.time);
+  const nextMode = showNextRound() || nextHasTimes;
 
   // left column
   const defaultLeft = nothingPlayed || nextMode ? data.nextRound : data.lastPlayedRound;
