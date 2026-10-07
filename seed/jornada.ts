@@ -43,7 +43,26 @@ const SANCTIONS: [string, string, number, string][] = [
 const REPLACE: [string, string, string, string][] = [];
 // next round kick-off times/fields: group, home, away, time, field
 const NEXT_ROUND = 6;
-const NEXT_ROWS: [string, string, string, string, string][] = [];
+const NEXT_ROWS: [string, string, string, string, string][] = [
+  ["A", "CE Sant Hilari-Font Vella", "Majestic FC", "16:00", "Municipal Sant Hilari Sacalm"],
+  ["A", "FVB Vilobí", "Inter Lloret", "18:30", "Municipal Vilobí d'Onyar"],
+  ["A", "Veterans CF Sils", "Real Guíxols FC", "17:30", "Municipal Sils"],
+  ["A", "UE Comacros Veterans B", "Vet. Sporting Vidrerenca", "16:00", "Municipal Comacros"],
+  ["A", "Veteranos El Barrio", "UE Comacros Veterans A", "16:30", "Municipal Vila-roja"],
+  ["A", "Sàbat Veterans", "CE Anglès", "19:30", "Municipal Germans Sàbat"],
+  ["A", "Veterans La Batllòria", "Anglès Huellas Colombia", "17:00", "Municipal La Batllòria"],
+  ["A", "Veterans Pontenc", "Atlético Empuriabrava", "18:30", "Municipal Pont Major"],
+  ["A", "Veterans d'Arbúcies", "UCE Celrà", "19:30", "Municipal Arbúcies"],
+  ["B", "Athlètic Can Borell", "Veterans Bordils-Flaçà", "17:00", "Municipal Can Borell"],
+  ["B", "CE l'Aigüeta", "FC Palafrugell Veterans", "17:00", "Municipal La Bisbal"],
+  ["B", "Veterans CE Farners", "Restaurant Amura", "20:00", "Municipal Santa Coloma de Farners"],
+  ["B", "CF Torderenc", "Esportiu Bonmatí", "18:00", "Municipal Tordera"],
+  ["B", "FC Honduras Figueres", "Veterans Sant Antoni", "17:00", "Municipal La Salle Figueres"],
+  ["B", "CF Fogars Veterans", "Veterans Ath. Hostalric", "15:30", "Municipal Fogars"],
+  ["B", "Veterans Alt Empordà", "Veterans Sant Andreu", "18:00", "Municipal Bàscara"],
+  ["B", "CEF Veterans SFG", "EF Maçanet", "16:00", "Municipal Mascanada"],
+  ["B", "Veterans CF Lloret", "Racing Blanenc B", "16:00", "Municipal Lloret"],
+];
 
 const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[–—-]/g, " ").replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
 const slugify = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
