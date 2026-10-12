@@ -4,65 +4,43 @@
 import { db, schema } from "../src/db";
 import { eq, and, like, desc } from "drizzle-orm";
 
-const ROUND = 5;
+const ROUND = 6;
 const RENAMES: Record<string, string> = {};
 const KITS: Record<string, string> = {};
 // group, home, hg, ag, away, note
 const RESULTS: [string, string, number, number, string, string?][] = [
-  ["A", "Inter Lloret", 6, 2, "CE Sant Hilari-Font Vella"],
-  ["A", "Real Guíxols FC", 3, 3, "FVB Vilobí"],
-  ["A", "Vet. Sporting Vidrerenca", 2, 2, "Veterans CF Sils"],
-  ["A", "UE Comacros Veterans A", 4, 3, "UE Comacros Veterans B"],
-  ["A", "CE Anglès", 3, 5, "Veteranos El Barrio"],
-  ["A", "Anglès Huellas Colombia", 3, 2, "Sàbat Veterans"],
-  ["A", "Atlético Empuriabrava", 3, 0, "Veterans La Batllòria"],
-  ["A", "UCE Celrà", 0, 11, "Veterans Pontenc"],
-  ["B", "FC Palafrugell Veterans", 3, 2, "Athlètic Can Borell"],
-  ["B", "Restaurant Amura", 5, 0, "CE l'Aigüeta"],
-  ["B", "Esportiu Bonmatí", 1, 1, "Veterans CE Farners"],
-  ["B", "Veterans Sant Antoni", 4, 1, "CF Torderenc"],
-  ["B", "Veterans Ath. Hostalric", 2, 2, "FC Honduras Figueres"],
-  ["B", "Veterans Sant Andreu", 1, 6, "CF Fogars Veterans"],
-  ["B", "EF Maçanet", 9, 1, "Veterans Alt Empordà"],
-  ["B", "Veterans Bordils-Flaçà", 2, 3, "Veterans CF Lloret"],
+  ["A", "CE Sant Hilari-Font Vella", 2, 4, "Majestic FC"],
+  ["A", "FVB Vilobí", 1, 1, "Inter Lloret"],
+  ["A", "Veterans CF Sils", 3, 4, "Real Guíxols FC", "Pendent de resolució de l'acta (possible recurs)"],
+  ["A", "UE Comacros Veterans B", 2, 3, "Vet. Sporting Vidrerenca"],
+  ["A", "Veteranos El Barrio", 0, 2, "UE Comacros Veterans A"],
+  ["A", "Sàbat Veterans", 1, 0, "CE Anglès"],
+  ["A", "Veterans La Batllòria", 3, 5, "Anglès Huellas Colombia"],
+  ["A", "Veterans Pontenc", 2, 1, "Atlético Empuriabrava"],
+  ["A", "Veterans d'Arbúcies", 4, 0, "UCE Celrà"],
+  ["B", "Athlètic Can Borell", 2, 6, "Veterans Bordils-Flaçà"],
+  ["B", "CE l'Aigüeta", 1, 1, "FC Palafrugell Veterans"],
+  ["B", "Veterans CE Farners", 0, 1, "Restaurant Amura"],
+  ["B", "CF Torderenc", 5, 1, "Esportiu Bonmatí"],
+  ["B", "FC Honduras Figueres", 5, 3, "Veterans Sant Antoni"],
+  ["B", "CF Fogars Veterans", 1, 1, "Veterans Ath. Hostalric"],
+  ["B", "Veterans Alt Empordà", 0, 2, "Veterans Sant Andreu"],
+  ["B", "CEF Veterans SFG", 0, 6, "EF Maçanet"],
+  ["B", "Veterans CF Lloret", 2, 1, "Racing Blanenc B"],
 ];
 // postponed matches: group, home, away, note
-const POSTPONED_NOTE = "Ajornat per força major (protocol de seguretat per fortes tempestes). Els delegats han de pactar la data de recuperació.";
-const POSTPONED: [string, string, string, string][] = [
-  ["A", "Majestic FC", "Veterans d'Arbúcies", POSTPONED_NOTE],
-  ["B", "Racing Blanenc B", "CEF Veterans SFG", POSTPONED_NOTE],
-];
+const POSTPONED: [string, string, string, string][] = [];
 // team, "Given|Surnames" (or full name as printed), matches (99 = fins a nou avís), note
 const SANCTIONS: [string, string, number, string][] = [
-  ["Anglès Huellas Colombia", "Daniel|Aplicano A. Rodríguez", 3, "Circular 3 octubre 2026"],
-  ["Anglès Huellas Colombia", "Daniel A.|Aplicano Figueroa", 3, "Circular 3 octubre 2026"],
-  ["Anglès Huellas Colombia", "Diego H.|Rojas Zambrano", 2, "Circular 3 octubre 2026"],
-  ["FC Honduras Figueres", "Mouslih|Kilou", 1, "Circular 3 octubre 2026"],
+  ["Veterans Pontenc", "Pau|Vargas Alcalde", 1, "Circular 10 octubre 2026"],
+  ["Atlético Empuriabrava", "Aitor|Reyes Sánchez", 1, "Circular 10 octubre 2026"],
+  ["Veterans CE Farners", "Jorge Daniel|Vera Matto", 6, "Circular 10 octubre 2026"],
 ];
 // squad edits: team, surname of the player to replace (substring), new given name, new surname
 const REPLACE: [string, string, string, string][] = [];
 // next round kick-off times/fields: group, home, away, time, field
-const NEXT_ROUND = 6;
-const NEXT_ROWS: [string, string, string, string, string][] = [
-  ["A", "CE Sant Hilari-Font Vella", "Majestic FC", "16:00", "Municipal Sant Hilari Sacalm"],
-  ["A", "FVB Vilobí", "Inter Lloret", "18:30", "Municipal Vilobí d'Onyar"],
-  ["A", "Veterans CF Sils", "Real Guíxols FC", "17:30", "Municipal Sils"],
-  ["A", "UE Comacros Veterans B", "Vet. Sporting Vidrerenca", "16:00", "Municipal Comacros"],
-  ["A", "Veteranos El Barrio", "UE Comacros Veterans A", "16:30", "Municipal Vila-roja"],
-  ["A", "Sàbat Veterans", "CE Anglès", "19:30", "Municipal Germans Sàbat"],
-  ["A", "Veterans La Batllòria", "Anglès Huellas Colombia", "17:00", "Municipal La Batllòria"],
-  ["A", "Veterans Pontenc", "Atlético Empuriabrava", "18:30", "Municipal Pont Major"],
-  ["A", "Veterans d'Arbúcies", "UCE Celrà", "19:30", "Municipal Arbúcies"],
-  ["B", "Athlètic Can Borell", "Veterans Bordils-Flaçà", "17:00", "Municipal Can Borell"],
-  ["B", "CE l'Aigüeta", "FC Palafrugell Veterans", "17:00", "Municipal La Bisbal"],
-  ["B", "Veterans CE Farners", "Restaurant Amura", "20:00", "Municipal Santa Coloma de Farners"],
-  ["B", "CF Torderenc", "Esportiu Bonmatí", "18:00", "Municipal Tordera"],
-  ["B", "FC Honduras Figueres", "Veterans Sant Antoni", "17:00", "Municipal La Salle Figueres"],
-  ["B", "CF Fogars Veterans", "Veterans Ath. Hostalric", "15:30", "Municipal Fogars"],
-  ["B", "Veterans Alt Empordà", "Veterans Sant Andreu", "18:00", "Municipal Bàscara"],
-  ["B", "CEF Veterans SFG", "EF Maçanet", "16:00", "Municipal Mascanada"],
-  ["B", "Veterans CF Lloret", "Racing Blanenc B", "16:00", "Municipal Lloret"],
-];
+const NEXT_ROUND = 7;
+const NEXT_ROWS: [string, string, string, string, string][] = [];
 
 const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[–—-]/g, " ").replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
 const slugify = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
@@ -120,7 +98,7 @@ function main() {
       // reuse the last placeholder slot if the squad is still a placeholder one
       const ph = db.select().from(schema.players).where(and(eq(schema.players.teamId, t.id), like(schema.players.surname, "Jugador %"))).orderBy(desc(schema.players.id)).get();
       if (ph) { db.update(schema.players).set({ surname, name: given, dorsal: null }).where(eq(schema.players.id, ph.id)).run(); p = { ...ph, surname, name: given }; }
-      else { const [np] = db.insert(schema.players).values({ teamId: t.id, surname, name: given, position: "MIG", registeredAt: "2026-10-03" }).returning().all(); p = np; }
+      else { const [np] = db.insert(schema.players).values({ teamId: t.id, surname, name: given, position: "MIG", registeredAt: "2026-10-10" }).returning().all(); p = np; }
       console.log(`  + jugador ${surname}, ${given} (${t.name})`);
     }
     const exists = db.select().from(schema.sanctions).where(and(eq(schema.sanctions.playerId, p.id), eq(schema.sanctions.roundNumber, ROUND + 1))).get();
