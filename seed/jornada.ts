@@ -36,6 +36,8 @@ const SANCTIONS: [string, string, number, string][] = [
   ["Atlético Empuriabrava", "Aitor|Reyes Sánchez", 1, "Circular 10 octubre 2026"],
   ["Veterans CE Farners", "Jorge Daniel|Vera Matto", 6, "Circular 10 octubre 2026"],
 ];
+// new squad members: team, given, surname, dob (ISO)
+const ADD: [string, string, string, string | null][] = [["CF Fogars Veterans", "Abdelaziz", "Errouchani", "1994-03-17"]];
 // squad edits: team, surname of the player to replace (substring), new given name, new surname
 const REPLACE: [string, string, string, string][] = [];
 // next round kick-off times/fields: group, home, away, time, field
@@ -80,6 +82,16 @@ function main() {
     if (!m) { console.log(`✗ match not in J${ROUND}: ${home} – ${away}`); continue; }
     db.update(schema.matches).set({ status: "postponed", homeGoals: null, awayGoals: null, published: true, notes: note, updatedAt: now }).where(eq(schema.matches.id, m.id)).run();
     console.log(`✓ J${ROUND} ajornat ${h.name} – ${a.name}`);
+  }
+  for (const [team, given, surname, dob] of ADD) {
+    const t = find(team); if (!t) { console.log(`✗ team ${team}`); continue; }
+    const squad = db.select().from(schema.players).where(eq(schema.players.teamId, t.id)).all();
+    const ex = squad.find((x) => norm(x.surname) === norm(surname) && norm(x.name) === norm(given));
+    if (ex) { if (dob && !ex.dob) db.update(schema.players).set({ dob }).where(eq(schema.players.id, ex.id)).run(); console.log(`= ${surname}, ${given} ja és a ${t.name}`); continue; }
+    const ph = db.select().from(schema.players).where(and(eq(schema.players.teamId, t.id), like(schema.players.surname, "Jugador %"))).orderBy(desc(schema.players.id)).get();
+    if (ph) db.update(schema.players).set({ surname, name: given, dob, dorsal: null }).where(eq(schema.players.id, ph.id)).run();
+    else db.insert(schema.players).values({ teamId: t.id, surname, name: given, dob, position: "MIG", registeredAt: "2026-10-10" }).run();
+    console.log(`✓ + ${surname}, ${given} (${t.name})`);
   }
   for (const [team, old, given, surname] of REPLACE) {
     const t = find(team); if (!t) { console.log(`✗ team ${team}`); continue; }
