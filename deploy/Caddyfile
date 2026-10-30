@@ -2,3 +2,14 @@
   encode zstd gzip
   reverse_proxy web:3000
 }
+
+lliga.zintex.dev {
+  redir https://{$DOMAIN}{uri} permanent
+}
+
+cffogars.com, www.cffogars.com {
+  @www host www.cffogars.com
+  redir @www https://cffogars.com{uri} permanent
+  encode zstd gzip
+  reverse_proxy cffogars-web-1:3000
+}
