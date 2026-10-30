@@ -33,6 +33,8 @@ const CRESTS: Record<string, string> = {
   "racing-blanenc-b": LP("12473.jpg"),
   "cf-torderenc": LP("6198.png"),
   "veterans-cf-lloret": LP("3513.png"),
+  "ce-l-aigueta": "https://cdn.resfu.com/img_data/equipos/18146.png", // Atlètic Bisbalenc
+  "cef-veterans-sfg": "https://cdn.resfu.com/img_data/equipos/4478.png", // AD Guíxols
 };
 
 async function main() {
