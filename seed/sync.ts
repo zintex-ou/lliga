@@ -6,7 +6,8 @@ import { eq, and, like, desc, inArray } from "drizzle-orm";
 
 const BASE = "https://www.futbolempresesgirona.com/index.php";
 const UA = { "User-Agent": "Mozilla/5.0 (lliga.cffogars.com sync)" };
-const ALIASES: Record<string, string> = { "fb vilobi": "fvb vilobi", "bar moreda": "restaurant amura", "veterans san andres": "veterans sant andreu", "vet tordera san andres": "veterans sant andreu" };
+const ALIASES: Record<string, string> = { "fb vilobi": "fvb vilobi", "bar moreda": "restaurant amura", "veterans san andres": "veterans sant andreu", "vet tordera san andres": "veterans sant andreu", "comacros c la h": "coma cros c la h", "angles huellas de colombia": "angles huellas colombia" };
+const PAGES: Record<string, string> = { "golejadors-A": "taula-goleador-grup-a", "golejadors-B": "taula-golejadors-grup-b" };
 const MONTHS = ["gener", "febrer", "març", "abril", "maig", "juny", "juliol", "agost", "setembre", "octubre", "novembre", "desembre"];
 
 const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[–—-]/g, " ").replace(/[^a-z0-9 ]/g, " ").replace(/\s+/g, " ").trim();
@@ -31,10 +32,20 @@ async function page(path: string) {
 const season = db.select().from(schema.seasons).where(eq(schema.seasons.active, true)).get()!;
 const groups = db.select().from(schema.groups).where(eq(schema.groups.seasonId, season.id)).all();
 const teams = db.select().from(schema.teams).all().filter((t) => groups.some((g) => g.id === t.groupId));
+/** Dice coefficient on character bigrams (tolerates typos like VETTERANS / VETRANS) */
+function sim(a: string, b: string) {
+  const bg = (s: string) => { const m = new Map<string, number>(); for (let i = 0; i < s.length - 1; i++) { const k = s.slice(i, i + 2); m.set(k, (m.get(k) ?? 0) + 1); } return m; };
+  const A = bg(a), B = bg(b); let inter = 0; for (const [k, v] of A) inter += Math.min(v, B.get(k) ?? 0);
+  return (2 * inter) / (a.length - 1 + b.length - 1 || 1);
+}
 const findTeam = (gId: number, name: string) => {
   const n = ALIASES[norm(name)] ?? norm(name);
+  if (!n) return undefined;
   const pool = teams.filter((t) => t.groupId === gId);
-  return pool.find((t) => norm(t.name) === n) ?? pool.find((t) => norm(t.name).includes(n) || n.includes(norm(t.name)));
+  const exact = pool.find((t) => norm(t.name) === n) ?? pool.find((t) => norm(t.name).includes(n) || n.includes(norm(t.name)));
+  if (exact) return exact;
+  const best = pool.map((t) => ({ t, s: sim(norm(t.name), n) })).sort((x, y) => y.s - x.s)[0];
+  return best && best.s >= 0.7 ? best.t : undefined;
 };
 const now = () => new Date().toISOString();
 function matchIn(gId: number, round: number, h: number, a: number) {
@@ -95,8 +106,10 @@ async function syncResultats() {
       if (jm) { round = Number(jm[1]); continue; }
       if (!round || r.length < 3) continue;
       const [home, score, away] = [r[0], r[1], r[2]];
+      if (!home.trim() || !away.trim()) continue;
+      if (!/\d\s*[–—-]\s*\d|ajor|susp/i.test(score)) continue; // nothing published yet
       const h = findTeam(g.id, home), a = findTeam(g.id, away);
-      if (!h || !a) { if (home) console.log(`✗ team not found: ${!h ? home : away}`); continue; }
+      if (!h || !a) { console.log(`✗ team not found: ${!h ? home : away}`); continue; }
       const m = matchIn(g.id, round, h.id, a.id);
       if (!m) { console.log(`✗ match not in J${round}: ${home} – ${away}`); continue; }
       const sm = score.match(/(\d+)\s*[–—-]\s*(\d+)/);
@@ -140,7 +153,7 @@ function addPlayer(teamId: number, full: string) {
 async function syncGolejadors() {
   let added = 0, goals = 0, pending = 0;
   for (const g of groups) {
-    const html = await page(`taula-golejadors-grup-${g.name.toLowerCase()}`);
+    const html = await page(PAGES[`golejadors-${g.name.toUpperCase()}`] ?? `taula-golejadors-grup-${g.name.toLowerCase()}`);
     const rounds = db.select().from(schema.rounds).where(eq(schema.rounds.groupId, g.id)).all();
     const rid = new Map(rounds.map((r) => [r.id, r]));
     let team: (typeof teams)[number] | null = null;
