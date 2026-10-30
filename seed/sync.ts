@@ -139,9 +139,13 @@ function splitName(full: string): [string, string] {
 function findPlayer(teamId: number, full: string) {
   const squad = db.select().from(schema.players).where(eq(schema.players.teamId, teamId)).all();
   const f = norm(full);
-  return squad.find((x) => norm(`${x.name} ${x.surname}`) === f || norm(`${x.surname} ${x.name}`) === f)
+  const exact = squad.find((x) => norm(`${x.name} ${x.surname}`) === f || norm(`${x.surname} ${x.name}`) === f)
     ?? squad.find((x) => { const s = norm(x.surname); return s && f.endsWith(s) && norm(x.name).split(" ")[0] === f.split(" ")[0]; })
     ?? squad.find((x) => { const s = norm(x.surname); return s && s.split(" ").length >= 2 && f.endsWith(s); });
+  if (exact) return exact;
+  // typo-tolerant: best bigram similarity of "given surname" / "surname given"
+  const best = squad.filter((x) => !/^Jugador /.test(x.surname)).map((x) => ({ x, s: Math.max(sim(norm(`${x.name} ${x.surname}`), f), sim(norm(`${x.surname} ${x.name}`), f)) })).sort((a, b) => b.s - a.s)[0];
+  return best && best.s >= 0.72 ? best.x : undefined;
 }
 function addPlayer(teamId: number, full: string) {
   const [given, surname] = splitName(full);
