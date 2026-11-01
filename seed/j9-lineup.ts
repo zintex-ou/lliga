@@ -3,7 +3,7 @@ import { db, schema } from "../src/db";
 import { eq, and, inArray } from "drizzle-orm";
 
 const TITULARS = ["Ievgen", "Hlot", "Delgado", "Farafontov", "Stoiachenko", "Miquel Balleste", "Oscar Balleste", "Josep", "Andreev", "Franco", "Jesus"];
-const SUPLENTS = ["Jhoan", "Frank", "Tiurin", "Reutsa", "Ortiz", "Martinez"]; // all entered
+const SUPLENTS = ["Jhoan", "Francisco", "Tiurin", "Reutsa", "Ortiz", "Martinez"]; // all entered
 const CONCEDED: Record<string, number> = { Ievgen: 2 };
 
 const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
