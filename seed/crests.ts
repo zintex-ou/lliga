@@ -34,15 +34,18 @@ const CRESTS: Record<string, string> = {
   "cf-torderenc": LP("6198.png"),
   "veterans-cf-lloret": LP("3513.png"),
   "ce-l-aigueta": "https://cdn.resfu.com/img_data/equipos/18146.png", // Atlètic Bisbalenc
-  "cef-veterans-sfg": "https://cdn.resfu.com/img_data/equipos/4478.png", // AD Guíxols
+  "cef-veterans-sfg": "https://www.lapreferente.com/imagenes/escudos/escudo-11685.png", // CF Sant Feliu de Guíxols
+  "veterans-bordils-flaca": "https://images.hoobaweb.com/2558/imgf-1200-630/vdf2.png", // Associació Esportiva Veterans de Futbol Bordils (own logo)
 };
+/** Slugs whose existing crest must be replaced (wrong club). */
+const FORCE = new Set(["cef-veterans-sfg"]);
 
 async function main() {
   fs.mkdirSync(path.join(UPLOAD_DIR, "logo"), { recursive: true });
   for (const [slug, url] of Object.entries(CRESTS)) {
     const t = db.select().from(schema.teams).where(eq(schema.teams.slug, slug)).get();
     if (!t) { console.log(`✗ no team ${slug}`); continue; }
-    if (t.logo) { console.log(`· ${t.name}: ja té escut`); continue; }
+    if (t.logo && !FORCE.has(slug)) { console.log(`· ${t.name}: ja té escut`); continue; }
     try {
       const r = await fetch(url, { headers: { "User-Agent": "Mozilla/5.0 (lliga veterans girona)", Accept: "image/*" } });
       if (!r.ok) { console.log(`✗ ${t.name}: HTTP ${r.status}`); continue; }
