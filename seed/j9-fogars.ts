@@ -5,15 +5,16 @@ import { eq, and, like, inArray } from "drizzle-orm";
 
 const ROUND = 9, HOME = 2, AWAY = 6;
 // [who, type] in chronological order. who: "them" or a Fogars surname fragment (case-insensitive).
-const GOALS: [string, "gol" | "gol_pen", number | null][] = [
-  ["them", "gol_pen", null],     // 0-1
-  ["Andreev", "gol", null],      // 1-1
-  ["Zinchenko", "gol_pen", null],// 2-1
-  ["Balleste Planas", "gol", null], // 3-1 Óscar
-  ["Andreev", "gol", null],      // 4-1
-  ["Andreev", "gol", null],      // 5-1
-  ["them", "gol", null],         // 5-2
-  ["Andreev", "gol", null],      // 6-2
+// [who, type, minute, assist surname fragment]
+const GOALS: [string, "gol" | "gol_pen", number | null, string | null][] = [
+  ["them", "gol", 17, null],                     // 1-0
+  ["Andreev", "gol", 43, "Coloma"],              // 1-1
+  ["Zinchenko", "gol_pen", 51, null],            // 1-2
+  ["Balleste Planas", "gol", 55, "Balleste Da"], // 1-3 Óscar, asst. Miquel
+  ["Andreev", "gol", 65, "Rodriguez Delyhonny"], // 1-4, asst. Franco
+  ["Andreev", "gol", 75, "Balleste Da"],         // 1-5
+  ["them", "gol", 77, null],                     // 2-5
+  ["Andreev", "gol", 92, "Balleste Da"],         // 2-6
 ];
 
 const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
@@ -34,10 +35,13 @@ if (!ph) [ph] = db.insert(schema.players).values({ teamId: amu.id, surname: "Jug
 const del = db.delete(schema.events).where(and(eq(schema.events.matchId, m.id), inArray(schema.events.type, ["gol", "gol_pen"]))).run();
 console.log("removed goal events:", del.changes);
 
-GOALS.forEach(([who, type, minute], i) => {
-  const p = who === "them" ? ph! : squad.find((x) => norm(`${x.name} ${x.surname}`).includes(norm(who)));
+const find = (frag: string) => squad.find((x) => norm(`${x.name} ${x.surname}`).includes(norm(frag)));
+GOALS.forEach(([who, type, minute, asst], i) => {
+  const p = who === "them" ? ph! : find(who);
   if (!p) throw new Error("player not found: " + who);
-  db.insert(schema.events).values({ matchId: m.id, playerId: p.id, type, minute, sort: i }).run();
-  console.log("✓", i + 1, who === "them" ? amu.name : `${p.name} ${p.surname}`, type, minute ?? "");
+  const a = asst ? find(asst) : null;
+  if (asst && !a) throw new Error("assist player not found: " + asst);
+  db.insert(schema.events).values({ matchId: m.id, playerId: p.id, type, minute, assistId: a?.id ?? null, sort: i }).run();
+  console.log("✓", i + 1, who === "them" ? amu.name : `${p.name} ${p.surname}`, type, minute ?? "", a ? `(${a.name} ${a.surname})` : "");
 });
 console.log("done");
