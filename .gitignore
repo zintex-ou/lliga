@@ -45,3 +45,4 @@ next-env.d.ts
 .env
 AGENTS.md
 CLAUDE.md
+_to_delete*

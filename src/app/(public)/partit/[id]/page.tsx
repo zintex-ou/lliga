@@ -44,7 +44,7 @@ export default async function MatchPage({ params }: { params: Promise<{ id: stri
   const prev = h2h.meetings.filter((x) => x.id !== m.id).slice(0, 6);
   const P = (pid: number) => players.get(pid);
   const side = (p: Player | undefined) => (p?.teamId === m.homeId ? "h" : "a");
-  const goals = events.filter((e) => e.type === "gol" || e.type === "gol_pen");
+  const goals = events.filter((e) => e.type === "gol" || e.type === "gol_pen" || e.type === "pen_fallat");
   const cards = events.filter((e) => e.type === "groga" || e.type === "vermella" || e.type === "segona_groga");
   const lineup = (teamId: number) => {
     const list = apps.map((a) => ({ a, p: P(a.playerId)! })).filter((x) => x.p && x.p.teamId === teamId);
@@ -54,8 +54,8 @@ export default async function MatchPage({ params }: { params: Promise<{ id: stri
   const H = lineup(m.homeId), A = lineup(m.awayId);
   const Ev = ({ e }: { e: typeof events[number] }) => {
     const p = P(e.playerId); const s = side(p);
-    const label = <><Link className="plink" href={`/jugador/${e.playerId}`}>{playerLabel(p)}</Link>{e.type === "gol_pen" ? ` (${t.pen})` : ""}{e.assistId ? <span className="gk"> · {playerLabel(P(e.assistId))}</span> : ""}</>;
-    const icon = e.type === "groga" ? <span className="card y" /> : e.type === "vermella" ? <span className="card r" /> : e.type === "segona_groga" ? <><span className="card y" /><span className="card r" /></> : "⚽";
+    const label = <><Link className="plink" href={`/jugador/${e.playerId}`}>{playerLabel(p)}</Link>{e.type === "gol_pen" ? ` (${t.pen})` : e.type === "pen_fallat" ? ` (${t.penFallat})` : ""}{e.assistId ? <span className="gk"> · {playerLabel(P(e.assistId))}</span> : ""}</>;
+    const icon = e.type === "groga" ? <span className="card y" /> : e.type === "vermella" ? <span className="card r" /> : e.type === "segona_groga" ? <><span className="card y" /><span className="card r" /></> : e.type === "pen_fallat" ? <span className="penx" title={t.penFallat}>⚽</span> : "⚽";
     return <li style={{ textAlign: s === "h" ? "left" : "right" }}><span className="min">{e.minute != null ? `${e.minute}'` : ""}</span>{icon} {label}</li>;
   };
   return (

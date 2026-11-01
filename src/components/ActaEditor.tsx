@@ -24,8 +24,8 @@ export function ActaEditor({ match, home, away, apps: apps0, events: events0, sa
   const [refereeId, setRefereeId] = useState<number | null>(match.refereeId ?? null);
   const [notes, setNotes] = useState(match.notes ?? "");
   const [apps, setApps] = useState<App[]>(apps0);
-  const [goals, setGoals] = useState<Ev[]>(events0.filter((e) => e.type === "gol" || e.type === "gol_pen"));
-  const [cards, setCards] = useState<Ev[]>(events0.filter((e) => e.type !== "gol" && e.type !== "gol_pen").map((e) => {
+  const [goals, setGoals] = useState<Ev[]>(events0.filter((e) => e.type === "gol" || e.type === "gol_pen" || e.type === "pen_fallat"));
+  const [cards, setCards] = useState<Ev[]>(events0.filter((e) => e.type !== "gol" && e.type !== "gol_pen" && e.type !== "pen_fallat").map((e) => {
     const s = sanctions.find((x) => x.eventPlayerId === e.playerId);
     return { ...e, sanctionMatches: s?.matches ?? (e.type === "groga" ? null : 1), sanctionReason: s?.reason ?? (e.type === "segona_groga" ? "antiesportiva" : "falta_joc") };
   }));
@@ -53,7 +53,7 @@ export function ActaEditor({ match, home, away, apps: apps0, events: events0, sa
     }));
   };
 
-  const goalsByTeam = (teamId: number) => goals.filter((g) => teamOf(g.playerId) === teamId).length;
+  const goalsByTeam = (teamId: number) => goals.filter((g) => g.type !== "pen_fallat" && teamOf(g.playerId) === teamId).length;
   const mismatch = status === "played" && hg !== "" && ag !== "" && (goalsByTeam(home.id) !== Number(hg) || goalsByTeam(away.id) !== Number(ag)) && goals.length > 0;
 
   const submit = (publish = true) => {
@@ -134,13 +134,13 @@ export function ActaEditor({ match, home, away, apps: apps0, events: events0, sa
           <div className="acta-grid" style={{ marginTop: 14 }}>
             <div className="box">
               <h3>Gols</h3>
-              <table className="mini"><thead><tr><th>Min</th><th>Jugador</th><th className="c">Penal</th>{assistsEnabled && <th>Assistència</th>}<th></th></tr></thead>
+              <table className="mini"><thead><tr><th>Min</th><th>Jugador</th><th>Tipus</th>{assistsEnabled && <th>Assistència</th>}<th></th></tr></thead>
                 <tbody>{goals.map((g, i) => (
                   <tr key={i}>
                     <td><input type="number" min={1} max={120} className="w4" value={g.minute ?? ""} onChange={(e) => setGoals(goals.map((x, k) => (k === i ? { ...x, minute: e.target.value === "" ? null : Number(e.target.value) } : x)))} /></td>
                     <td><PlayerSel value={g.playerId || null} onChange={(v) => setGoals(goals.map((x, k) => (k === i ? { ...x, playerId: v ?? 0 } : x)))} /></td>
-                    <td className="c"><input type="checkbox" checked={g.type === "gol_pen"} onChange={(e) => setGoals(goals.map((x, k) => (k === i ? { ...x, type: e.target.checked ? "gol_pen" : "gol" } : x)))} /></td>
-                    {assistsEnabled && <td><PlayerSel allowEmpty value={g.assistId} onChange={(v) => setGoals(goals.map((x, k) => (k === i ? { ...x, assistId: v } : x)))} /></td>}
+                    <td><select value={g.type} onChange={(e) => setGoals(goals.map((x, k) => (k === i ? { ...x, type: e.target.value, assistId: e.target.value === "pen_fallat" ? null : x.assistId } : x)))}><option value="gol">gol</option><option value="gol_pen">gol de penal</option><option value="pen_fallat">penal fallat</option></select></td>
+                    {assistsEnabled && <td>{g.type === "pen_fallat" ? "—" : <PlayerSel allowEmpty value={g.assistId} onChange={(v) => setGoals(goals.map((x, k) => (k === i ? { ...x, assistId: v } : x)))} />}</td>}
                     <td><button type="button" className="btn ghost sm" onClick={() => setGoals(goals.filter((_, k) => k !== i))}>×</button></td>
                   </tr>))}</tbody></table>
               <div className="actions"><button type="button" className="btn ghost sm" disabled={!playersInActa.length} onClick={() => setGoals([...goals, { playerId: 0, type: "gol", minute: null, assistId: null }])}>+ gol</button>

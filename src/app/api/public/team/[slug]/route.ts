@@ -20,13 +20,15 @@ export async function GET(_req: Request, { params }: { params: Promise<{ slug: s
   const pids = [...new Set([...evs.map((e) => e.playerId), ...evs.flatMap((e) => (e.assistId ? [e.assistId] : []))])];
   const pl = pids.length ? new Map(db.select().from(schema.players).where(inArray(schema.players.id, pids)).all().map((p) => [p.id, p])) : new Map();
   const pname = (id: number | null) => { const p = id ? pl.get(id) : null; return p ? `${p.name} ${p.surname}`.trim() : null; };
+  /** "Josep Lluis Coloma Martos" → "J. L. Coloma" */
+  const pshort = (id: number | null) => { const p = id ? pl.get(id) : null; return p ? `${p.name.trim().split(/\s+/).filter(Boolean).map((w: string) => w[0] + ".").join(" ")} ${p.surname.trim().split(/\s+/)[0]}`.trim() : null; };
   const tinfo = (t: typeof team) => ({ id: t.id, name: t.name, slug: t.slug, short: t.short, logo: t.logo ? `/uploads/${t.logo}` : null, town: t.town, field: t.field });
   const matches = mine.map((m) => ({
     id: m.id, round: m.round.number, date: matchDate(m), time: m.time, field: m.field, status: m.status, notes: m.notes,
     home: tinfo(m.home), away: tinfo(m.away), homeGoals: m.homeGoals, awayGoals: m.awayGoals,
     events: evs.filter((e) => e.matchId === m.id && (e.type === "gol" || e.type === "gol_pen"))
       .sort((a, b) => (a.minute ?? 999) - (b.minute ?? 999) || a.sort - b.sort)
-      .map((e) => ({ type: e.type, minute: e.minute, player: pname(e.playerId), playerId: e.playerId, assist: pname(e.assistId), team: pl.get(e.playerId)?.teamId === team.id ? "mine" : "other" })),
+      .map((e) => ({ type: e.type, minute: e.minute, player: pname(e.playerId), playerShort: pshort(e.playerId), playerId: e.playerId, assist: pname(e.assistId), assistShort: pshort(e.assistId), assistId: e.assistId, team: pl.get(e.playerId)?.teamId === team.id ? "mine" : "other" })),
   }));
   const rows = standings(group.id).map((r, i) => ({ pos: i + 1, team: tinfo(r.team), pj: r.pj, w: r.w, d: r.d, l: r.l, gf: r.gf, gc: r.gc, dg: r.gf - r.gc, pts: r.pts, form: r.form }));
   const squad = teamPlayerStats(team).filter((s) => s.player.active || s.pj > 0).map((s) => ({

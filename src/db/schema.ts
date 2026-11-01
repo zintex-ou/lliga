@@ -95,7 +95,7 @@ export const events = sqliteTable("event", {
   id: integer("id").primaryKey({ autoIncrement: true }),
   matchId: integer("match_id").notNull().references(() => matches.id, { onDelete: "cascade" }),
   playerId: integer("player_id").notNull().references(() => players.id, { onDelete: "cascade" }),
-  type: text("type").notNull(), // gol | gol_pen | groga | vermella | segona_groga
+  type: text("type").notNull(), // gol | gol_pen | pen_fallat | groga | vermella | segona_groga
   minute: integer("minute"),
   assistId: integer("assist_id"),
   sort: integer("sort").notNull().default(0),
