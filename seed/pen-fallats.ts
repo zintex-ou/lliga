@@ -37,6 +37,7 @@ const theirs = db.select().from(schema.events).where(eq(schema.events.matchId, m
 if (theirs[0]) { db.update(schema.events).set({ type: "gol_pen" }).where(eq(schema.events.id, theirs[0].id)).run(); console.log("✓ Bonmatí goal", theirs[0].minute ?? "?", "→ gol_pen"); }
 else console.log("Bonmatí: no goal events found");
 
-// Maçanet: missed penalty at 65' — set WHO below (team regex + player fragment) and uncomment
-// const mac = team(/ma[cç]anet/i); addMissed(matchVs(mac), fog.id, "Zinchenko", 65);
+// Fogars vs EF Maçanet: Maçanet missed a penalty at 65'
+const mac = team(/ma[cç]anet/i);
+addMissed(matchVs(mac), mac.id, null, 65);
 console.log("done");
