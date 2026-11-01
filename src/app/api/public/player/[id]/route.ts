@@ -1,7 +1,7 @@
 import { NextResponse } from "next/server";
 import { db, schema } from "@/db";
-import { eq } from "drizzle-orm";
-import { loadGroup, matchDate, teamPlayerStats, playerSanctions } from "@/lib/stats";
+import { eq, inArray } from "drizzle-orm";
+import { loadGroup, matchDate, teamPlayerStats, playerSanctions, concededFor } from "@/lib/stats";
 import { age } from "@/lib/i18n";
 
 export const dynamic = "force-dynamic";
@@ -20,6 +20,8 @@ export async function GET(_req: Request, { params }: { params: Promise<{ id: str
   const assisted = db.select().from(schema.events).where(eq(schema.events.assistId, player.id)).all();
   const mids = new Set([...apps.map((x) => x.matchId), ...evs.map((x) => x.matchId), ...assisted.map((x) => x.matchId)]);
   const { matches } = loadGroup(team.groupId);
+  const teamApps = mids.size ? db.select().from(schema.appearances).where(inArray(schema.appearances.matchId, [...mids])).all() : [];
+  const teamPlayers = db.select().from(schema.players).where(eq(schema.players.teamId, team.id)).all();
   const tinfo = (t: typeof team) => ({ id: t.id, name: t.name, slug: t.slug, short: t.short, logo: t.logo ? `/uploads/${t.logo}` : null, town: t.town, field: t.field });
   const history = matches.filter((m) => mids.has(m.id)).sort((a, b) => matchDate(a).localeCompare(matchDate(b)) || a.round.number - b.round.number).map((m) => {
     const e = evs.filter((x) => x.matchId === m.id);
@@ -30,7 +32,7 @@ export async function GET(_req: Request, { params }: { params: Promise<{ id: str
       missedPen: e.filter((x) => x.type === "pen_fallat").length,
       assists: assisted.filter((x) => x.matchId === m.id).length,
       yellows: e.filter((x) => x.type === "groga" || x.type === "segona_groga").length, reds: e.filter((x) => x.type === "vermella" || x.type === "segona_groga").length,
-      sub: ap ? !ap.entered && ap.role !== "titular" : false, conceded: ap?.conceded ?? null,
+      sub: ap ? !ap.entered && ap.role !== "titular" : false, conceded: ap ? concededFor(ap, player, m, teamApps, teamPlayers) : null,
     };
   });
   return NextResponse.json({

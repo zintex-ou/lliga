@@ -121,6 +121,17 @@ function servedAfter(team: Team, startMatchId: number | null, startRound: number
   return Math.min(matchesTotal, after.length);
 }
 
+/** Goals conceded by a keeper in a match: the acta value, or — when not filled in and he is the team's only keeper who played — the opponent's goals. */
+export function concededFor(app: Appearance, player: Player, match: { homeId: number; awayId: number; homeGoals: number | null; awayGoals: number | null } | undefined, apps: Appearance[], players: Player[]): number | null {
+  if (app.conceded != null) return app.conceded;
+  if (player.position !== "POR" || !app.entered || !match) return null;
+  const keepers = apps.filter((a) => a.matchId === app.matchId && a.entered && players.find((x) => x.id === a.playerId)?.position === "POR" && players.find((x) => x.id === a.playerId)?.teamId === player.teamId);
+  if (keepers.length !== 1) return null;
+  const mine = match.homeId === player.teamId;
+  const g = mine ? match.awayGoals : match.homeGoals;
+  return g ?? null;
+}
+
 export function teamPlayerStats(team: Team): PlayerStats[] {
   const { players, events, apps, sanctions, assistsFor } = loadPlayersData(team.id);
   const season = getSeason();
@@ -136,7 +147,7 @@ export function teamPlayerStats(team: Team): PlayerStats[] {
     const assists = assistsFor.filter((e) => e.assistId === p.id).length;
     const yellows = ev.filter((e) => e.type === "groga" || e.type === "segona_groga").length;
     const reds = ev.filter((e) => e.type === "vermella" || e.type === "segona_groga").length;
-    const conceded = apps.filter((a) => a.playerId === p.id).reduce((s, a) => s + (a.conceded ?? 0), 0);
+    const conceded = apps.filter((a) => a.playerId === p.id).reduce((s, a) => s + (concededFor(a, p, matchById.get(a.matchId), apps, players) ?? 0), 0);
 
     // sanctions: stored + accumulation
     const infos: SanctionInfo[] = [];

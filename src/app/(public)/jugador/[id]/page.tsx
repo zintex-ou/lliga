@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import { db, schema } from "@/db";
 import { eq, inArray } from "drizzle-orm";
 import { getT, fmtDob, fmtDate, age } from "@/lib/i18n";
-import { getSeason, loadGroup, matchDate, teamPlayerStats, playerName, playerSanctions } from "@/lib/stats";
+import { getSeason, loadGroup, matchDate, teamPlayerStats, playerName, playerSanctions, concededFor } from "@/lib/stats";
 import { PlayerCard } from "@/components/PlayerCard";
 
 export const dynamic = "force-dynamic";
@@ -36,7 +36,8 @@ export default async function PlayerPage({ params }: { params: Promise<{ id: str
   const mids = [...new Set([...apps.map((x) => x.matchId), ...evs.map((x) => x.matchId), ...assisted.map((x) => x.matchId)])];
   const { matches } = loadGroup(team.groupId);
   const hist = matches.filter((m) => mids.includes(m.id));
-  void inArray;
+  const teamApps = mids.length ? db.select().from(schema.appearances).where(inArray(schema.appearances.matchId, mids)).all() : [];
+  const teamPlayers = db.select().from(schema.players).where(eq(schema.players.teamId, team.id)).all();
 
   const reasonLabel = (r: string) => (t[r as keyof typeof t] as string) || r;
 
@@ -83,7 +84,7 @@ export default async function PlayerPage({ params }: { params: Promise<{ id: str
                       <td className="c num">{g ? `${g}${p ? ` (${p})` : ""}` : ""}</td>
                       {season.assistsEnabled && <td className="c num">{as || ""}</td>}
                       <td className="c">{e.filter((x) => x.type === "groga" || x.type === "segona_groga").map((x, i) => <span key={i} className="card y" style={{ marginRight: 2 }} />)}{e.filter((x) => x.type === "vermella" || x.type === "segona_groga").map((x, i) => <span key={"r" + i} className="card r" />)}</td>
-                      {gk && <td className="c num">{ap?.conceded ?? ""}</td>}
+                      {gk && <td className="c num">{ap ? (concededFor(ap, player, m, teamApps, teamPlayers) ?? "") : ""}</td>}
                     </tr>
                   );
                 })}
