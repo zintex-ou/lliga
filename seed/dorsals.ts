@@ -3,7 +3,7 @@ import { db, schema } from "../src/db";
 import { eq, and, like } from "drizzle-orm";
 
 const TEAM = "cf-fogars-veterans";
-const DORSALS: [number | string, number][] = [[1076, 88], ["Errouchani", 11], [1079, 24]];
+const DORSALS: [number | string, number][] = [[1076, 88], ["Errouchani", 71], [1079, 24], ["Ortiz", 44]];
 
 const team = db.select().from(schema.teams).where(eq(schema.teams.slug, TEAM)).get()!;
 for (const [who, n] of DORSALS) {
