@@ -53,7 +53,7 @@ export default async function PlayerPage({ params }: { params: Promise<{ id: str
             <div className="stat"><b>{st.pj}</b><span>{t.partits}</span></div>
             {gk && <div className="stat"><b>{st.conceded}</b><span>{t.golsEncaixats}</span></div>}
             <div className="stat"><b>{st.goals}{st.pen ? <small> ({st.pen})</small> : null}</b><span>{t.golsPen}</span></div>
-            {season.assistsEnabled && <div className="stat"><b>{st.assists}</b><span>{t.assistents}</span></div>}
+            {season.assistsEnabled && <div className="stat"><b>{st.assists}</b><span>{t.assistencies}</span></div>}
             <div className="stat"><b>{st.yellows} <span className="card y" /></b><span>{t.grogues}</span></div>
             <div className={"stat" + (st.reds ? " warn" : "")}><b>{st.reds} <span className="card r" /></b><span>{t.vermelles}</span></div>
           </div>
