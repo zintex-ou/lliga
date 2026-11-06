@@ -17,7 +17,7 @@ function rows(html: string): string[][] {
   return [...html.matchAll(/<tr[\s\S]*?<\/tr>/gi)].map((m) => [...m[0].matchAll(/<t[dh][^>]*>([\s\S]*?)<\/t[dh]>/gi)].map((c) => decode(c[1])));
 }
 function parseCatDate(s: string): string | null {
-  const m = norm(s).match(/(\d{1,2}) (?:d )?([a-z]+)(?: de)? (\d{4})/);
+  const m = norm(s).match(/(\d{1,2}) (?:de? )?([a-z]+)(?: de)? (\d{4})/);
   if (!m) return null;
   const mi = MONTHS.findIndex((x) => norm(x) === m[2]);
   if (mi < 0) return null;
