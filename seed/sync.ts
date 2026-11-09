@@ -154,6 +154,7 @@ function addPlayer(teamId: number, full: string) {
   const [np] = db.insert(schema.players).values({ teamId, surname, name: given, position: "MIG", registeredAt: new Date().toISOString().slice(0, 10) }).returning().all();
   return np;
 }
+const MAX_ROUND = Number(process.env.MAX_ROUND ?? 99);
 async function syncGolejadors() {
   let added = 0, goals = 0, pending = 0;
   for (const g of groups) {
@@ -171,6 +172,7 @@ async function syncGolejadors() {
       // played matches of this team, newest first
       const ms = db.select().from(schema.matches).where(and(inArray(schema.matches.roundId, rounds.map((x) => x.id)), eq(schema.matches.status, "played"))).all()
         .filter((m) => m.homeId === team!.id || m.awayId === team!.id)
+        .filter((m) => rid.get(m.roundId)!.number <= MAX_ROUND) // MAX_ROUND=9 → never attribute to rounds after 9
         .sort((x, y) => (y.date ?? rid.get(y.roundId)!.date).localeCompare(x.date ?? rid.get(x.roundId)!.date));
       const mids = ms.map((m) => m.id);
       const evs = mids.length ? db.select().from(schema.events).where(inArray(schema.events.matchId, mids)).all().filter((e) => e.type === "gol" || e.type === "gol_pen") : [];
