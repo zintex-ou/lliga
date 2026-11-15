@@ -5,12 +5,12 @@ import { eq, and, inArray } from "drizzle-orm";
 const ROUND = 11, OURS = 6, THEIRS = 0;
 // [scorer, type, minute, assist]
 const GOALS: [string, "gol" | "gol_pen", number | null, string | null][] = [
-  ["Zinchenko", "gol_pen", null, null],
-  ["Andreev", "gol", null, "Franco Rodriguez"],
-  ["Franco Rodriguez", "gol", null, "Andreev"],
-  ["Cuerva", "gol", null, "Oscar Balleste"],
-  ["Oscar Balleste", "gol", null, "Andreev"],
-  ["Segui", "gol", null, "Cuerva"],
+  ["Zinchenko", "gol_pen", 18, null],
+  ["Andreev", "gol", 28, "Franco Rodriguez"],
+  ["Franco Rodriguez", "gol", 31, null],
+  ["Cuerva", "gol", 61, "Oscar Balleste"],
+  ["Oscar Balleste", "gol", 63, "Andreev"],
+  ["Segui", "gol", 86, "Cuerva"],
 ];
 
 const norm = (s: string) => s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase();
