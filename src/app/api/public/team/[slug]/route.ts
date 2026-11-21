@@ -17,6 +17,8 @@ export async function GET(_req: Request, { params }: { params: Promise<{ slug: s
   const mine = data.matches.filter((m) => m.homeId === team.id || m.awayId === team.id).sort((a, b) => matchDate(a).localeCompare(matchDate(b)) || a.round.number - b.round.number);
   const ids = mine.map((m) => m.id);
   const evs = ids.length ? db.select().from(schema.events).where(inArray(schema.events.matchId, ids)).all() : [];
+  const teamPids = new Set(db.select({ id: schema.players.id }).from(schema.players).where(eq(schema.players.teamId, team.id)).all().map((x) => x.id));
+  const apps = ids.length ? db.select().from(schema.appearances).where(inArray(schema.appearances.matchId, ids)).all().filter((a) => a.entered && teamPids.has(a.playerId)) : [];
   const pids = [...new Set([...evs.map((e) => e.playerId), ...evs.flatMap((e) => (e.assistId ? [e.assistId] : []))])];
   const pl = pids.length ? new Map(db.select().from(schema.players).where(inArray(schema.players.id, pids)).all().map((p) => [p.id, p])) : new Map();
   const pname = (id: number | null) => { const p = id ? pl.get(id) : null; return p ? `${p.name} ${p.surname}`.trim() : null; };
@@ -26,6 +28,7 @@ export async function GET(_req: Request, { params }: { params: Promise<{ slug: s
   const matches = mine.map((m) => ({
     id: m.id, round: m.round.number, date: matchDate(m), time: m.time, field: m.field, status: m.status, notes: m.notes,
     home: tinfo(m.home), away: tinfo(m.away), homeGoals: m.homeGoals, awayGoals: m.awayGoals,
+    lineup: apps.filter((a) => a.matchId === m.id).map((a) => a.playerId),
     events: evs.filter((e) => e.matchId === m.id && (e.type === "gol" || e.type === "gol_pen"))
       .sort((a, b) => (a.minute ?? 999) - (b.minute ?? 999) || a.sort - b.sort)
       .map((e) => ({ type: e.type, minute: e.minute, player: pname(e.playerId), playerShort: pshort(e.playerId), playerId: e.playerId, assist: pname(e.assistId), assistShort: pshort(e.assistId), assistId: e.assistId, team: pl.get(e.playerId)?.teamId === team.id ? "mine" : "other" })),
