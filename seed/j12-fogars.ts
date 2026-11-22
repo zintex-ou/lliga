@@ -4,12 +4,12 @@ import { eq, and, inArray } from "drizzle-orm";
 
 const ROUND = 12, OURS = 4, THEIRS = 0;
 const GOALS: [string, "gol" | "gol_pen", number | null, string | null][] = [
-  ["Franco Rodriguez", "gol", 13, "Andreev"],
+  ["Delyhonny", "gol", 13, "Andreev"],
   ["Oscar Balleste", "gol", 31, "Jhoan"],
   ["Cuerva", "gol", 53, "Coloma"],
   ["Hlot", "gol", 63, "Coloma"],
 ];
-const TITULARS = ["Zinchenko", "Stoiachenko", "Delgado", "Hlot", "Jhoan", "Coloma", "Miquel Balleste", "Andreev", "Oscar Balleste", "Franco Rodriguez", "Cuerva"];
+const TITULARS = ["Zinchenko", "Stoiachenko", "Delgado", "Hlot", "Jhoan", "Coloma", "Miquel Balleste", "Andreev", "Oscar Balleste", "Delyhonny", "Cuerva"];
 const SUPLENTS = ["Segui", "Zelenov", "Ignatov", "Errouchani", "Ezequiel"]; // all entered
 const CONCEDED: Record<string, number> = { Zinchenko: 0 };
 
